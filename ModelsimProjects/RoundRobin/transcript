@@ -1,0 +1,442 @@
+# Compile of buffer32K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd failed with 7 errors.
+# 2 compiles, 1 failed with 7 errors.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd failed with 7 errors.
+# 2 compiles, 1 failed with 7 errors.
+# Compile of roundrobin.vhd failed with 4 errors.
+# Compile of roundrobin.vhd failed with 24 errors.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of roundrobin.vhd failed with 7 errors.
+# Compile of roundrobin.vhd failed with 3 errors.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd failed with 17 errors.
+# Compile of roundrobin_TB.vhd failed with 15 errors.
+# Compile of roundrobin_TB.vhd failed with 14 errors.
+# Compile of roundrobin_TB.vhd failed with 4 errors.
+# Compile of roundrobin_TB.vhd failed with 3 errors.
+# Compile of roundrobin_TB.vhd failed with 4 errors.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd failed with 2 errors.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of roundrobin_TB.vhd failed with 1 errors.
+# Compile of roundrobin_TB.vhd failed with 1 errors.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.roundrobin_tb
+# vsim -gui work.roundrobin_tb 
+# Start time: 15:29:25 on Apr 12,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.scfifo(behavior)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT_serial/valo has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position insertpoint  \
+sim:/roundrobin_tb/clk \
+sim:/roundrobin_tb/dat1_TB \
+sim:/roundrobin_tb/dat2_TB \
+sim:/roundrobin_tb/dat3_TB \
+sim:/roundrobin_tb/val1_TB \
+sim:/roundrobin_tb/val2_TB \
+sim:/roundrobin_tb/val3_TB \
+sim:/roundrobin_tb/valo_TB \
+sim:/roundrobin_tb/dato_TB \
+sim:/roundrobin_tb/COUNTER \
+sim:/roundrobin_tb/sent_data1 \
+sim:/roundrobin_tb/sent_data2 \
+sim:/roundrobin_tb/sent_data3 \
+sim:/roundrobin_tb/sent_data4 \
+sim:/roundrobin_tb/valids
+run 200 ns
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ps ###############
+#       Signal: /roundrobin_tb/DUT_serial/RRstate @ sub-iteration 0 at Value L (C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/roundrobin.vhd:24)
+#   Active process: /roundrobin_tb/DUT_serial/line__54 @ sub-iteration 1
+#     Source: C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd:52
+#   Active process: /roundrobin_tb/DUT_serial/RR_stateMachine @ sub-iteration 1
+#     Source: C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd:52
+#       Signal: /roundrobin_tb/DUT_serial/RRstate @ sub-iteration 2 at Value 0 (C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/roundrobin.vhd:24)
+#   Active process: /roundrobin_tb/DUT_serial/line__54 @ sub-iteration 3
+#     Source: C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd:52
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ps.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd failed with 1 errors.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of roundrobin.vhd failed with 1 errors.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 200 ns
+# ** Fatal: (vsim-3734) Index value 128 is out of range 0 to 127.
+#    Time: 165 ns  Iteration: 1  Process: /roundrobin_tb/feeder File: C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd
+# Fatal error in Process feeder at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd line 58
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd 58 Process feeder
+# 
+add wave -position insertpoint  \
+sim:/roundrobin_tb/DUT/dato
+add wave -position insertpoint  \
+sim:/roundrobin_tb/DUT/RRstate
+add wave -position insertpoint  \
+sim:/roundrobin_tb/DUT/clk \
+sim:/roundrobin_tb/DUT/dat1 \
+sim:/roundrobin_tb/DUT/val1 \
+sim:/roundrobin_tb/DUT/dat2 \
+sim:/roundrobin_tb/DUT/val2 \
+sim:/roundrobin_tb/DUT/dat3 \
+sim:/roundrobin_tb/DUT/val3 \
+sim:/roundrobin_tb/DUT/dato \
+sim:/roundrobin_tb/DUT/valo \
+sim:/roundrobin_tb/DUT/RRstate \
+sim:/roundrobin_tb/DUT/emp1 \
+sim:/roundrobin_tb/DUT/emp2 \
+sim:/roundrobin_tb/DUT/emp3 \
+sim:/roundrobin_tb/DUT/buf1 \
+sim:/roundrobin_tb/DUT/buf2 \
+sim:/roundrobin_tb/DUT/buf3 \
+sim:/roundrobin_tb/DUT/req1 \
+sim:/roundrobin_tb/DUT/req2 \
+sim:/roundrobin_tb/DUT/req3 \
+sim:/roundrobin_tb/DUT/clear
+restart .f
+# Warning: Invalid arguments '.f' to restart ignored.
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 200 ns
+# ** Fatal: (vsim-3734) Index value 128 is out of range 0 to 127.
+#    Time: 165 ns  Iteration: 1  Process: /roundrobin_tb/feeder File: C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd
+# Fatal error in Process feeder at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd line 58
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd 58 Process feeder
+# 
+# Compile of roundrobin.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin(roundrobin_arc)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 200 ns
+# ** Fatal: (vsim-3734) Index value 128 is out of range 0 to 127.
+#    Time: 165 ns  Iteration: 1  Process: /roundrobin_tb/feeder File: C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd
+# Fatal error in Process feeder at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd line 58
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd 58 Process feeder
+# 
+# Compile of roundrobin.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin(roundrobin_arc)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 200 ns
+# ** Fatal: (vsim-3734) Index value 128 is out of range 0 to 127.
+#    Time: 165 ns  Iteration: 1  Process: /roundrobin_tb/feeder File: C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd
+# Fatal error in Process feeder at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd line 58
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd 58 Process feeder
+# 
+# Compile of roundrobin.vhd failed with 1 errors.
+# Compile of roundrobin.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin(roundrobin_arc)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 200 ns
+# ** Fatal: (vsim-3734) Index value 128 is out of range 0 to 127.
+#    Time: 165 ns  Iteration: 1  Process: /roundrobin_tb/feeder File: C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd
+# Fatal error in Process feeder at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd line 58
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd 58 Process feeder
+# 
+# Compile of roundrobin_TB.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 200 ns
+# ** Fatal: (vsim-3734) Index value 128 is out of range 0 to 127.
+#    Time: 165 ns  Iteration: 1  Process: /roundrobin_tb/feeder File: C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd
+# Fatal error in Process feeder at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd line 58
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd 58 Process feeder
+# 
+# Compile of roundrobin_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 200 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 2000 ns
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 2000 ns
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 200 ns
+run 200 ns
+run 200 ns
+run 200 ns
+run 200 ns
+run 500 ns
+# Compile of roundrobin.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin(roundrobin_arc)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 200 ns
+run 2000 ns
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 2000 ns
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 2000 ns
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 2000 ns
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+retart -f
+# invalid command name "retart"
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 2000 ns
+run 1500 ns
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 4000 ns
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 4000 ns
+run 1000 ns
+run 1000 ns
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 5000 ns
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 4000 ns
+# Compile of roundrobin.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin(roundrobin_arc)
+# ** Warning: (vsim-8683) Uninitialized out port /roundrobin_tb/DUT/valo has no driver.
+# This port will contribute value (U) to the signal network.
+run 4000 ns
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+run 4000 ns
+run 500 ns
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd failed with 2 errors.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of roundrobin_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+run 4000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+add wave -position insertpoint  \
+sim:/roundrobin_tb/COUNTER
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+run 4000 ns
+run 1000 ns
+run 1000 ns
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+run 6000 ns
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+run 10000 ns
+run 1000 ns
+add wave -position insertpoint  \
+sim:/roundrobin_tb/COUNTER
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of roundrobin_TB.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin_tb(roundrobin_tb_arc)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+run 10000 ns

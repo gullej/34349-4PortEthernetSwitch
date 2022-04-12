@@ -16,8 +16,6 @@
 --
 -- 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 -- ************************************************************
-
-
 --Copyright (C) 2021  Intel Corporation. All rights reserved.
 --Your use of Intel Corporation's design tools, logic functions 
 --and other software and tools, and any partner logic 
@@ -33,77 +31,71 @@
 --refer to the applicable agreement for further details, at
 --https://fpgasoftware.intel.com/eula.
 
-
 LIBRARY ieee;
-USE ieee.std_logic_1164.all;
+USE ieee.std_logic_1164.ALL;
 
 LIBRARY altera_mf;
-USE altera_mf.all;
+USE altera_mf.ALL;
 
 ENTITY buffer32K IS
-	PORT
-	(
-		clock		: IN STD_LOGIC ;
-		data		: IN STD_LOGIC_VECTOR (8 DOWNTO 0);
-		rdreq		: IN STD_LOGIC ;
-		sclr		: IN STD_LOGIC ;
-		wrreq		: IN STD_LOGIC ;
-		almost_full		: OUT STD_LOGIC ;
-		empty		: OUT STD_LOGIC ;
-		full		: OUT STD_LOGIC ;
-		q		: OUT STD_LOGIC_VECTOR (8 DOWNTO 0);
-		usedw		: OUT STD_LOGIC_VECTOR (14 DOWNTO 0)
+	PORT (
+		clock : IN STD_LOGIC;
+		data : IN STD_LOGIC_VECTOR (8 DOWNTO 0);
+		rdreq : IN STD_LOGIC;
+		sclr : IN STD_LOGIC;
+		wrreq : IN STD_LOGIC;
+		almost_full : OUT STD_LOGIC;
+		empty : OUT STD_LOGIC;
+		full : OUT STD_LOGIC;
+		q : OUT STD_LOGIC_VECTOR (8 DOWNTO 0);
+		usedw : OUT STD_LOGIC_VECTOR (14 DOWNTO 0)
 	);
 END buffer32K;
-
-
 ARCHITECTURE SYN OF buffer32k IS
 
-	SIGNAL sub_wire0	: STD_LOGIC ;
-	SIGNAL sub_wire1	: STD_LOGIC ;
-	SIGNAL sub_wire2	: STD_LOGIC ;
-	SIGNAL sub_wire3	: STD_LOGIC_VECTOR (8 DOWNTO 0);
-	SIGNAL sub_wire4	: STD_LOGIC_VECTOR (14 DOWNTO 0);
-
-
+	SIGNAL sub_wire0 : STD_LOGIC;
+	SIGNAL sub_wire1 : STD_LOGIC;
+	SIGNAL sub_wire2 : STD_LOGIC;
+	SIGNAL sub_wire3 : STD_LOGIC_VECTOR (8 DOWNTO 0);
+	SIGNAL sub_wire4 : STD_LOGIC_VECTOR (14 DOWNTO 0);
 
 	COMPONENT scfifo
-	GENERIC (
-		add_ram_output_register		: STRING;
-		almost_full_value		: NATURAL;
-		intended_device_family		: STRING;
-		lpm_numwords		: NATURAL;
-		lpm_showahead		: STRING;
-		lpm_type		: STRING;
-		lpm_width		: NATURAL;
-		lpm_widthu		: NATURAL;
-		overflow_checking		: STRING;
-		underflow_checking		: STRING;
-		use_eab		: STRING
-	);
-	PORT (
-			clock	: IN STD_LOGIC ;
-			data	: IN STD_LOGIC_VECTOR (8 DOWNTO 0);
-			rdreq	: IN STD_LOGIC ;
-			sclr	: IN STD_LOGIC ;
-			wrreq	: IN STD_LOGIC ;
-			almost_full	: OUT STD_LOGIC ;
-			empty	: OUT STD_LOGIC ;
-			full	: OUT STD_LOGIC ;
-			q	: OUT STD_LOGIC_VECTOR (8 DOWNTO 0);
-			usedw	: OUT STD_LOGIC_VECTOR (14 DOWNTO 0)
-	);
+		GENERIC (
+			add_ram_output_register : STRING;
+			almost_full_value : NATURAL;
+			intended_device_family : STRING;
+			lpm_numwords : NATURAL;
+			lpm_showahead : STRING;
+			lpm_type : STRING;
+			lpm_width : NATURAL;
+			lpm_widthu : NATURAL;
+			overflow_checking : STRING;
+			underflow_checking : STRING;
+			use_eab : STRING
+		);
+		PORT (
+			clock : IN STD_LOGIC;
+			data : IN STD_LOGIC_VECTOR (8 DOWNTO 0);
+			rdreq : IN STD_LOGIC;
+			sclr : IN STD_LOGIC;
+			wrreq : IN STD_LOGIC;
+			almost_full : OUT STD_LOGIC;
+			empty : OUT STD_LOGIC;
+			full : OUT STD_LOGIC;
+			q : OUT STD_LOGIC_VECTOR (8 DOWNTO 0);
+			usedw : OUT STD_LOGIC_VECTOR (14 DOWNTO 0)
+		);
 	END COMPONENT;
 
 BEGIN
-	almost_full    <= sub_wire0;
-	empty    <= sub_wire1;
-	full    <= sub_wire2;
-	q    <= sub_wire3(8 DOWNTO 0);
-	usedw    <= sub_wire4(14 DOWNTO 0);
+	almost_full <= sub_wire0;
+	empty <= sub_wire1;
+	full <= sub_wire2;
+	q <= sub_wire3(8 DOWNTO 0);
+	usedw <= sub_wire4(14 DOWNTO 0);
 
 	scfifo_component : scfifo
-	GENERIC MAP (
+	GENERIC MAP(
 		add_ram_output_register => "OFF",
 		almost_full_value => 80,
 		intended_device_family => "Cyclone IV E",
@@ -116,7 +108,7 @@ BEGIN
 		underflow_checking => "ON",
 		use_eab => "ON"
 	)
-	PORT MAP (
+	PORT MAP(
 		clock => clock,
 		data => data,
 		rdreq => rdreq,
@@ -128,8 +120,6 @@ BEGIN
 		q => sub_wire3,
 		usedw => sub_wire4
 	);
-
-
 
 END SYN;
 
