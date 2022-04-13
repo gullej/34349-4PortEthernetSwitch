@@ -20,7 +20,7 @@ END roundrobin;
 
 ARCHITECTURE roundrobin_arc OF roundrobin IS
 
-	TYPE states IS (search_buff1, serve_buff1, search_buff2, serve_buff2, search_buff3, serve_buff3);
+	TYPE states IS (search_buff1, serve_buff1, wait_buff1, search_buff2, serve_buff2, wait_buff2, search_buff3, serve_buff3, wait_buff3);
 	SIGNAL RRstate : states;
 
 	COMPONENT buffer32k IS
@@ -41,6 +41,7 @@ ARCHITECTURE roundrobin_arc OF roundrobin IS
 	SIGNAL emp1, emp2, emp3 : STD_LOGIC;
 	SIGNAL buf1, buf2, buf3 : STD_LOGIC_VECTOR(8 DOWNTO 0);
 	SIGNAL req1, req2, req3 : STD_LOGIC;
+	SIGNAL count : INTEGER RANGE 0 TO 9;
 	SIGNAL clear : STD_LOGIC;
 
 BEGIN
@@ -56,6 +57,9 @@ BEGIN
 		buf3(7 DOWNTO 0) WHEN (RRstate = serve_buff3) ELSE
 		(OTHERS => '0');
 
+	valo <= '1' WHEN (RRstate = serve_buff1) OR (RRstate = serve_buff2) OR (RRstate = serve_buff3) ELSE
+		'0';
+
 	RR_stateMachine : PROCESS (clk)
 	BEGIN
 		IF (rising_edge(clk)) THEN
@@ -63,7 +67,6 @@ BEGIN
 				req1 <= '0';
 				req2 <= '0';
 				req3 <= '0';
-				valo <= '0';
 				IF (emp1 = '1') THEN
 					RRstate <= search_buff2;
 				ELSE
@@ -71,15 +74,20 @@ BEGIN
 				END IF;
 			ELSIF (RRstate = serve_buff1) THEN
 				req1 <= '1';
-				valo <= '1';
 				IF (buf1(8) = '1' OR emp1 = '1') THEN
+					RRstate <= wait_buff1;
+					count <= 0;
+				END IF;
+			ELSIF (RRstate = wait_buff1) THEN
+				IF (count = 9) THEN
 					RRstate <= search_buff2;
+				ELSE
+					count <= count + 1;
 				END IF;
 			ELSIF (RRstate = search_buff2) THEN
 				req1 <= '0';
 				req2 <= '0';
 				req3 <= '0';
-				valo <= '0';
 				IF (emp2 = '1') THEN
 					RRstate <= search_buff3;
 				ELSE
@@ -87,15 +95,20 @@ BEGIN
 				END IF;
 			ELSIF (RRstate = serve_buff2) THEN
 				req2 <= '1';
-				valo <= '1';
 				IF (buf2(8) = '1' OR emp2 = '1') THEN
+					RRstate <= wait_buff2;
+					count <= 0;
+				END IF;
+			ELSIF (RRstate = wait_buff2) THEN
+				IF (count = 9) THEN
 					RRstate <= search_buff3;
+				ELSE
+					count <= count + 1;
 				END IF;
 			ELSIF (RRstate = search_buff3) THEN
 				req1 <= '0';
 				req2 <= '0';
 				req3 <= '0';
-				valo <= '0';
 				IF (emp3 = '1') THEN
 					RRstate <= search_buff1;
 				ELSE
@@ -103,9 +116,15 @@ BEGIN
 				END IF;
 			ELSIF (RRstate = serve_buff3) THEN
 				req3 <= '1';
-				valo <= '1';
 				IF (buf3(8) = '1' OR emp3 = '1') THEN
+					RRstate <= wait_buff3;
+					count <= 0;
+				END IF;
+			ELSIF (RRstate = wait_buff3) THEN
+				IF (count = 9) THEN
 					RRstate <= search_buff1;
+				ELSE
+					count <= count + 1;
 				END IF;
 			END IF;
 		END IF;

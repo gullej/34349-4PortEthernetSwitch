@@ -10,36 +10,36 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/20.1
 Ebuffer32k
-Z0 w1649760079
+Z0 w1649774705
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 94
+!i122 125
 Z3 dC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin
-Z4 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer32K.vhd
-Z5 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer32K.vhd
+Z4 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd
+Z5 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd
 l0
 L40 1
 V8dIeU]8<=3XZR=jOTm?@F3
 !s100 X:NGWeANVPi_ReJZjTL1l1
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1649774096
+Z7 !s110 1649853408
 !i10b 1
-Z8 !s108 1649774096.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer32K.vhd|
-Z10 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer32K.vhd|
+Z8 !s108 1649853408.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd|
+Z10 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
 Asyn
 R1
 R2
-DEx4 work 9 buffer32k 0 22 8dIeU]8<=3XZR=jOTm?@F3
-!i122 94
+Z13 DEx4 work 9 buffer32k 0 22 8dIeU]8<=3XZR=jOTm?@F3
+!i122 125
 l90
-L54 71
-VBV_J><6CL^^fJ07=Xk^2T0
-!s100 hAjOV@LiG00MQ8lecOFhH3
+Z14 L54 71
+Z15 VBV_J><6CL^^fJ07=Xk^2T0
+Z16 !s100 hAjOV@LiG00MQ8lecOFhH3
 R6
 32
 R7
@@ -51,37 +51,37 @@ R10
 R11
 R12
 Ecrc_tb
-Z13 w1649770111
-Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z16 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z17 w1649770111
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z20 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R2
-Z17 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+Z21 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
 R1
 !i122 29
 R3
-Z18 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd
-Z19 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd
+Z22 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd
+Z23 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd
 l0
 L9 1
 VX0MFdb@PD:jRB?1fSCjzc2
 !s100 >ozJIkBM<n4eh2N7Y@>6X2
 R6
 32
-Z20 !s110 1649770118
+Z24 !s110 1649770118
 !i10b 1
-Z21 !s108 1649770118.000000
-Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd|
-Z23 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd|
+Z25 !s108 1649770118.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd|
+Z27 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/RoundRobin/roundrobin_TB.vhd|
 !i113 1
 R11
 R12
 Acrc_tb_arc
-R14
-R15
-R16
+R18
+R19
+R20
 R2
-R17
+R21
 R1
 DEx4 work 6 crc_tb 0 22 X0MFdb@PD:jRB?1fSCjzc2
 !i122 29
@@ -91,26 +91,26 @@ VGT?[XTW71HCM3HPCDj=AV1
 !s100 hW7^gWEmTF?W@dzKCX0:92
 R6
 32
-R20
+R24
 !i10b 1
-R21
-R22
-R23
+R25
+R26
+R27
 !i113 1
 R11
 R12
 Eroundrobin
-Z24 w1649773511
-R14
-R15
-R16
+Z28 w1649851952
+R18
+R19
+R20
 R2
 R1
-R17
-!i122 95
+R21
+!i122 124
 R3
-Z25 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/roundrobin.vhd
-Z26 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/roundrobin.vhd
+Z29 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd
+Z30 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd
 l0
 L7 1
 V`L1?SkGzW2eIZA@TGZ0]S2
@@ -119,81 +119,81 @@ R6
 32
 R7
 !i10b 1
-R8
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/roundrobin.vhd|
-Z28 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/roundrobin.vhd|
+Z31 !s108 1649853407.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd|
+Z33 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd|
 !i113 1
 R11
 R12
 Aroundrobin_arc
-R14
-R15
-R16
+R18
+R19
+R20
 R2
 R1
-R17
+R21
 DEx4 work 10 roundrobin 0 22 `L1?SkGzW2eIZA@TGZ0]S2
-!i122 95
-l46
-L21 94
-VYO@ch]gP[Y9ToW[^GGLF=3
-!s100 NE5e`:WMPd`eXUG>ZA<=91
+!i122 124
+l47
+L21 113
+VkRFU4[c1eT7?K:^3fGcTC3
+!s100 =UC836gW02AHY`Yf<3hRG3
 R6
 32
 R7
 !i10b 1
-R8
-R27
-R28
+R31
+R32
+R33
 !i113 1
 R11
 R12
 Eroundrobin_tb
-Z29 w1649774092
-R14
-R15
-R16
+Z34 w1649853403
+R18
+R19
+R20
 R2
-R17
+R21
 R1
-!i122 96
+!i122 123
 R3
-Z30 8C:\Users\Gustav Surface\Documents\GitRepos\34349-4PortEthernetSwitch\ModelsimProjects\RoundRobin\roundrobin_TB.vhd
-Z31 FC:\Users\Gustav Surface\Documents\GitRepos\34349-4PortEthernetSwitch\ModelsimProjects\RoundRobin\roundrobin_TB.vhd
+Z35 8C:\Users\Gustav Surface\Documents\GitRepos\34349-4PortEthernetSwitch\ModelsimProjects\RoundRobin\roundrobin_TB.vhd
+Z36 FC:\Users\Gustav Surface\Documents\GitRepos\34349-4PortEthernetSwitch\ModelsimProjects\RoundRobin\roundrobin_TB.vhd
 l0
 L9 1
 VfiQHSQBOU0aaKobfW?6mF2
 !s100 aeWOjbGHGo2Xi[LC49@>T0
 R6
 32
-Z32 !s110 1649774097
+Z37 !s110 1649853407
 !i10b 1
-R8
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Gustav Surface\Documents\GitRepos\34349-4PortEthernetSwitch\ModelsimProjects\RoundRobin\roundrobin_TB.vhd|
-Z34 !s107 C:\Users\Gustav Surface\Documents\GitRepos\34349-4PortEthernetSwitch\ModelsimProjects\RoundRobin\roundrobin_TB.vhd|
+R31
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Gustav Surface\Documents\GitRepos\34349-4PortEthernetSwitch\ModelsimProjects\RoundRobin\roundrobin_TB.vhd|
+Z39 !s107 C:\Users\Gustav Surface\Documents\GitRepos\34349-4PortEthernetSwitch\ModelsimProjects\RoundRobin\roundrobin_TB.vhd|
 !i113 1
 R11
 R12
 Aroundrobin_tb_arc
-R14
-R15
-R16
+R18
+R19
+R20
 R2
-R17
+R21
 R1
-Z35 DEx4 work 13 roundrobin_tb 0 22 fiQHSQBOU0aaKobfW?6mF2
-!i122 96
-l37
-L12 71
-V1NR@4Y:Id=UJUBa4gTKQB3
-!s100 dGPf>hZW]]g`k1]o[Cn`j2
+DEx4 work 13 roundrobin_tb 0 22 fiQHSQBOU0aaKobfW?6mF2
+!i122 123
+l45
+L12 79
+VH00nX4I^JMfQ[lQkZ>OTR3
+!s100 7N@n1i:6^EmCNHYXcF;oR3
 R6
 32
-R32
+R37
 !i10b 1
-R8
-R33
-R34
+R31
+R38
+R39
 !i113 1
 R11
 R12
