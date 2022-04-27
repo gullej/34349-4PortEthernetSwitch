@@ -17,7 +17,9 @@ ENTITY input_handler IS
 		valo2 : OUT STD_LOGIC;
 		dato2 : OUT STD_LOGIC_VECTOR(0 TO 7);
 		valo3 : OUT STD_LOGIC;
-		dato3 : OUT STD_LOGIC_VECTOR(0 TO 7)
+		dato3 : OUT STD_LOGIC_VECTOR(0 TO 7);
+		valo4 : OUT STD_LOGIC;
+		dato4 : OUT STD_LOGIC_VECTOR(0 TO 7)
 	);
 END input_handler;
 
@@ -48,10 +50,11 @@ ARCHITECTURE input_handler_arc OF input_handler IS
 			usedw : OUT STD_LOGIC_VECTOR (10 DOWNTO 0)
 		);
 	END COMPONENT;
+
 	SIGNAL out_val, out_err, valr, req, fin, macr, macv : STD_LOGIC;
 	SIGNAL dst_addr, src_addr : STD_LOGIC_VECTOR(47 DOWNTO 0);
 	SIGNAL datr : STD_LOGIC_VECTOR(7 DOWNTO 0);
-	SIGNAL dest : STD_LOGIC_VECTOR(2 DOWNTO 0);
+	SIGNAL dest : STD_LOGIC_VECTOR(3 DOWNTO 0);
 	SIGNAL dato, datb : STD_LOGIC_VECTOR(8 DOWNTO 0);
 	TYPE state_type IS (REST, DST, SRC, CHK, MAC, PUSH);
 	SIGNAL state : state_type := REST;
@@ -65,10 +68,12 @@ BEGIN
 	valo1 <= dest(0);
 	valo2 <= dest(1);
 	valo3 <= dest(2);
+	valo4 <= dest(3);
 
-	dato1 <=  dato(7 downto 0) WHEN dest(0) = '1';
-	dato2 <=  dato(7 downto 0) WHEN dest(1) = '1';
-	dato3 <=  dato(7 downto 0) WHEN dest(2) = '1';
+	dato1 <= dato(7 DOWNTO 0) WHEN dest(0) = '1';
+	dato2 <= dato(7 DOWNTO 0) WHEN dest(1) = '1';
+	dato3 <= dato(7 DOWNTO 0) WHEN dest(2) = '1';
+	dato4 <= dato(7 DOWNTO 0) WHEN dest(3) = '1';
 
 	datr <= dat WHEN (rising_edge(clk));
 	datb <= fin & datr;
