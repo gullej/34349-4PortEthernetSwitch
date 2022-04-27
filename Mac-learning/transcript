@@ -1,0 +1,805 @@
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+# Compile of Mac_learning.vhd failed with 2 errors.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 2 failed with 18 errors.
+# Compile of Mac_learning.vhd failed with 2 errors.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 2 failed with 18 errors.
+# Compile of Mac_learning.vhd failed with 3 errors.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 2 failed with 19 errors.
+# Compile of Mac_learning.vhd failed with 1 errors.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 2 failed with 17 errors.
+# Compile of Mac_learning.vhd was successful with warnings.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 09:46:33 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 46 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 86 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 126 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 166 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 206 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 246 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 286 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 326 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 366 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 406 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 446 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 486 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 526 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 566 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 606 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 646 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 686 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 726 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 766 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 806 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 846 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 886 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 926 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 966 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+quit -sim
+# End time: 09:50:10 on Apr 27,2022, Elapsed time: 0:03:37
+# Errors: 0, Warnings: 34
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 09:50:31 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 46 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 86 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+quit -sim
+# End time: 09:52:38 on Apr 27,2022, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 4
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 09:52:40 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 46 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 86 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+quit -sim
+# End time: 09:53:45 on Apr 27,2022, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 4
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 09:53:46 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 46 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 86 ns  Iteration: 2  Instance: /mac_learning_tb/DUT
+quit -sim
+# End time: 09:57:04 on Apr 27,2022, Elapsed time: 0:03:18
+# Errors: 0, Warnings: 3
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 09:57:29 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# End time: 09:58:10 on Apr 27,2022, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 2
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:03:01 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+# Compile of Mac_learning.vhd failed with 1 errors.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 2 failed with 17 errors.
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# End time: 10:05:53 on Apr 27,2022, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 2
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:13:42 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# End time: 10:17:16 on Apr 27,2022, Elapsed time: 0:03:34
+# Errors: 0, Warnings: 2
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:17:40 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+quit -sim
+# End time: 10:21:46 on Apr 27,2022, Elapsed time: 0:04:06
+# Errors: 0, Warnings: 3
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:21:48 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+quit -sim
+# End time: 10:22:57 on Apr 27,2022, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 2
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:22:57 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+quit -sim
+# End time: 10:25:44 on Apr 27,2022, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 2
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:25:45 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+quit -sim
+# End time: 10:27:01 on Apr 27,2022, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 2
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:27:02 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+quit -sim
+# End time: 10:29:15 on Apr 27,2022, Elapsed time: 0:02:13
+# Errors: 0, Warnings: 2
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:29:17 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+quit -sim
+# End time: 10:30:24 on Apr 27,2022, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 2
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:30:25 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# End time: 10:30:45 on Apr 27,2022, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 1
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:36:44 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# End time: 10:39:33 on Apr 27,2022, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 1
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:39:44 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+# End time: 10:40:38 on Apr 27,2022, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 3
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:40:39 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+# End time: 10:42:11 on Apr 27,2022, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 2
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+# Compile of Mac_learning.vhd was successful with warnings.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:46:25 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 48 (47 downto 0). Right is 49 (64 downto 16).
+#    Time: 46 ns  Iteration: 2  Process: /mac_learning_tb/DUT/line__99 File: C:/intelFPGA/Mac-learning/Mac_learning.vhd
+# Fatal error in Process line__99 at C:/intelFPGA/Mac-learning/Mac_learning.vhd line 162
+# 
+# HDL call sequence:
+# Stopped at C:/intelFPGA/Mac-learning/Mac_learning.vhd 162 Process line__99
+# 
+quit -sim
+# End time: 10:46:49 on Apr 27,2022, Elapsed time: 0:00:24
+# Errors: 1, Warnings: 3
+# Compile of Mac_learning.vhd was successful with warnings.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:47:11 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 48 (47 downto 0). Right is 49 (64 downto 16).
+#    Time: 46 ns  Iteration: 2  Process: /mac_learning_tb/DUT/line__99 File: C:/intelFPGA/Mac-learning/Mac_learning.vhd
+# Fatal error in Process line__99 at C:/intelFPGA/Mac-learning/Mac_learning.vhd line 163
+# 
+# HDL call sequence:
+# Stopped at C:/intelFPGA/Mac-learning/Mac_learning.vhd 163 Process line__99
+# 
+quit -sim
+# End time: 10:49:03 on Apr 27,2022, Elapsed time: 0:01:52
+# Errors: 1, Warnings: 2
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:49:07 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# End time: 10:49:45 on Apr 27,2022, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 2
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 10:50:13 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# End time: 10:59:48 on Apr 27,2022, Elapsed time: 0:09:35
+# Errors: 0, Warnings: 2
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 11:04:52 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+# End time: 11:07:15 on Apr 27,2022, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 3
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 11:07:17 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# End time: 11:07:49 on Apr 27,2022, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 1
+# Compile of Mac_learning.vhd was successful with warnings.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 11:49:43 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# End time: 11:50:54 on Apr 27,2022, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 3
+# Compile of Mac_learning.vhd failed with 1 errors.
+# Compile of Mac_learning_tb.vhd failed with 1 errors.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 3 failed with 18 errors.
+# Compile of Mac_learning.vhd failed with 1 errors.
+# Compile of Mac_learning_tb.vhd failed with 1 errors.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 3 failed with 18 errors.
+# Compile of Mac_learning.vhd failed with 1 errors.
+# Compile of Mac_learning_tb.vhd failed with 1 errors.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 3 failed with 18 errors.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd failed with 1 errors.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 2 failed with 17 errors.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd failed with 4 errors.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 2 failed with 20 errors.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 13:17:49 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+quit -sim
+# End time: 13:20:31 on Apr 27,2022, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 8
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 13:20:32 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+quit -sim
+# End time: 13:22:10 on Apr 27,2022, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 2
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 13:22:18 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# End time: 13:23:36 on Apr 27,2022, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 1
+# Compile of Mac_learning.vhd was successful with warnings.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 13:34:18 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 3 (2 downto 0). Right is 4 (2 downto -1).
+#    Time: 0 ps  Iteration: 0  Process: /mac_learning_tb/DUT/line__101 File: C:/intelFPGA/Mac-learning/Mac_learning.vhd
+# Fatal error in Process line__101 at C:/intelFPGA/Mac-learning/Mac_learning.vhd line 105
+# 
+# HDL call sequence:
+# Stopped at C:/intelFPGA/Mac-learning/Mac_learning.vhd 105 Process line__101
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/intelFPGA/Mac-learning/Mac_learning.vhd 105 Process line__101
+# 
+quit -sim
+# Compile of Mac_learning.vhd was successful with warnings.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+# End time: 13:35:05 on Apr 27,2022, Elapsed time: 0:00:47
+# Errors: 1, Warnings: 3
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 13:35:32 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# End time: 13:36:18 on Apr 27,2022, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 2
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of Mac_Hashing.vhd failed with 16 errors.
+# 4 compiles, 1 failed with 16 errors.

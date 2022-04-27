@@ -1,0 +1,51 @@
+C:/intelFPGA/Mac-learning/Mac_Hashing.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/Mac-learning/Mac_Hashing.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity crc_parallel
+-- Compiling architecture crc_parallel_arc of crc_parallel
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(61): (vcom-1136) Unknown identifier "D".
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(61): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(62): (vcom-1136) Unknown identifier "D".
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(62): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(63): (vcom-1136) Unknown identifier "D".
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(63): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(64): (vcom-1136) Unknown identifier "D".
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(64): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(65): (vcom-1136) Unknown identifier "D".
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(65): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(66): (vcom-1136) Unknown identifier "D".
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(66): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(67): (vcom-1136) Unknown identifier "D".
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(67): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(68): (vcom-1136) Unknown identifier "D".
+** Error: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(68): Bad right hand side (infix expression) in signal assignment.
+** Note: C:/intelFPGA/Mac-learning/Mac_Hashing.vhd(103): VHDL Compiler exiting
+
+} {11.0 27.0} {}} C:/intelFPGA/Mac-learning/Mac_memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/Mac-learning/Mac_memory.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mac_memory
+-- Compiling architecture mac_memory_arc of mac_memory
+
+} {} {}} C:/intelFPGA/Mac-learning/Mac_learning_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/Mac-learning/Mac_learning_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mac_learning_tb
+-- Compiling architecture mac_learning_arc_tb of mac_learning_tb
+
+} {} {}}

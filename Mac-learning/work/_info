@@ -1,0 +1,248 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/Exercise2
+Ecrc_parallel
+Z0 w1650457469
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 741
+Z6 dC:/intelFPGA/Mac-learning
+Z7 8C:/intelFPGA/Mac-learning/Mac_Hashing.vhd
+Z8 FC:/intelFPGA/Mac-learning/Mac_Hashing.vhd
+l0
+L6 1
+V3zOOkH6INaEcZdb6F`05D0
+!s100 D`:7K3LLNUzcjKYd8eEOU1
+Z9 OV;C;2020.1;71
+32
+!s110 1651059637
+!i10b 1
+!s108 1651059637.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/Mac-learning/Mac_Hashing.vhd|
+Z11 !s107 C:/intelFPGA/Mac-learning/Mac_Hashing.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Acrc_parallel_arc
+R1
+R2
+R3
+R4
+R5
+DEx4 work 12 crc_parallel 0 22 3zOOkH6INaEcZdb6F`05D0
+!i122 175
+l26
+L18 113
+VGIL?aNcC4L_k@DK0CmEzo3
+!s100 BAVkBSHC8^i36E;`6R7OP2
+R9
+32
+!s110 1650456575
+!i10b 1
+!s108 1650456574.000000
+R10
+R11
+!i113 1
+R12
+R13
+Emac_learning
+Z14 w1651059626
+R1
+R2
+R3
+R4
+R5
+!i122 738
+R6
+Z15 8C:/intelFPGA/Mac-learning/Mac_learning.vhd
+Z16 FC:/intelFPGA/Mac-learning/Mac_learning.vhd
+l0
+L6 1
+V<Y`hoLaC[mgVX];`iWjcc1
+!s100 3ljS^cHf:O?gf`NXhcSHz3
+R9
+32
+Z17 !s110 1651059636
+!i10b 1
+Z18 !s108 1651059636.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/Mac-learning/Mac_learning.vhd|
+Z20 !s107 C:/intelFPGA/Mac-learning/Mac_learning.vhd|
+!i113 1
+R12
+R13
+Amac_learning_arc
+R1
+R2
+R3
+R4
+R5
+DEx4 work 12 mac_learning 0 22 <Y`hoLaC[mgVX];`iWjcc1
+!i122 738
+l55
+L25 154
+VDlE4BYVl4C]BN?L@8ed=;3
+!s100 Q_ZQZ1zJi`SWVhS>9JdLN1
+R9
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Amac_learning_arc_tb
+R1
+R2
+R3
+R4
+R5
+DEx4 work 12 mac_learning 0 22 mmNCaSfeanMg;OV[INbeL3
+!i122 241
+Z21 8C:/intelFPGA/Mac-learning/Mac_learning_tb.vhd
+Z22 FC:/intelFPGA/Mac-learning/Mac_learning_tb.vhd
+l40
+L14 90
+V`8=0c;0GM]Alzd1F:Gn3I3
+!s100 dOZnn5O;KcgAeIX@@GSdo3
+R9
+32
+!s110 1650874731
+!i10b 1
+!s108 1650874730.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/Mac-learning/Mac_learning_tb.vhd|
+Z24 !s107 C:/intelFPGA/Mac-learning/Mac_learning_tb.vhd|
+!i113 1
+R12
+R13
+w1650874727
+Emac_learning_tb
+Z25 w1651059192
+R1
+R2
+R3
+R4
+R5
+!i122 739
+R6
+R21
+R22
+l0
+L8 1
+VL]dH]G5E;fhcX0j6Vc1XQ1
+!s100 OKRnkBdZ1M>l:IXYL2FgR0
+R9
+32
+R17
+!i10b 1
+R18
+R23
+R24
+!i113 1
+R12
+R13
+Amac_learning_arc_tb
+R1
+R2
+R3
+R4
+R5
+DEx4 work 15 mac_learning_tb 0 22 L]dH]G5E;fhcX0j6Vc1XQ1
+!i122 739
+l44
+L14 78
+V@>e05;6oY1Rd5CGnKJBXA2
+!s100 nz1ICf0K<bgKZ4:AYha5a0
+R9
+32
+R17
+!i10b 1
+R18
+R23
+R24
+!i113 1
+R12
+R13
+Emac_memory
+Z26 w1651059207
+R1
+R2
+R3
+R4
+R5
+!i122 740
+R6
+Z27 8C:/intelFPGA/Mac-learning/Mac_memory.vhd
+Z28 FC:/intelFPGA/Mac-learning/Mac_memory.vhd
+l0
+L7 1
+VmTP=k:8moWN9PT0P[JgaJ1
+!s100 bX6aNkQP:BR;B1Lj]]iNS1
+R9
+32
+R17
+!i10b 1
+R18
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/Mac-learning/Mac_memory.vhd|
+Z30 !s107 C:/intelFPGA/Mac-learning/Mac_memory.vhd|
+!i113 1
+R12
+R13
+Amac_memory_arc
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 mac_memory 0 22 mTP=k:8moWN9PT0P[JgaJ1
+!i122 740
+l24
+L21 17
+VClkDm1CVR33H^A]noNWPo1
+!s100 4Pe]^IjQIz?9cK2O^=eic2
+R9
+32
+R17
+!i10b 1
+R18
+R29
+R30
+!i113 1
+R12
+R13
+Amac_arc
+R1
+R2
+R3
+R5
+DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R4
+DEx4 work 10 mac_memory 0 22 >Xi?PZTm;j=o;F8>g3hEW2
+!i122 3
+l23
+L20 14
+VZg[5m?YT4h0J5B[;oZzKB2
+!s100 _mmH8n7Hk8UflAPo;2:J=0
+R9
+32
+!s110 1648631206
+!i10b 1
+!s108 1648631206.000000
+R29
+R30
+!i113 1
+R12
+R13
+w1648630829
