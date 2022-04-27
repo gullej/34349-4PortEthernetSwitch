@@ -12,9 +12,9 @@ PORT
     reset: 		IN   std_logic;
     mac_dst:  		IN   std_logic_vector (47 DOWNTO 0);
     mac_src:  		IN   std_logic_vector (47 DOWNTO 0);
-    port_in:          	IN   std_logic_vector (2 DOWNTO 0);
+    port_in:          	IN   std_logic_vector (3 DOWNTO 0);
     read_in:		IN   std_logic;
-    port_out:     	OUT  std_logic_vector (2 DOWNTO 0);
+    port_out:     	OUT  std_logic_vector (3 DOWNTO 0);
     read_out:		OUT  std_logic
    );
 END mac_learning;
@@ -26,12 +26,12 @@ Architecture mac_learning_arc of mac_learning IS
 
 	TYPE State_type IS (waiting, reading, writing, hashing,sending);
 	signal state : State_Type;
-	signal Data : std_logic_vector (50 DOWNTO 0);
+	signal Data : std_logic_vector (51 DOWNTO 0);
 	signal write_add : STD_LOGIC_VECTOR(12 DOWNTO 0);
 	signal read_add  : STD_LOGIC_VECTOR(12 DOWNTO 0);
 	signal write_en  : std_logic;
 	signal read_en   : std_logic;
-	signal data_ram  : std_logic_vector (50 DOWNTO 0);
+	signal data_ram  : std_logic_vector (51 DOWNTO 0);
 	signal R	 : STD_LOGIC_VECTOR(12 DOWNTO 0);
 	signal D 	 : std_logic_vector(7 downto 0);
 	signal R2	 : STD_LOGIC_VECTOR(12 DOWNTO 0);
@@ -43,12 +43,12 @@ Architecture mac_learning_arc of mac_learning IS
    	PORT
    	(	
       		clock: 		IN   std_logic;
-      		data_in:  	IN   std_logic_vector (50 DOWNTO 0);
+      		data_in:  	IN   std_logic_vector (51 DOWNTO 0);
       		write_address : IN   STD_LOGIC_VECTOR(12 DOWNTO 0);
       		read_address : 	IN   STD_LOGIC_VECTOR(12 DOWNTO 0);
       		we:    		IN   std_logic;
 		re:		IN   std_logic;
-      		data_out:     	OUT  std_logic_vector (50 DOWNTO 0)
+      		data_out:     	OUT  std_logic_vector (51 DOWNTO 0)
    	);
 	END component;
 
@@ -102,7 +102,7 @@ Architecture mac_learning_arc of mac_learning IS
    BEGIN
       CASE state IS
             	WHEN waiting=>
-               		port_out<="000";
+               		port_out<="0000";
 			read_out<='0';
 			R<=(others=>'0');
 			D<=(others=>'0');
@@ -165,12 +165,12 @@ Architecture mac_learning_arc of mac_learning IS
 			read_en<='0';
 			read_out<='1';
 			if(data_ram = x"00")then
-				port_out<="111";
+				port_out<="1111";
 			else
-				if(data_ram(50 downto 3)=mac_dst(47 downto 0))then
-					port_out <=data_ram(2 downto 0);
+				if(data_ram(51 downto 4)=mac_dst(47 downto 0))then
+					port_out <=data_ram(3 downto 0);
 				else
-					port_out<="111";
+					port_out<="1111";
 				end if;
 			end if;
          	END CASE;

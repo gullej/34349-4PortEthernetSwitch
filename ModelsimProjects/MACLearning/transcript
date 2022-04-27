@@ -1,15 +1,11 @@
-# 0 compiles, 4 failed with no errors.
-# Compile of Mac_learning_tb.vhd was successful.
-# Compile of Mac_learning.vhd was successful.
-# Compile of Mac_memory.vhd was successful.
-# 3 compiles, 0 failed with no errors.
+# 0 compiles, 3 failed with no errors.
 # Compile of Mac_learning_tb.vhd was successful.
 # Compile of Mac_learning.vhd was successful.
 # Compile of Mac_memory.vhd was successful.
 # 3 compiles, 0 failed with no errors.
 vsim -gui work.mac_learning_tb
 # vsim -gui work.mac_learning_tb 
-# Start time: 13:52:22 on Apr 27,2022
+# Start time: 13:58:38 on Apr 27,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -19,30 +15,44 @@ vsim -gui work.mac_learning_tb
 # Loading work.mac_learning_tb(mac_learning_arc_tb)
 # Loading work.mac_learning(mac_learning_arc)
 # Loading work.mac_memory(mac_memory_arc)
-run 500 ns
-add wave -position insertpoint  \
-sim:/mac_learning_tb/DUT/clock \
-sim:/mac_learning_tb/DUT/reset \
-sim:/mac_learning_tb/DUT/mac_dst \
-sim:/mac_learning_tb/DUT/mac_src \
-sim:/mac_learning_tb/DUT/port_in \
-sim:/mac_learning_tb/DUT/read_in \
-sim:/mac_learning_tb/DUT/port_out \
-sim:/mac_learning_tb/DUT/read_out \
-sim:/mac_learning_tb/DUT/state \
-sim:/mac_learning_tb/DUT/Data \
-sim:/mac_learning_tb/DUT/write_add \
-sim:/mac_learning_tb/DUT/read_add \
-sim:/mac_learning_tb/DUT/write_en \
-sim:/mac_learning_tb/DUT/read_en \
-sim:/mac_learning_tb/DUT/data_ram \
-sim:/mac_learning_tb/DUT/R \
-sim:/mac_learning_tb/DUT/D \
-sim:/mac_learning_tb/DUT/R2 \
-sim:/mac_learning_tb/DUT/D2 \
-sim:/mac_learning_tb/DUT/count
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run 500 ns
-# End time: 13:53:56 on Apr 27,2022, Elapsed time: 0:01:34
+quit -sim
+# End time: 13:59:21 on Apr 27,2022, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 6
+# Compile of Mac_learning_tb.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 14:06:17 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# End time: 14:08:00 on Apr 27,2022, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 2
+vsim work.mac_learning_tb
+# vsim work.mac_learning_tb 
+# Start time: 14:28:22 on Apr 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mac_learning_tb(mac_learning_arc_tb)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+add wave -position insertpoint sim:/mac_learning_tb/DUT/*
+run
+quit -sim
+# End time: 14:29:04 on Apr 27,2022, Elapsed time: 0:00:42
 # Errors: 0, Warnings: 1
