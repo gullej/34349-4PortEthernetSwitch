@@ -1,0 +1,248 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Ebuffer2k
+Z0 w1651047216
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 71
+Z3 dC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler
+Z4 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd
+Z5 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd
+l0
+L43 1
+VfLd93RX<e3ZgD]cl4OLEB0
+!s100 EHekTCKDBQDHajBhlF0T13
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1651059334
+!i10b 1
+Z8 !s108 1651059334.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd|
+Z10 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Asyn
+R1
+R2
+DEx4 work 8 buffer2k 0 22 fLd93RX<e3ZgD]cl4OLEB0
+!i122 71
+l98
+L60 75
+VVgTKP5_0gzE;2C^banFOc3
+!s100 RVj_n^J1HIg^Ca?33]P=o3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecrc_parallel
+Z13 w1651049505
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z16 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+Z17 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R1
+!i122 74
+R3
+Z18 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd
+Z19 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd
+l0
+L9 1
+V_f``E5:^dTmNd<^`]g2Y82
+!s100 JEVj_OEiKo4E>n8YczSA13
+R6
+32
+Z20 !s110 1651059335
+!i10b 1
+Z21 !s108 1651059335.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd|
+Z23 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd|
+!i113 1
+R11
+R12
+Acrc_parallel_arc
+R14
+R15
+R16
+R2
+R17
+R1
+DEx4 work 12 crc_parallel 0 22 _f``E5:^dTmNd<^`]g2Y82
+!i122 74
+l28
+L20 102
+Vb]<I2Rkloo_hjGi[Wf2l?3
+!s100 k;:REg0<DWaU`7FolXXOA1
+R6
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R11
+R12
+Ecrc_tb
+Z24 w1651047945
+R14
+R15
+R16
+R2
+R17
+R1
+!i122 73
+R3
+Z25 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd
+Z26 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd
+l0
+L9 1
+VX0MFdb@PD:jRB?1fSCjzc2
+!s100 >ozJIkBM<n4eh2N7Y@>6X2
+R6
+32
+R20
+!i10b 1
+R21
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd|
+Z28 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd|
+!i113 1
+R11
+R12
+Acrc_tb_arc
+R14
+R15
+R16
+R2
+R17
+R1
+DEx4 work 6 crc_tb 0 22 X0MFdb@PD:jRB?1fSCjzc2
+!i122 73
+l30
+L12 44
+V7@XYOi;zIIacnR9jji`XI2
+!s100 6UZ3D:bcF_EQNkk=lV_Bn0
+R6
+32
+R20
+!i10b 1
+R21
+R27
+R28
+!i113 1
+R11
+R12
+Einput_handler
+Z29 w1651059329
+R14
+R15
+R16
+R2
+R17
+R1
+!i122 72
+R3
+Z30 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd
+Z31 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd
+l0
+L9 1
+V]6JDWilVg6n5CEjG94M>32
+!s100 b4>6ISJ8Qii]9jeCizCHO0
+R6
+32
+R7
+!i10b 1
+R8
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd|
+Z33 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd|
+!i113 1
+R11
+R12
+Ainput_handler_arc
+R14
+R15
+R16
+R2
+R17
+R1
+DEx4 work 13 input_handler 0 22 ]6JDWilVg6n5CEjG94M>32
+!i122 72
+l60
+L24 115
+Va[?=J>a]YkA@zn1<zNJ0W2
+!s100 7`FeBoWfGI^fRL@B9RjN<2
+R6
+32
+R7
+!i10b 1
+R8
+R32
+R33
+!i113 1
+R11
+R12
+Einput_tb
+Z34 w1651051574
+R14
+R15
+R16
+R2
+R17
+R1
+!i122 75
+R3
+Z35 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd
+Z36 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd
+l0
+L9 1
+V?g7h3k8mf<dRDzZjn92R73
+!s100 kFV<GeYj3[o]1^96f9dk61
+R6
+32
+R20
+!i10b 1
+R21
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd|
+Z38 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd|
+!i113 1
+R11
+R12
+Ainput_arc
+R14
+R15
+R16
+R2
+R17
+R1
+Z39 DEx4 work 8 input_tb 0 22 ?g7h3k8mf<dRDzZjn92R73
+!i122 75
+l34
+Z40 L12 48
+Z41 Vm;ZNdI^UmP]>k05N_3C7k2
+Z42 !s100 0`TjdYUGUonBcVbX:P_3o0
+R6
+32
+R20
+!i10b 1
+R21
+R37
+R38
+!i113 1
+R11
+R12

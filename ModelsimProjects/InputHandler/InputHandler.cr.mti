@@ -1,0 +1,57 @@
+{C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity crc_parallel
+-- Compiling architecture crc_parallel_arc of crc_parallel
+
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity buffer2K
+-- Compiling architecture SYN of buffer2k
+
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity input_handler
+-- Compiling architecture input_handler_arc of input_handler
+
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity crc_tb
+-- Compiling architecture crc_tb_arc of crc_tb
+
+} {} {}} {C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity input_tb
+-- Compiling architecture input_arc of input_tb
+
+} {} {}}
