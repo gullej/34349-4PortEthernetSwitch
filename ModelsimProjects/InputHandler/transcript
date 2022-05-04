@@ -1,114 +1,6 @@
-# Compile of crc_parallel_TB.vhd failed with 3 errors.
-# Compile of crc_parallel_TB.vhd failed with 2 errors.
-# Compile of buffer2K.vhd was successful.
-# Compile of input_handler.vhd was successful.
-# Compile of crc_parallel_TB.vhd was successful.
-# 3 compiles, 0 failed with no errors.
-# Compile of crc_parallel.vhd was successful.
-# Compile of buffer2K.vhd was successful.
-# Compile of input_handler.vhd was successful.
-# Compile of crc_parallel_TB.vhd was successful.
-# Compile of crc_parallel.vhd failed with 15 errors.
-# 4 compiles, 1 failed with 15 errors.
-# Compile of crc_parallel.vhd failed with 4 errors.
-# Compile of crc_parallel.vhd was successful.
-vsim -gui work.crc_tb
-# vsim -gui work.crc_tb 
-# Start time: 10:30:16 on Apr 27,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading ieee.numeric_std(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.crc_tb(crc_tb_arc)
-# Loading work.crc_parallel(crc_parallel_arc)
-add wave -position insertpoint  \
-sim:/crc_tb/DUT/clk \
-sim:/crc_tb/DUT/reset \
-sim:/crc_tb/DUT/val \
-sim:/crc_tb/DUT/data_in \
-sim:/crc_tb/DUT/out_val \
-sim:/crc_tb/DUT/fcs_error \
-sim:/crc_tb/DUT/R \
-sim:/crc_tb/DUT/state \
-sim:/crc_tb/DUT/data \
-sim:/crc_tb/DUT/val_reg \
-sim:/crc_tb/DUT/count
-run 500 ns
-# Compile of crc_parallel.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.crc_parallel(crc_parallel_arc)
-run 500 ns
-# Compile of crc_parallel.vhd was successful.
-retart 
-# invalid command name "retart"
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.crc_parallel(crc_parallel_arc)
-run 500 ns
-# Compile of crc_parallel.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.crc_parallel(crc_parallel_arc)
-run 500 ns
-# Compile of crc_parallel.vhd failed with 3 errors.
-# Compile of crc_parallel.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.crc_parallel(crc_parallel_arc)
-run 500 ns
-# Compile of crc_parallel.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.crc_parallel(crc_parallel_arc)
-run 500 ns
-# Compile of crc_parallel.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.crc_parallel(crc_parallel_arc)
-run 400 ns
-run 20 ns
-# Compile of buffer2K.vhd was successful.
-# Compile of input_handler.vhd failed with 35 errors.
-# Compile of crc_parallel_TB.vhd was successful.
-# Compile of crc_parallel.vhd was successful.
-# Compile of intput_handler_TB.vhd was successful.
-# 5 compiles, 1 failed with 35 errors.
-# Compile of input_handler.vhd failed with 30 errors.
-# Compile of input_handler.vhd failed with 28 errors.
-# Compile of input_handler.vhd failed with 5 errors.
-# Compile of input_handler.vhd failed with 3 errors.
-# Compile of input_handler.vhd failed with 1 errors.
-# Compile of input_handler.vhd was successful.
-vsim -gui work.input_tb
-# End time: 11:10:21 on Apr 27,2022, Elapsed time: 0:40:05
-# Errors: 0, Warnings: 9
-# vsim -gui work.input_tb 
-# Start time: 11:10:21 on Apr 27,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading ieee.numeric_std(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.input_tb(input_arc)
-# Loading work.input_handler(input_handler_arc)
-# Loading work.crc_parallel(crc_parallel_arc)
-# ** Fatal: (vsim-3817) Port "dat" of entity "crc_parallel" is not in the component being instantiated.
-#    Time: 0 ps  Iteration: 0  Instance: /input_tb/DUT/CRC File: C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd Line: 14
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 11:10:22 on Apr 27,2022, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 1
-restart -f
-# No Design Loaded!
 vsim -gui work.input_tb
 # vsim -gui work.input_tb 
-# Start time: 11:11:19 on Apr 27,2022
+# Start time: 13:46:26 on May 03,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -116,371 +8,13 @@ vsim -gui work.input_tb
 # Loading ieee.numeric_std(body)
 # Loading ieee.std_logic_arith(body)
 # Loading ieee.std_logic_unsigned(body)
-# Loading work.input_tb(input_arc)
-# Loading work.input_handler(input_handler_arc)
-# Loading work.crc_parallel(crc_parallel_arc)
-# ** Fatal: (vsim-3817) Port "dat" of entity "crc_parallel" is not in the component being instantiated.
-#    Time: 0 ps  Iteration: 0  Instance: /input_tb/DUT/CRC File: C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd Line: 14
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 11:11:20 on Apr 27,2022, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 1
-# Compile of input_handler.vhd was successful.
-vsim -gui work.input_tb
-# vsim -gui work.input_tb 
-# Start time: 11:11:50 on Apr 27,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading ieee.numeric_std(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.input_tb(input_arc)
-# Loading work.input_handler(input_handler_arc)
-# Loading work.crc_parallel(crc_parallel_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-add wave -position insertpoint  \
-sim:/input_tb/DUT/clk \
-sim:/input_tb/DUT/reset \
-sim:/input_tb/DUT/val \
-sim:/input_tb/DUT/dat \
-sim:/input_tb/DUT/valo1 \
-sim:/input_tb/DUT/dato1 \
-sim:/input_tb/DUT/valo2 \
-sim:/input_tb/DUT/dato2 \
-sim:/input_tb/DUT/valo3 \
-sim:/input_tb/DUT/dato3 \
-sim:/input_tb/DUT/out_val \
-sim:/input_tb/DUT/out_err \
-sim:/input_tb/DUT/state \
-sim:/input_tb/DUT/count
-run 500 ns
-run 500 ns
-# Compile of input_handler.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_handler(input_handler_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 500 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-run 500 ns
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 600 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of intput_handler_TB.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_tb(input_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 600 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of intput_handler_TB.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_tb(input_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 600 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of input_handler.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_handler(input_handler_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 600 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of input_handler.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_handler(input_handler_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 600 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-add wave -position insertpoint  \
-sim:/input_tb/DUT/clk \
-sim:/input_tb/DUT/reset \
-sim:/input_tb/DUT/val \
-sim:/input_tb/DUT/dat \
-sim:/input_tb/DUT/valo1 \
-sim:/input_tb/DUT/dato1 \
-sim:/input_tb/DUT/valo2 \
-sim:/input_tb/DUT/dato2 \
-sim:/input_tb/DUT/valo3 \
-sim:/input_tb/DUT/dato3 \
-sim:/input_tb/DUT/out_val \
-sim:/input_tb/DUT/out_err \
-sim:/input_tb/DUT/dst_addr \
-sim:/input_tb/DUT/src_addr \
-sim:/input_tb/DUT/state \
-sim:/input_tb/DUT/count
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 500 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of input_handler.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_handler(input_handler_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 600 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of input_handler.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_handler(input_handler_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 600 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of input_handler.vhd failed with 2 errors.
-# Compile of input_handler.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_handler(input_handler_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 600 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of input_handler.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_handler(input_handler_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 500 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of buffer2K.vhd was successful.
-# Compile of input_handler.vhd failed with 3 errors.
-# Compile of crc_parallel_TB.vhd was successful.
-# Compile of crc_parallel.vhd was successful.
-# Compile of intput_handler_TB.vhd was successful.
-# 5 compiles, 1 failed with 3 errors.
-add wave -position insertpoint  \
-sim:/input_tb/DUT/clk \
-sim:/input_tb/DUT/reset \
-sim:/input_tb/DUT/val \
-sim:/input_tb/DUT/dat \
-sim:/input_tb/DUT/valo1 \
-sim:/input_tb/DUT/dato1 \
-sim:/input_tb/DUT/valo2 \
-sim:/input_tb/DUT/dato2 \
-sim:/input_tb/DUT/valo3 \
-sim:/input_tb/DUT/dato3 \
-sim:/input_tb/DUT/out_val \
-sim:/input_tb/DUT/out_err \
-sim:/input_tb/DUT/dst_addr \
-sim:/input_tb/DUT/src_addr \
-sim:/input_tb/DUT/datr \
-sim:/input_tb/DUT/state \
-sim:/input_tb/DUT/count
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_tb(input_arc)
-# Loading work.crc_parallel(crc_parallel_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 600 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of buffer2K.vhd was successful.
-# Compile of input_handler.vhd failed with 3 errors.
-# Compile of crc_parallel_TB.vhd was successful.
-# Compile of crc_parallel.vhd was successful.
-# Compile of intput_handler_TB.vhd was successful.
-# 5 compiles, 1 failed with 3 errors.
-# Compile of input_handler.vhd failed with 3 errors.
-# Compile of input_handler.vhd failed with 1 errors.
-# Compile of input_handler.vhd failed with 1 errors.
-# Compile of input_handler.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.input_tb(input_arc)
 # Loading work.input_handler(input_handler_arc)
 # Loading work.crc_parallel(crc_parallel_arc)
 # Loading work.buffer2k(syn)
 # Loading altera_mf.altera_device_families(body)
 # Loading altera_mf.scfifo(behavior)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
 run 600 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
 add wave -position insertpoint  \
 sim:/input_tb/DUT/clk \
 sim:/input_tb/DUT/reset \
@@ -492,226 +26,8 @@ sim:/input_tb/DUT/valo2 \
 sim:/input_tb/DUT/dato2 \
 sim:/input_tb/DUT/valo3 \
 sim:/input_tb/DUT/dato3 \
-sim:/input_tb/DUT/out_val \
-sim:/input_tb/DUT/out_err \
-sim:/input_tb/DUT/valr \
-sim:/input_tb/DUT/req \
-sim:/input_tb/DUT/dst_addr \
-sim:/input_tb/DUT/src_addr \
-sim:/input_tb/DUT/datr \
-sim:/input_tb/DUT/dato \
-sim:/input_tb/DUT/datb \
-sim:/input_tb/DUT/state \
-sim:/input_tb/DUT/count
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 500 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-add wave -position insertpoint  \
-sim:/input_tb/DUT/BUF/data
-# Compile of input_handler.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_handler(input_handler_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 500 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of input_handler.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_handler(input_handler_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 500 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-add wave -position insertpoint  \
-sim:/input_tb/DUT/clk \
-sim:/input_tb/DUT/reset \
-sim:/input_tb/DUT/val \
-sim:/input_tb/DUT/dat \
-sim:/input_tb/DUT/valo1 \
-sim:/input_tb/DUT/dato1 \
-sim:/input_tb/DUT/valo2 \
-sim:/input_tb/DUT/dato2 \
-sim:/input_tb/DUT/valo3 \
-sim:/input_tb/DUT/dato3 \
-sim:/input_tb/DUT/out_val \
-sim:/input_tb/DUT/out_err \
-sim:/input_tb/DUT/valr \
-sim:/input_tb/DUT/req \
-sim:/input_tb/DUT/dst_addr \
-sim:/input_tb/DUT/src_addr \
-sim:/input_tb/DUT/datr \
-sim:/input_tb/DUT/dato \
-sim:/input_tb/DUT/datb \
-sim:/input_tb/DUT/state \
-sim:/input_tb/DUT/count \
-sim:/input_tb/DUT/datb1
-# Compile of input_handler.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_handler(input_handler_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 400 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-run 10 ns
-run 50 ns
-add wave -position 14  sim:/input_tb/DUT/fin
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 500 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of input_handler.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_handler(input_handler_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-run 500 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of input_handler.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_handler(input_handler_arc)
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
-# This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
-# This port will contribute value (UUUUUUUU) to the signal network.
-add wave -position insertpoint  \
-sim:/input_tb/DUT/BUF/clock \
-sim:/input_tb/DUT/BUF/data \
-sim:/input_tb/DUT/BUF/wrreq \
-sim:/input_tb/DUT/BUF/q
-run 500 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Compile of buffer2K.vhd was successful.
-# Compile of input_handler.vhd failed with 6 errors.
-# Compile of crc_parallel_TB.vhd was successful.
-# Compile of crc_parallel.vhd was successful.
-# Compile of intput_handler_TB.vhd was successful.
-# 5 compiles, 1 failed with 6 errors.
-# Compile of input_handler.vhd failed with 8 errors.
-# Compile of buffer2K.vhd was successful.
-# Compile of input_handler.vhd failed with 2 errors.
-# Compile of crc_parallel_TB.vhd was successful.
-# Compile of crc_parallel.vhd was successful.
-# Compile of intput_handler_TB.vhd was successful.
-# 5 compiles, 1 failed with 2 errors.
-# Compile of buffer2K.vhd was successful.
-# Compile of input_handler.vhd was successful.
-# Compile of crc_parallel_TB.vhd was successful.
-# Compile of crc_parallel.vhd was successful.
-# Compile of intput_handler_TB.vhd was successful.
-# 5 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.input_tb(input_arc)
-# Loading work.input_handler(input_handler_arc)
-# Loading work.crc_parallel(crc_parallel_arc)
-# Loading work.buffer2k(syn)
-run 500 ns
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-add wave -position insertpoint  \
-sim:/input_tb/DUT/clk \
-sim:/input_tb/DUT/reset \
-sim:/input_tb/DUT/val \
-sim:/input_tb/DUT/dat \
-sim:/input_tb/DUT/valo1 \
-sim:/input_tb/DUT/dato1 \
-sim:/input_tb/DUT/valo2 \
-sim:/input_tb/DUT/dato2 \
-sim:/input_tb/DUT/valo3 \
-sim:/input_tb/DUT/dato3 \
+sim:/input_tb/DUT/valo4 \
+sim:/input_tb/DUT/dato4 \
 sim:/input_tb/DUT/out_val \
 sim:/input_tb/DUT/out_err \
 sim:/input_tb/DUT/valr \
@@ -726,12 +42,880 @@ sim:/input_tb/DUT/dest \
 sim:/input_tb/DUT/dato \
 sim:/input_tb/DUT/datb \
 sim:/input_tb/DUT/state \
-sim:/input_tb/DUT/count \
-sim:/input_tb/DUT/datb1
+sim:/input_tb/DUT/count
 restart -f
+run 600 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of buffer2K.vhd was successful.
+# Compile of input_handler.vhd failed with 4 errors.
+# Compile of crc_parallel_TB.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of intput_handler_TB.vhd was successful.
+# 5 compiles, 1 failed with 4 errors.
+# Compile of input_handler.vhd failed with 1 errors.
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+run 400 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run 100 ns
+# Compile of buffer2K.vhd was successful.
+# Compile of input_handler.vhd failed with 8 errors.
+# Compile of crc_parallel_TB.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of intput_handler_TB.vhd was successful.
+# 5 compiles, 1 failed with 8 errors.
+# Compile of buffer2K.vhd was successful.
+# Compile of input_handler.vhd failed with 7 errors.
+# Compile of crc_parallel_TB.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of intput_handler_TB.vhd was successful.
+# 5 compiles, 1 failed with 7 errors.
+# Compile of buffer2K.vhd was successful.
+# Compile of input_handler.vhd failed with 7 errors.
+# Compile of crc_parallel_TB.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of intput_handler_TB.vhd was successful.
+# 5 compiles, 1 failed with 7 errors.
+# Compile of buffer2K.vhd was successful.
+# Compile of input_handler.vhd failed with 1 errors.
+# Compile of crc_parallel_TB.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of intput_handler_TB.vhd was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+add wave -position insertpoint  \
+sim:/input_tb/DUT/clk \
+sim:/input_tb/DUT/reset \
+sim:/input_tb/DUT/val \
+sim:/input_tb/DUT/dat \
+sim:/input_tb/DUT/valo1 \
+sim:/input_tb/DUT/dato1 \
+sim:/input_tb/DUT/valo2 \
+sim:/input_tb/DUT/dato2 \
+sim:/input_tb/DUT/valo3 \
+sim:/input_tb/DUT/dato3 \
+sim:/input_tb/DUT/valo4 \
+sim:/input_tb/DUT/dato4 \
+sim:/input_tb/DUT/out_val \
+sim:/input_tb/DUT/out_err \
+sim:/input_tb/DUT/valr \
+sim:/input_tb/DUT/req \
+sim:/input_tb/DUT/fin \
+sim:/input_tb/DUT/macr \
+sim:/input_tb/DUT/macv \
+sim:/input_tb/DUT/dst_addr \
+sim:/input_tb/DUT/src_addr \
+sim:/input_tb/DUT/datr \
+sim:/input_tb/DUT/dest \
+sim:/input_tb/DUT/dato \
+sim:/input_tb/DUT/datb \
+sim:/input_tb/DUT/state \
+sim:/input_tb/DUT/out_state \
+sim:/input_tb/DUT/count
+add wave -position insertpoint  \
+sim:/input_tb/DUT/clk \
+sim:/input_tb/DUT/reset \
+sim:/input_tb/DUT/val \
+sim:/input_tb/DUT/dat \
+sim:/input_tb/DUT/valo1 \
+sim:/input_tb/DUT/dato1 \
+sim:/input_tb/DUT/valo2 \
+sim:/input_tb/DUT/dato2 \
+sim:/input_tb/DUT/valo3 \
+sim:/input_tb/DUT/dato3 \
+sim:/input_tb/DUT/valo4 \
+sim:/input_tb/DUT/dato4 \
+sim:/input_tb/DUT/out_val \
+sim:/input_tb/DUT/out_err \
+sim:/input_tb/DUT/valr \
+sim:/input_tb/DUT/req \
+sim:/input_tb/DUT/fin \
+sim:/input_tb/DUT/macr \
+sim:/input_tb/DUT/macv \
+sim:/input_tb/DUT/dst_addr \
+sim:/input_tb/DUT/src_addr \
+sim:/input_tb/DUT/datr \
+sim:/input_tb/DUT/dest \
+sim:/input_tb/DUT/dato \
+sim:/input_tb/DUT/datb \
+sim:/input_tb/DUT/state \
+sim:/input_tb/DUT/out_state \
+sim:/input_tb/DUT/count
+run 600 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of buffer2K.vhd was successful.
+# Compile of input_handler.vhd failed with 1 errors.
+# Compile of crc_parallel_TB.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of intput_handler_TB.vhd failed with 2 errors.
+# Compile of simulated_mac.vhd failed with 1 errors.
+# 6 compiles, 3 failed with 4 errors.
+# Compile of buffer2K.vhd was successful.
+# Compile of input_handler.vhd failed with 6 errors.
+# Compile of crc_parallel_TB.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of intput_handler_TB.vhd failed with 1 errors.
+# Compile of simulated_mac.vhd was successful.
+# 6 compiles, 2 failed with 7 errors.
+# Compile of input_handler.vhd failed with 5 errors.
+# Compile of intput_handler_TB.vhd was successful.
+# 2 compiles, 1 failed with 5 errors.
+# Compile of input_handler.vhd failed with 1 errors.
+# Compile of buffer2K.vhd was successful.
+# Compile of input_handler.vhd failed with 3 errors.
+# Compile of crc_parallel_TB.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of intput_handler_TB.vhd was successful.
+# Compile of simulated_mac.vhd was successful.
+# 6 compiles, 1 failed with 3 errors.
+# Compile of input_handler.vhd failed with 3 errors.
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.simulated_mac(simulated_mac_arc)
 run 500 ns
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
-# End time: 13:36:28 on Apr 27,2022, Elapsed time: 2:24:38
+run 500 ns
+add wave -position insertpoint  \
+sim:/input_tb/clk \
+sim:/input_tb/reset_P \
+sim:/input_tb/val_P \
+sim:/input_tb/out_val1_P \
+sim:/input_tb/out_val2_P \
+sim:/input_tb/out_val3_P \
+sim:/input_tb/out_val4_P \
+sim:/input_tb/data_in_P \
+sim:/input_tb/out_dat1_P \
+sim:/input_tb/out_dat2_P \
+sim:/input_tb/out_dat3_P \
+sim:/input_tb/out_dat4_P \
+sim:/input_tb/port_P \
+sim:/input_tb/COUNTER \
+sim:/input_tb/sent_data
+add wave -position insertpoint  \
+sim:/input_tb/DUT/clk \
+sim:/input_tb/DUT/reset \
+sim:/input_tb/DUT/val \
+sim:/input_tb/DUT/dat \
+sim:/input_tb/DUT/por \
+sim:/input_tb/DUT/valo1 \
+sim:/input_tb/DUT/dato1 \
+sim:/input_tb/DUT/valo2 \
+sim:/input_tb/DUT/dato2 \
+sim:/input_tb/DUT/valo3 \
+sim:/input_tb/DUT/dato3 \
+sim:/input_tb/DUT/valo4 \
+sim:/input_tb/DUT/dato4 \
+sim:/input_tb/DUT/out_val \
+sim:/input_tb/DUT/out_err \
+sim:/input_tb/DUT/valr \
+sim:/input_tb/DUT/req \
+sim:/input_tb/DUT/fin \
+sim:/input_tb/DUT/macr \
+sim:/input_tb/DUT/macv \
+sim:/input_tb/DUT/dst_addr \
+sim:/input_tb/DUT/src_addr \
+sim:/input_tb/DUT/datr \
+sim:/input_tb/DUT/dest \
+sim:/input_tb/DUT/dato \
+sim:/input_tb/DUT/datb \
+sim:/input_tb/DUT/state \
+sim:/input_tb/DUT/out_state \
+sim:/input_tb/DUT/count
+restart -f
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+run 600 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run 500 ns
+# Compile of input_handler.vhd failed with 8 errors.
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+run 1000 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+run 900 n
+# Invalid time value: 900 n
+run 900 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of intput_handler_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+run 600 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run 600 ns
+run 600 ns
+# Compile of intput_handler_TB.vhd failed with 2 errors.
+# Compile of intput_handler_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+run 1000 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of intput_handler_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+run 1000 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint  \
+sim:/input_tb/DUT/CRC/clk \
+sim:/input_tb/DUT/CRC/reset \
+sim:/input_tb/DUT/CRC/val \
+sim:/input_tb/DUT/CRC/dat \
+sim:/input_tb/DUT/CRC/out_val \
+sim:/input_tb/DUT/CRC/out_err \
+sim:/input_tb/DUT/CRC/R \
+sim:/input_tb/DUT/CRC/state \
+sim:/input_tb/DUT/CRC/data \
+sim:/input_tb/DUT/CRC/val_reg \
+sim:/input_tb/DUT/CRC/count
+restart -f
+run 700 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of crc_parallel.vhd failed with 3 errors.
+# Compile of crc_parallel.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.crc_parallel(crc_parallel_arc)
+run 700 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of crc_parallel.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.crc_parallel(crc_parallel_arc)
+run 1000 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of intput_handler_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+run 700 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run 100 ns
+run 100 ns
+# Compile of intput_handler_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+run 800 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run 100 ns
+add wave -position insertpoint  \
+sim:/input_tb/DUT/CRC/clk \
+sim:/input_tb/DUT/CRC/reset \
+sim:/input_tb/DUT/CRC/val \
+sim:/input_tb/DUT/CRC/dat \
+sim:/input_tb/DUT/CRC/out_val \
+sim:/input_tb/DUT/CRC/out_err \
+sim:/input_tb/DUT/CRC/R \
+sim:/input_tb/DUT/CRC/state \
+sim:/input_tb/DUT/CRC/data \
+sim:/input_tb/DUT/CRC/val_reg \
+sim:/input_tb/DUT/CRC/count
+# Compile of crc_parallel.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.crc_parallel(crc_parallel_arc)
+run 700 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run 200 ns
+add wave -position insertpoint  \
+sim:/input_tb/DUT/clk \
+sim:/input_tb/DUT/reset \
+sim:/input_tb/DUT/val \
+sim:/input_tb/DUT/dat \
+sim:/input_tb/DUT/por \
+sim:/input_tb/DUT/valo1 \
+sim:/input_tb/DUT/dato1 \
+sim:/input_tb/DUT/valo2 \
+sim:/input_tb/DUT/dato2 \
+sim:/input_tb/DUT/valo3 \
+sim:/input_tb/DUT/dato3 \
+sim:/input_tb/DUT/valo4 \
+sim:/input_tb/DUT/dato4 \
+sim:/input_tb/DUT/out_val \
+sim:/input_tb/DUT/out_err \
+sim:/input_tb/DUT/valr \
+sim:/input_tb/DUT/req \
+sim:/input_tb/DUT/fin \
+sim:/input_tb/DUT/macr \
+sim:/input_tb/DUT/macv \
+sim:/input_tb/DUT/dst_addr \
+sim:/input_tb/DUT/src_addr \
+sim:/input_tb/DUT/datr \
+sim:/input_tb/DUT/dest \
+sim:/input_tb/DUT/dato \
+sim:/input_tb/DUT/datb \
+sim:/input_tb/DUT/state \
+sim:/input_tb/DUT/out_state \
+sim:/input_tb/DUT/count
+run 500 ns
+# Compile of intput_handler_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Fatal: (vsim-3471) Slice range (512 to 519) does not belong to the prefix index range (0 to 511).
+#    Time: 831 ns  Iteration: 1  Process: /input_tb/feeder_parallel File: C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd
+# Fatal error in Process feeder_parallel at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd line 64
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd 64 Process feeder_parallel
+# 
+# Compile of intput_handler_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of input_handler.vhd failed with 3 errors.
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint  \
+sim:/input_tb/DUT/clk \
+sim:/input_tb/DUT/reset \
+sim:/input_tb/DUT/val \
+sim:/input_tb/DUT/dat \
+sim:/input_tb/DUT/por \
+sim:/input_tb/DUT/valo1 \
+sim:/input_tb/DUT/dato1 \
+sim:/input_tb/DUT/valo2 \
+sim:/input_tb/DUT/dato2 \
+sim:/input_tb/DUT/valo3 \
+sim:/input_tb/DUT/dato3 \
+sim:/input_tb/DUT/valo4 \
+sim:/input_tb/DUT/dato4 \
+sim:/input_tb/DUT/out_val \
+sim:/input_tb/DUT/out_err \
+sim:/input_tb/DUT/valr \
+sim:/input_tb/DUT/req \
+sim:/input_tb/DUT/fin \
+sim:/input_tb/DUT/macr \
+sim:/input_tb/DUT/macv \
+sim:/input_tb/DUT/look_flag \
+sim:/input_tb/DUT/dst_addr \
+sim:/input_tb/DUT/src_addr \
+sim:/input_tb/DUT/datr \
+sim:/input_tb/DUT/dest \
+sim:/input_tb/DUT/dato \
+sim:/input_tb/DUT/datb \
+sim:/input_tb/DUT/state \
+sim:/input_tb/DUT/out_state \
+sim:/input_tb/DUT/count
+# Compile of intput_handler_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of intput_handler_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of input_handler.vhd failed with 1 errors.
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+# Compile of input_handler.vhd failed with 4 errors.
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of simulated_mac.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.simulated_mac(simulated_mac_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of input_handler.vhd failed with 12 errors.
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo4 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato4(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint  \
+sim:/input_tb/DUT/MAC/clk \
+sim:/input_tb/DUT/MAC/reset \
+sim:/input_tb/DUT/MAC/val \
+sim:/input_tb/DUT/MAC/src \
+sim:/input_tb/DUT/MAC/dst \
+sim:/input_tb/DUT/MAC/por \
+sim:/input_tb/DUT/MAC/porto \
+sim:/input_tb/DUT/MAC/valo \
+sim:/input_tb/DUT/MAC/count
+restart -f
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo4 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato4(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of simulated_mac.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.simulated_mac(simulated_mac_arc)
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo4 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato4(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint  \
+sim:/input_tb/DUT/clk \
+sim:/input_tb/DUT/reset \
+sim:/input_tb/DUT/val \
+sim:/input_tb/DUT/dat \
+sim:/input_tb/DUT/por \
+sim:/input_tb/DUT/valo1 \
+sim:/input_tb/DUT/dato1 \
+sim:/input_tb/DUT/valo2 \
+sim:/input_tb/DUT/dato2 \
+sim:/input_tb/DUT/valo3 \
+sim:/input_tb/DUT/dato3 \
+sim:/input_tb/DUT/valo4 \
+sim:/input_tb/DUT/dato4 \
+sim:/input_tb/DUT/out_val \
+sim:/input_tb/DUT/out_err \
+sim:/input_tb/DUT/valr \
+sim:/input_tb/DUT/req \
+sim:/input_tb/DUT/fin \
+sim:/input_tb/DUT/macr \
+sim:/input_tb/DUT/macv \
+sim:/input_tb/DUT/look_flag \
+sim:/input_tb/DUT/dest1 \
+sim:/input_tb/DUT/dest2 \
+sim:/input_tb/DUT/dest3 \
+sim:/input_tb/DUT/dest4 \
+sim:/input_tb/DUT/dst_addr \
+sim:/input_tb/DUT/src_addr \
+sim:/input_tb/DUT/datr \
+sim:/input_tb/DUT/dest \
+sim:/input_tb/DUT/dato \
+sim:/input_tb/DUT/datb \
+sim:/input_tb/DUT/state \
+sim:/input_tb/DUT/out_state \
+sim:/input_tb/DUT/count
+restart -f
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo4 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato4(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo4 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato4(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint  \
+sim:/input_tb/DUT/BUF/clock \
+sim:/input_tb/DUT/BUF/data \
+sim:/input_tb/DUT/BUF/rdreq \
+sim:/input_tb/DUT/BUF/sclr \
+sim:/input_tb/DUT/BUF/wrreq \
+sim:/input_tb/DUT/BUF/almost_full \
+sim:/input_tb/DUT/BUF/empty \
+sim:/input_tb/DUT/BUF/full \
+sim:/input_tb/DUT/BUF/q \
+sim:/input_tb/DUT/BUF/usedw \
+sim:/input_tb/DUT/BUF/sub_wire0 \
+sim:/input_tb/DUT/BUF/sub_wire1 \
+sim:/input_tb/DUT/BUF/sub_wire2 \
+sim:/input_tb/DUT/BUF/sub_wire3 \
+sim:/input_tb/DUT/BUF/sub_wire4
+restart -f
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo4 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato4(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint  \
+sim:/input_tb/DUT/clk \
+sim:/input_tb/DUT/reset \
+sim:/input_tb/DUT/val \
+sim:/input_tb/DUT/dat \
+sim:/input_tb/DUT/por \
+sim:/input_tb/DUT/valo1 \
+sim:/input_tb/DUT/dato1 \
+sim:/input_tb/DUT/valo2 \
+sim:/input_tb/DUT/dato2 \
+sim:/input_tb/DUT/valo3 \
+sim:/input_tb/DUT/dato3 \
+sim:/input_tb/DUT/valo4 \
+sim:/input_tb/DUT/dato4 \
+sim:/input_tb/DUT/out_val \
+sim:/input_tb/DUT/out_err \
+sim:/input_tb/DUT/valr \
+sim:/input_tb/DUT/req \
+sim:/input_tb/DUT/fin \
+sim:/input_tb/DUT/macr \
+sim:/input_tb/DUT/macv \
+sim:/input_tb/DUT/look_flag \
+sim:/input_tb/DUT/dest1 \
+sim:/input_tb/DUT/dest2 \
+sim:/input_tb/DUT/dest3 \
+sim:/input_tb/DUT/dest4 \
+sim:/input_tb/DUT/dst_addr \
+sim:/input_tb/DUT/src_addr \
+sim:/input_tb/DUT/datr \
+sim:/input_tb/DUT/dest \
+sim:/input_tb/DUT/dato \
+sim:/input_tb/DUT/datb \
+sim:/input_tb/DUT/state \
+sim:/input_tb/DUT/out_state \
+sim:/input_tb/DUT/count
+restart -f
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo4 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato4(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# Compile of input_handler.vhd failed with 3 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo4 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato4(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# Compile of input_handler.vhd failed with 2 errors.
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo1 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato1(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo2 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato2(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo3 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato3(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/valo4 has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /input_tb/DUT/dato4(0 to 7) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+# Compile of input_handler.vhd was successful.
+run restart -f
+# Invalid time value: restart -f
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of buffer2K.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of crc_parallel_TB.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of intput_handler_TB.vhd was successful.
+# Compile of simulated_mac.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.simulated_mac(simulated_mac_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of input_handler.vhd failed with 1 errors.
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of buffer2K.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of crc_parallel_TB.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of intput_handler_TB.vhd was successful.
+# Compile of simulated_mac.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.simulated_mac(simulated_mac_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of intput_handler_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_tb(input_arc)
+run 1500 ns
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# End time: 11:53:47 on May 04,2022, Elapsed time: 22:07:21
 # Errors: 0, Warnings: 1

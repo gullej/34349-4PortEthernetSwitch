@@ -32,7 +32,7 @@ BEGIN
 		IF (RISING_EDGE(clk)) THEN
 			val_reg <= val;
 
-			IF (count < 5) THEN
+			IF (count < 4) THEN
 				data <= NOT dat;
 			ELSE
 				data <= dat;
@@ -57,20 +57,20 @@ BEGIN
 	BEGIN
 		IF (RISING_EDGE(clk)) THEN
 			IF (state = RUN) THEN
-				R(0) <= R(24) XOR R(30) XOR data(7) ;
+				R(0) <= R(24) XOR R(30) XOR data(7);
 				R(1) <= R(24) XOR R(25) XOR R(30) XOR R(31) XOR data(6);
 				R(2) <= R(24) XOR R(25) XOR R(26) XOR R(30) XOR R(31) XOR data(5);
 				R(3) <= R(25) XOR R(26) XOR R(27) XOR R(31) XOR data(4);
 				R(4) <= R(24) XOR R(26) XOR R(27) XOR R(28) XOR R(30) XOR data(3);
-				R(5) <= R(24) XOR R(25) XOR R(27) XOR R(28) XOR R(29) XOR R(30) XOR R(31) XOR data(2) ;
+				R(5) <= R(24) XOR R(25) XOR R(27) XOR R(28) XOR R(29) XOR R(30) XOR R(31) XOR data(2);
 				R(6) <= R(25) XOR R(26) XOR R(28) XOR R(29) XOR R(30) XOR R(31) XOR data(1);
 				R(7) <= R(24) XOR R(26) XOR R(27) XOR R(29) XOR R(31) XOR data(0);
 				R(8) <= R(0) XOR R(24) XOR R(25) XOR R(27) XOR R(28);
 				R(9) <= R(1) XOR R(25) XOR R(26) XOR R(28) XOR R(29);
 				R(10) <= R(2) XOR R(24) XOR R(26) XOR R(27) XOR R(29);
 				R(11) <= R(3) XOR R(24) XOR R(25) XOR R(27) XOR R(28);
-				R(12) <= R(4) XOR R(24) XOR R(25) XOR R(26) XOR R(28) XOR R(29) XOR R(30)        ;
-				R(13) <= R(5) XOR R(25) XOR R(26) XOR R(27) XOR R(29) XOR R(30) XOR R(31)        ;
+				R(12) <= R(4) XOR R(24) XOR R(25) XOR R(26) XOR R(28) XOR R(29) XOR R(30);
+				R(13) <= R(5) XOR R(25) XOR R(26) XOR R(27) XOR R(29) XOR R(30) XOR R(31);
 				R(14) <= R(6) XOR R(26) XOR R(27) XOR R(28) XOR R(30) XOR R(31);
 				R(15) <= R(7) XOR R(27) XOR R(28) XOR R(29) XOR R(31);
 				R(16) <= R(8) XOR R(24) XOR R(28) XOR R(29);
@@ -95,6 +95,8 @@ BEGIN
 				ELSE
 					out_err <= '1';
 				END IF;
+
+				R <= x"00000000";
 				out_val <= '1';
 			ELSIF (reset = '1') THEN
 				R <= x"00000000";
@@ -110,7 +112,7 @@ BEGIN
 		IF (rising_edge(clk)) THEN
 			IF val = '0' THEN
 				count <= 0;
-			ELSIF count < 5 THEN
+			ELSIF val = '1' and count < 5 THEN
 				count <= count + 1;
 			ELSIF reset = '1' THEN
 				count <= 0;

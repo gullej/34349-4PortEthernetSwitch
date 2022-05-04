@@ -12,6 +12,7 @@ ENTITY input_handler IS
 		reset : IN STD_LOGIC;
 		val : IN STD_LOGIC;
 		dat : IN STD_LOGIC_VECTOR(0 TO 7);
+		por : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
 		valo1 : OUT STD_LOGIC;
 		dato1 : OUT STD_LOGIC_VECTOR(0 TO 7);
 		valo2 : OUT STD_LOGIC;
@@ -51,29 +52,45 @@ ARCHITECTURE input_handler_arc OF input_handler IS
 		);
 	END COMPONENT;
 
-	SIGNAL out_val, out_err, valr, req, fin, macr, macv : STD_LOGIC;
+	COMPONENT simulated_mac IS
+		PORT (
+			clk : IN STD_LOGIC;
+			reset : IN STD_LOGIC;
+			val : IN STD_LOGIC;
+			src : IN STD_LOGIC_VECTOR(47 DOWNTO 0);
+			dst : IN STD_LOGIC_VECTOR(47 DOWNTO 0);
+			por : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+			porto : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+			valo : OUT STD_LOGIC
+		);
+	END COMPONENT;
+
+	SIGNAL out_val, out_err, valr, req, fin, macr, macv, look_flag, dest1, dest2, dest3, dest4 : STD_LOGIC;
 	SIGNAL dst_addr, src_addr : STD_LOGIC_VECTOR(47 DOWNTO 0);
 	SIGNAL datr : STD_LOGIC_VECTOR(7 DOWNTO 0);
 	SIGNAL dest : STD_LOGIC_VECTOR(3 DOWNTO 0);
 	SIGNAL dato, datb : STD_LOGIC_VECTOR(8 DOWNTO 0);
-	TYPE state_type IS (REST, DST, SRC, CHK, MAC, PUSH);
+	TYPE state_type IS (REST, DST, SRC, LOOKUP, RUN);
+	TYPE out_type IS (REST, START, PUSH);
 	SIGNAL state : state_type := REST;
+	SIGNAL out_state : out_type := REST;
 	SIGNAL count : INTEGER RANGE 0 TO 10;
 
 BEGIN
 
 	CRC : crc_parallel PORT MAP(clk, reset, val, dat, out_val, out_err);
 	BUF : buffer2k PORT MAP(clk, datb, req, reset, valr, OPEN, OPEN, OPEN, dato, OPEN);
+	MAC : simulated_mac PORT MAP(clk, reset, macr, src_addr, dst_addr, por, dest, macv);
 
-	valo1 <= dest(0);
-	valo2 <= dest(1);
-	valo3 <= dest(2);
-	valo4 <= dest(3);
+	valo1 <= dest1 WHEN out_state = PUSH or out_state = START else '0';
+	valo2 <= dest1 WHEN out_state = PUSH or out_state = START else '0';
+	valo3 <= dest1 WHEN out_state = PUSH or out_state = START else '0';
+	valo4 <= dest1 WHEN out_state = PUSH or out_state = START else '0';
 
-	dato1 <= dato(7 DOWNTO 0) WHEN dest(0) = '1';
-	dato2 <= dato(7 DOWNTO 0) WHEN dest(1) = '1';
-	dato3 <= dato(7 DOWNTO 0) WHEN dest(2) = '1';
-	dato4 <= dato(7 DOWNTO 0) WHEN dest(3) = '1';
+	dato1 <= dato(7 DOWNTO 0) WHEN dest1 = '1' AND out_state = PUSH;
+	dato2 <= dato(7 DOWNTO 0) WHEN dest2 = '1' AND out_state = PUSH;
+	dato3 <= dato(7 DOWNTO 0) WHEN dest3 = '1' AND out_state = PUSH;
+	dato4 <= dato(7 DOWNTO 0) WHEN dest4 = '1' AND out_state = PUSH;
 
 	datr <= dat WHEN (rising_edge(clk));
 	datb <= fin & datr;
@@ -96,7 +113,7 @@ BEGIN
 	fin <= '1' WHEN (val = '0' AND valr = '1') ELSE
 		'0';
 
-	STATE_MACHINE : PROCESS (clk)
+	INPUT_MACHINE : PROCESS (clk)
 	BEGIN
 		IF (rising_edge(clk)) THEN
 			IF (state = REST) THEN
@@ -107,34 +124,59 @@ BEGIN
 				IF (COUNT = 5) THEN
 					state <= SRC;
 					count <= 0;
+				ELSIF (val = '0') THEN
+					state <= REST;
+					count <= 0;
 				ELSE
 					count <= count + 1;
 				END IF;
 			ELSIF (state = SRC) THEN
 				IF (COUNT = 5) THEN
-					state <= CHK;
+					state <= LOOKUP;
+					count <= 0;
+				ELSIF (val = '0') THEN
+					state <= REST;
 					count <= 0;
 				ELSE
 					count <= count + 1;
 				END IF;
-			ELSIF (state = CHK) THEN
-				IF (out_val = '1') THEN
-					IF (out_err = '1') THEN
-						state <= REST;
-						-- RESET SHIT
-					ELSE
-						state <= MAC;
-						count <= 0;
-					END IF;
-				END IF;
-			ELSIF (state = MAC) THEN
+			ELSIF (state = LOOKUP) THEN
 				macr <= '1';
 				IF (macv = '1') THEN
-					state <= PUSH;
-				END IF;
-			ELSIF (state = PUSH) THEN
-				IF (dato(8) = '1') THEN
+					dest1 <= dest(0);
+					dest2 <= dest(1);
+					dest3 <= dest(2);
+					dest4 <= dest(3);
+					macr <= '0';
+					state <= RUN;
+				ELSIF (val = '0') THEN
 					state <= REST;
+					count <= 0;
+				END IF;
+			ELSIF (state = RUN) THEN
+				macr <= '0';
+				IF (val = '0') THEN
+					state <= REST;
+					count <= 0;
+				END IF;
+			END IF;
+		END IF;
+	END PROCESS;
+
+	OUTPUT_MACHINE : PROCESS (clk)
+	BEGIN
+		IF (rising_edge(clk)) THEN
+			IF (out_state = REST) THEN
+				IF (out_val = '1') THEN
+						out_state <= START;
+				END IF;
+			ELSIF (out_state = START) THEN
+				req <= '1';
+				out_state <= PUSH;
+			ELSIF (out_state = PUSH) THEN
+				IF (dato(8) = '1') THEN
+					out_state <= REST;
+					req <= '0';
 				END IF;
 			END IF;
 		END IF;
