@@ -51,27 +51,28 @@ R10
 R11
 R12
 Ecrc_parallel
-Z13 w1652255759
+Z13 w1652259184
 Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z17 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z18 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z16 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+Z17 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
 R1
-Z19 dC:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler
-Z20 8C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd
-Z21 FC:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd
+!i122 234
+Z18 dC:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler
+Z19 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd
+Z20 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd
 l0
-L9
+L9 1
 V_f``E5:^dTmNd<^`]g2Y82
 !s100 JEVj_OEiKo4E>n8YczSA13
-Z22 OV;C;10.5b;63
+R6
 32
-Z23 !s110 1652257880
+Z21 !s110 1652263456
 !i10b 1
-Z24 !s108 1652257880.000000
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd|
-Z26 !s107 C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd|
+Z22 !s108 1652263455.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd|
+Z24 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd|
 !i113 1
 R11
 R12
@@ -79,21 +80,22 @@ Acrc_parallel_arc
 R14
 R15
 R16
+R2
 R17
-R18
 R1
 DEx4 work 12 crc_parallel 0 22 _f``E5:^dTmNd<^`]g2Y82
+!i122 234
 l28
-L20
+L20 104
 Vn=6E^>ll970]8ML=ohgYP2
 !s100 i3Jl^b6GQgK]i]C>CRXD53
-R22
+R6
 32
-R23
+R21
 !i10b 1
+R22
+R23
 R24
-R25
-R26
 !i113 1
 R11
 R12
@@ -101,34 +103,34 @@ Ecrc_tb
 R0
 R14
 R15
-Z27 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R16
 R2
-Z28 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R17
 R1
 !i122 178
 R3
-Z29 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd
-Z30 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd
+Z25 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd
+Z26 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd
 l0
 L9 1
 VX0MFdb@PD:jRB?1fSCjzc2
 !s100 >ozJIkBM<n4eh2N7Y@>6X2
 R6
 32
-Z31 !s110 1651588145
+Z27 !s110 1651588145
 !i10b 1
-Z32 !s108 1651588145.000000
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd|
-Z34 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd|
+Z28 !s108 1651588145.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd|
+Z30 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/crc_parallel_TB.vhd|
 !i113 1
 R11
 R12
 Acrc_tb_arc
 R14
 R15
-R27
+R16
 R2
-R28
+R17
 R1
 DEx4 work 6 crc_tb 0 22 X0MFdb@PD:jRB?1fSCjzc2
 !i122 178
@@ -138,36 +140,37 @@ V7@XYOi;zIIacnR9jji`XI2
 !s100 6UZ3D:bcF_EQNkk=lV_Bn0
 R6
 32
-R31
+R27
 !i10b 1
-R32
-R33
-R34
+R28
+R29
+R30
 !i113 1
 R11
 R12
 Einput_handler
-Z35 w1652258002
+Z31 w1652263450
 R14
 R15
 R16
+R2
 R17
-R18
 R1
-R19
-Z36 8C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd
-Z37 FC:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd
+!i122 235
+R18
+Z32 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd
+Z33 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd
 l0
-L9
+L9 1
 V@BT<1afLbDd0B8mKUK_Ac2
 !s100 cYZKFlGS`BF0<?W88Vll^1
-R22
+R6
 32
-Z38 !s110 1652258005
+R21
 !i10b 1
-Z39 !s108 1652258005.000000
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd|
-Z41 !s107 C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd|
+Z34 !s108 1652263456.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd|
+Z36 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd|
 !i113 1
 R11
 R12
@@ -175,46 +178,48 @@ Ainput_handler_arc
 R14
 R15
 R16
+R2
 R17
-R18
 R1
 DEx4 work 13 input_handler 0 22 @BT<1afLbDd0B8mKUK_Ac2
+!i122 235
 l83
-L33
+L33 159
 Vn_7Kkz;nUEZfV4EgDYifn3
 !s100 ?zO1H@`LlQ6Mh`DJ:7<_R0
-R22
+R6
 32
-R38
+R21
 !i10b 1
-R39
-R40
-R41
+R34
+R35
+R36
 !i113 1
 R11
 R12
 Einput_tb
-Z42 w1652258305
+Z37 w1652263768
 R14
 R15
 R16
+R2
 R17
-R18
 R1
-R19
-Z43 8C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd
-Z44 FC:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd
+!i122 240
+R18
+Z38 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd
+Z39 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd
 l0
-L9
+L9 1
 V?g7h3k8mf<dRDzZjn92R73
 !s100 kFV<GeYj3[o]1^96f9dk61
-R22
+R6
 32
-Z45 !s110 1652258310
+Z40 !s110 1652263773
 !i10b 1
-Z46 !s108 1652258310.000000
-Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd|
-Z48 !s107 C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd|
+Z41 !s108 1652263773.000000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd|
+Z43 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/InputHandler/intput_handler_TB.vhd|
 !i113 1
 R11
 R12
@@ -222,45 +227,47 @@ Ainput_arc
 R14
 R15
 R16
+R2
 R17
-R18
 R1
-Z49 DEx4 work 8 input_tb 0 22 ?g7h3k8mf<dRDzZjn92R73
-l61
-L12
-V;8^Ne9`^:_B7>nAS`H_K42
-!s100 Qccc>d@KKdTKM_hVGDhoj3
-R22
+Z44 DEx4 work 8 input_tb 0 22 ?g7h3k8mf<dRDzZjn92R73
+!i122 240
+l90
+Z45 L12 148
+VZX:5VM?^LP99RCd8FGoQV1
+!s100 MSl^`<LKDi0n;9;@f4o=e3
+R6
 32
-R45
+R40
 !i10b 1
-R46
-R47
-R48
+R41
+R42
+R43
 !i113 1
 R11
 R12
 Emac_learning
-R13
+Z46 w1652263663
 R14
 R15
 R16
 R1
-R17
-R19
-Z50 8C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd
-Z51 FC:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd
+R2
+!i122 239
+R18
+Z47 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd
+Z48 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd
 l0
-L6
-VJ@?zc:Q@Ua:0jkPS6jb761
-!s100 FYCU_MSZCgZ79[3ickZ>P1
-R22
+L6 1
+V[Z`:?Kn6UlmgM5UDNAL4b3
+!s100 OglAk;Tb8@J=HzLdiiKSK1
+R6
 32
-Z52 !s110 1652257842
+Z49 !s110 1652263690
 !i10b 1
-Z53 !s108 1652257842.000000
-Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd|
-Z55 !s107 C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd|
+Z50 !s108 1652263690.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd|
+Z52 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd|
 !i113 1
 R11
 R12
@@ -269,43 +276,45 @@ R14
 R15
 R16
 R1
-R17
-DEx4 work 12 mac_learning 0 22 J@?zc:Q@Ua:0jkPS6jb761
-l55
-L25
-VJ6@FIe=^YBRPSb3]cYm^H3
-!s100 IWA1kE9`W_B[d;1]l2iKd1
-R22
+R2
+DEx4 work 12 mac_learning 0 22 [Z`:?Kn6UlmgM5UDNAL4b3
+!i122 239
+l73
+L36 249
+VXYVkLOQKRkUEPOZ_We;<j3
+!s100 7oWRnPIRW?5;GjD;Rc9^E1
+R6
 32
-R52
+R49
 !i10b 1
-R53
-R54
-R55
+R50
+R51
+R52
 !i113 1
 R11
 R12
 Emac_memory
-R13
+Z53 w1652259191
 R14
 R15
 R16
 R1
-R17
-R19
-Z56 8C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd
-Z57 FC:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd
+R2
+!i122 237
+R18
+Z54 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd
+Z55 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd
 l0
-L7
+L7 1
 Vz2Y=HIX<<CYeVgd<NGJ<b3
 !s100 F<omTjGbRmJGOcaTL9On<0
-R22
+R6
 32
-R52
+R21
 !i10b 1
-Z58 !s108 1652257841.000000
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd|
-Z60 !s107 C:/Users/friis/OneDrive/Skrivebord/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd|
+R34
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd|
+Z57 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd|
 !i113 1
 R11
 R12
@@ -314,54 +323,55 @@ R14
 R15
 R16
 R1
-R17
+R2
 DEx4 work 10 mac_memory 0 22 z2Y=HIX<<CYeVgd<NGJ<b3
+!i122 237
 l24
-L21
+L21 17
 VgkkoQ@f=mG3>V<31db<UF1
 !s100 _2_JYHNjMX_0zB_fekB_l3
-R22
+R6
 32
-R52
+R21
 !i10b 1
-R58
-R59
-R60
+R34
+R56
+R57
 !i113 1
 R11
 R12
 Esimulated_mac
-Z61 w1651587136
+Z58 w1651587136
 R14
 R15
-R27
+R16
 R2
-R28
+R17
 R1
 !i122 181
 R3
-Z62 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/simulated_mac.vhd
-Z63 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/simulated_mac.vhd
+Z59 8C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/simulated_mac.vhd
+Z60 FC:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/simulated_mac.vhd
 l0
 L9 1
 VDX;6Nfl@DoKA>Kb?CaCJ_1
 !s100 IHzX<P3G`h^8:::7@P:622
 R6
 32
-Z64 !s110 1651588146
+Z61 !s110 1651588146
 !i10b 1
-R32
-Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/simulated_mac.vhd|
-Z66 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/simulated_mac.vhd|
+R28
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/simulated_mac.vhd|
+Z63 !s107 C:/Users/Gustav Surface/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/simulated_mac.vhd|
 !i113 1
 R11
 R12
 Asimulated_mac_arc
 R14
 R15
-R27
+R16
 R2
-R28
+R17
 R1
 DEx4 work 13 simulated_mac 0 22 DX;6Nfl@DoKA>Kb?CaCJ_1
 !i122 181
@@ -371,11 +381,11 @@ VlHKB`a8h5nC69LiVR8UFA3
 !s100 j8Wb3OmI7TTOoXi[>E3Xg2
 R6
 32
-R64
+R61
 !i10b 1
-R32
-R65
-R66
+R28
+R62
+R63
 !i113 1
 R11
 R12

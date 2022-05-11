@@ -1,0 +1,531 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Ebuffer2k
+Z0 w1651064699
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 66
+Z3 dC:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop
+Z4 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd
+Z5 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd
+l0
+L43 1
+VfLd93RX<e3ZgD]cl4OLEB0
+!s100 EHekTCKDBQDHajBhlF0T13
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1652272162
+!i10b 1
+Z8 !s108 1652272162.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd|
+Z10 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Asyn
+R1
+R2
+DEx4 work 8 buffer2k 0 22 fLd93RX<e3ZgD]cl4OLEB0
+!i122 66
+l98
+L60 75
+VVgTKP5_0gzE;2C^banFOc3
+!s100 RVj_n^J1HIg^Ca?33]P=o3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ebuffer32k
+R0
+R1
+R2
+!i122 67
+R3
+Z13 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd
+Z14 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd
+l0
+L40 1
+V8dIeU]8<=3XZR=jOTm?@F3
+!s100 X:NGWeANVPi_ReJZjTL1l1
+R6
+32
+R7
+!i10b 1
+R8
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd|
+Z16 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd|
+!i113 1
+R11
+R12
+Asyn
+R1
+R2
+DEx4 work 9 buffer32k 0 22 8dIeU]8<=3XZR=jOTm?@F3
+!i122 67
+l90
+L54 71
+VBV_J><6CL^^fJ07=Xk^2T0
+!s100 hAjOV@LiG00MQ8lecOFhH3
+R6
+32
+R7
+!i10b 1
+R8
+R15
+R16
+!i113 1
+R11
+R12
+Ecrc_parallel
+Z17 w1652259184
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z20 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+Z21 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R1
+!i122 68
+R3
+Z22 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd
+Z23 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd
+l0
+L9 1
+V_f``E5:^dTmNd<^`]g2Y82
+!s100 JEVj_OEiKo4E>n8YczSA13
+R6
+32
+R7
+!i10b 1
+R8
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd|
+Z25 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd|
+!i113 1
+R11
+R12
+Acrc_parallel_arc
+R18
+R19
+R20
+R2
+R21
+R1
+DEx4 work 12 crc_parallel 0 22 _f``E5:^dTmNd<^`]g2Y82
+!i122 68
+l28
+L20 104
+Vn=6E^>ll970]8ML=ohgYP2
+!s100 i3Jl^b6GQgK]i]C>CRXD53
+R6
+32
+R7
+!i10b 1
+R8
+R24
+R25
+!i113 1
+R11
+R12
+Einput_handler
+Z26 w1652276203
+R18
+R19
+R20
+R2
+R21
+R1
+!i122 91
+R3
+Z27 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd
+Z28 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd
+l0
+L9 1
+VQ76L>Ce=:@dDaU7MXFRk]1
+!s100 SBZ964A]CS5Q5P<=F<B6R2
+R6
+32
+Z29 !s110 1652276206
+!i10b 1
+Z30 !s108 1652276206.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd|
+Z32 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd|
+!i113 1
+R11
+R12
+Ainput_handler_arc
+R18
+R19
+R20
+R2
+R21
+R1
+Z33 DEx4 work 13 input_handler 0 22 Q76L>Ce=:@dDaU7MXFRk]1
+!i122 91
+l70
+L33 147
+VSo<h>LC^:1S_:2VgN5a4R1
+!s100 W2QVAcWUTAXgLZ1C_E`^E2
+R6
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R11
+R12
+Einput_tb
+Z34 w1652270448
+R18
+R19
+R20
+R2
+R21
+R1
+!i122 33
+R3
+Z35 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+Z36 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+l0
+L9 1
+V?g7h3k8mf<dRDzZjn92R73
+!s100 kFV<GeYj3[o]1^96f9dk61
+R6
+32
+Z37 !s110 1652271697
+!i10b 1
+Z38 !s108 1652271697.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd|
+Z40 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd|
+!i113 1
+R11
+R12
+Ainput_arc
+R18
+R19
+R20
+R2
+R21
+R1
+DEx4 work 8 input_tb 0 22 ?g7h3k8mf<dRDzZjn92R73
+!i122 33
+l32
+L12 52
+VPEeL:Q;[MdB@QA@<Y[AaX3
+!s100 AW2<EdZiRgo`S@5G1HNh71
+R6
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R11
+R12
+Emac_learning
+Z41 w1652271773
+R18
+R19
+R20
+R1
+R2
+!i122 70
+R3
+Z42 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd
+Z43 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd
+l0
+L6 1
+V[Z`:?Kn6UlmgM5UDNAL4b3
+!s100 OglAk;Tb8@J=HzLdiiKSK1
+R6
+32
+Z44 !s110 1652272163
+!i10b 1
+Z45 !s108 1652272163.000000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd|
+Z47 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd|
+!i113 1
+R11
+R12
+Amac_learning_arc
+R18
+R19
+R20
+R1
+R2
+DEx4 work 12 mac_learning 0 22 [Z`:?Kn6UlmgM5UDNAL4b3
+!i122 70
+l74
+L37 249
+V5Iaf95[_Am4=]ol23ZY<Z1
+!s100 ]UUcN=E:?>XHb`YNk@G[O1
+R6
+32
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 1
+R11
+R12
+Emac_memory
+Z48 w1652259191
+R18
+R19
+R20
+R1
+R2
+!i122 71
+R3
+Z49 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd
+Z50 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd
+l0
+L7 1
+Vz2Y=HIX<<CYeVgd<NGJ<b3
+!s100 F<omTjGbRmJGOcaTL9On<0
+R6
+32
+R44
+!i10b 1
+R45
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd|
+Z52 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd|
+!i113 1
+R11
+R12
+Amac_memory_arc
+R18
+R19
+R20
+R1
+R2
+DEx4 work 10 mac_memory 0 22 z2Y=HIX<<CYeVgd<NGJ<b3
+!i122 71
+l24
+L21 17
+VgkkoQ@f=mG3>V<31db<UF1
+!s100 _2_JYHNjMX_0zB_fekB_l3
+R6
+32
+R44
+!i10b 1
+R45
+R51
+R52
+!i113 1
+R11
+R12
+Eroundrobin
+R0
+R18
+R19
+R20
+R2
+R1
+R21
+!i122 72
+R3
+Z53 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd
+Z54 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd
+l0
+L7 1
+V`L1?SkGzW2eIZA@TGZ0]S2
+!s100 MBZH0lU9KkUCVJ:d3;jb_0
+R6
+32
+R44
+!i10b 1
+R45
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd|
+Z56 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd|
+!i113 1
+R11
+R12
+Aroundrobin_arc
+R18
+R19
+R20
+R2
+R1
+R21
+DEx4 work 10 roundrobin 0 22 `L1?SkGzW2eIZA@TGZ0]S2
+!i122 72
+l47
+L21 113
+VkRFU4[c1eT7?K:^3fGcTC3
+!s100 =UC836gW02AHY`Yf<3hRG3
+R6
+32
+R44
+!i10b 1
+R45
+R55
+R56
+!i113 1
+R11
+R12
+Eswitch_logic
+Z57 w1652272284
+R18
+R19
+R20
+R2
+R21
+R1
+!i122 74
+R3
+Z58 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/switch_logic.vhd
+Z59 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/switch_logic.vhd
+l0
+L9 1
+V1NG;LliP;zb7gTXhKYG<O3
+!s100 8a4?m5`cM]_IC8dOFFoNY0
+R6
+32
+Z60 !s110 1652272304
+!i10b 1
+Z61 !s108 1652272304.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/switch_logic.vhd|
+Z63 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/switch_logic.vhd|
+!i113 1
+R11
+R12
+Aswitch_logic_arc
+R18
+R19
+R20
+R2
+R21
+R1
+DEx4 work 12 switch_logic 0 22 1NG;LliP;zb7gTXhKYG<O3
+!i122 74
+l104
+Z64 L20 99
+VZ_2RzQDL7^Y`jBIU@kdM42
+!s100 Bn:1dJGW0W93bUfMk@]fD3
+R6
+32
+R60
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R11
+R12
+Eswitch_top
+w1652271771
+R18
+R19
+R20
+R2
+R21
+R1
+!i122 44
+R3
+R58
+R59
+l0
+L9 1
+VjbEA;i?QbQ]:SI3AjP=PN3
+!s100 YPlo4faAiPmWRZKe;OU2X2
+R6
+32
+!s110 1652271777
+!i10b 1
+!s108 1652271777.000000
+R62
+R63
+!i113 1
+R11
+R12
+Aswitch_top_arc
+w1652271988
+R18
+R19
+R20
+R2
+R21
+R1
+DEx4 work 10 switch_top 0 22 jbEA;i?QbQ]:SI3AjP=PN3
+!i122 63
+l104
+R64
+V8K3ea6_iXeURA<z4i6diT3
+!s100 IBFHoYWRc0UQ64VN;zLz_1
+R6
+32
+!s110 1652272075
+!i10b 1
+!s108 1652272075.000000
+R62
+R63
+!i113 1
+R11
+R12
+Eswitchtop_tb
+Z65 w1652275464
+R18
+R19
+R20
+R2
+R21
+R1
+!i122 89
+R3
+R35
+R36
+l0
+L9 1
+Vzg<nE5h;C6IO[_@hk>ldX2
+!s100 FOe54f_JcQBhH>QNXIla70
+R6
+32
+Z66 !s110 1652275467
+!i10b 1
+Z67 !s108 1652275467.000000
+R39
+R40
+!i113 1
+R11
+R12
+Aswitchtop_tb_arc
+R18
+R19
+R20
+R2
+R21
+R1
+DEx4 work 12 switchtop_tb 0 22 zg<nE5h;C6IO[_@hk>ldX2
+!i122 89
+l33
+L12 73
+VL5mWgL8VO8f:b64iIdRS33
+!s100 `Hdmb;5mK@Q8>MU;2XbNY1
+R6
+32
+R66
+!i10b 1
+R67
+R39
+R40
+!i113 1
+R11
+R12
