@@ -20,7 +20,13 @@ ENTITY input_handler IS
 		valo3 : OUT STD_LOGIC;
 		dato3 : OUT STD_LOGIC_VECTOR(0 TO 7);
 		valo4 : OUT STD_LOGIC;
-		dato4 : OUT STD_LOGIC_VECTOR(0 TO 7)
+		dato4 : OUT STD_LOGIC_VECTOR(0 TO 7);
+		macr : OUT STD_LOGIC;
+		src_addr : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
+		dst_addr : OUT STD_LOGIC_VECTOR(47 DOWNTO 0);
+		poro : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+		dest : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+		macv : IN STD_LOGIC
 	);
 END input_handler;
 
@@ -52,23 +58,21 @@ ARCHITECTURE input_handler_arc OF input_handler IS
 		);
 	END COMPONENT;
 
-	COMPONENT simulated_mac IS
-		PORT (
-			clk : IN STD_LOGIC;
-			reset : IN STD_LOGIC;
-			val : IN STD_LOGIC;
-			src : IN STD_LOGIC_VECTOR(47 DOWNTO 0);
-			dst : IN STD_LOGIC_VECTOR(47 DOWNTO 0);
-			por : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-			porto : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
-			valo : OUT STD_LOGIC
-		);
-	END COMPONENT;
+	-- COMPONENT simulated_mac IS
+	-- 	PORT (
+	-- 		clk : IN STD_LOGIC;
+	-- 		reset : IN STD_LOGIC;
+	-- 		val : IN STD_LOGIC;
+	-- 		src : IN STD_LOGIC_VECTOR(47 DOWNTO 0);
+	-- 		dst : IN STD_LOGIC_VECTOR(47 DOWNTO 0);
+	-- 		por : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+	-- 		porto : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+	-- 		valo : OUT STD_LOGIC
+	-- 	);
+	-- END COMPONENT;
 
-	SIGNAL out_val, out_err, valr, req, fin, macr, macv, look_flag, dest1, dest2, dest3, dest4 : STD_LOGIC;
-	SIGNAL dst_addr, src_addr : STD_LOGIC_VECTOR(47 DOWNTO 0);
+	SIGNAL out_val, out_err, valr, req, fin, look_flag, dest1, dest2, dest3, dest4 : STD_LOGIC;
 	SIGNAL datr : STD_LOGIC_VECTOR(7 DOWNTO 0);
-	SIGNAL dest : STD_LOGIC_VECTOR(3 DOWNTO 0);
 	SIGNAL dato, datb : STD_LOGIC_VECTOR(8 DOWNTO 0);
 	TYPE state_type IS (REST, DST, SRC, LOOKUP, RUN);
 	TYPE out_type IS (REST, START, PUSH);
@@ -80,12 +84,14 @@ BEGIN
 
 	CRC : crc_parallel PORT MAP(clk, reset, val, dat, out_val, out_err);
 	BUF : buffer2k PORT MAP(clk, datb, req, reset, valr, OPEN, OPEN, OPEN, dato, OPEN);
-	MAC : simulated_mac PORT MAP(clk, reset, macr, src_addr, dst_addr, por, dest, macv);
+	--MAC : simulated_mac PORT MAP(clk, reset, macr, src_addr, dst_addr, por, dest, macv);
 
 	valo1 <= dest1 WHEN out_state = PUSH or out_state = START else '0';
 	valo2 <= dest1 WHEN out_state = PUSH or out_state = START else '0';
 	valo3 <= dest1 WHEN out_state = PUSH or out_state = START else '0';
 	valo4 <= dest1 WHEN out_state = PUSH or out_state = START else '0';
+
+	poro <= por;
 
 	dato1 <= dato(7 DOWNTO 0) WHEN dest1 = '1' AND out_state = PUSH;
 	dato2 <= dato(7 DOWNTO 0) WHEN dest2 = '1' AND out_state = PUSH;
