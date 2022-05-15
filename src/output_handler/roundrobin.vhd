@@ -60,6 +60,7 @@ BEGIN
 	valo <= '1' WHEN (RRstate = serve_buff1) OR (RRstate = serve_buff2) OR (RRstate = serve_buff3) ELSE
 		'0';
 
+
 	RR_stateMachine : PROCESS (clk)
 	BEGIN
 		IF (rising_edge(clk)) THEN
@@ -68,12 +69,12 @@ BEGIN
 				req2 <= '0';
 				req3 <= '0';
 				IF (emp1 = '1') THEN
-					RRstate <= search_buff2;
+				RRstate <= search_buff2;
 				ELSE
+					req1 <= '1';
 					RRstate <= serve_buff1;
 				END IF;
 			ELSIF (RRstate = serve_buff1) THEN
-				req1 <= '1';
 				IF (buf1(8) = '1' OR emp1 = '1') THEN
 					RRstate <= wait_buff1;
 					count <= 0;
@@ -89,12 +90,12 @@ BEGIN
 				req2 <= '0';
 				req3 <= '0';
 				IF (emp2 = '1') THEN
-					RRstate <= search_buff3;
+				RRstate <= search_buff3;
 				ELSE
+					req2 <= '1';
 					RRstate <= serve_buff2;
 				END IF;
 			ELSIF (RRstate = serve_buff2) THEN
-				req2 <= '1';
 				IF (buf2(8) = '1' OR emp2 = '1') THEN
 					RRstate <= wait_buff2;
 					count <= 0;
@@ -112,10 +113,10 @@ BEGIN
 				IF (emp3 = '1') THEN
 					RRstate <= search_buff1;
 				ELSE
+					req3 <= '1';
 					RRstate <= serve_buff3;
 				END IF;
 			ELSIF (RRstate = serve_buff3) THEN
-				req3 <= '1';
 				IF (buf3(8) = '1' OR emp3 = '1') THEN
 					RRstate <= wait_buff3;
 					count <= 0;

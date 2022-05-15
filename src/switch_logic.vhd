@@ -96,22 +96,22 @@ ARCHITECTURE switch_logic_arc OF switch_logic IS
 	SIGNAL mac_srcPort1, mac_dst1, mac_srcPort2, mac_dst2, mac_srcPort3, mac_dst3, mac_srcPort4, mac_dst4 : STD_LOGIC_VECTOR(3 DOWNTO 0);
 	SIGNAL mac_srcAddr1, mac_dstAddr1, mac_srcAddr2, mac_dstAddr2, mac_srcAddr3, mac_dstAddr3, mac_srcAddr4, mac_dstAddr4 : STD_LOGIC_VECTOR(47 DOWNTO 0);
 
-	SIGNAL port_1 : STD_LOGIC_VECTOR(3 DOWNTO 0) := "1000";
-	SIGNAL port_2 : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0100";
-	SIGNAL port_3 : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0010";
-	SIGNAL port_4 : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0001";
+	SIGNAL port_1 : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0001";
+	SIGNAL port_2 : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0010";
+	SIGNAL port_3 : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0100";
+	SIGNAL port_4 : STD_LOGIC_VECTOR(3 DOWNTO 0) := "1000";
 
 BEGIN
 
-	In_1 : input_handler PORT MAP(clk, reset, vali(0), dati(7 DOWNTO 0), port_1, OPEN, OPEN, val_one2two, dat_one2two, val_one2three, dat_one2three, val_one2four, dat_one2four, mac_req1, mac_srcAddr1, mac_dstAddr1, mac_srcPort1, mac_dst1, mac_val2one);
-	In_2 : input_handler PORT MAP(clk, reset, vali(1), dati(15 DOWNTO 8), port_2, val_two2one, dat_two2one, OPEN, OPEN, val_two2three, dat_two2three, val_two2four, dat_two2four, mac_req2, mac_srcAddr2, mac_dstAddr2, mac_srcPort2, mac_dst2, mac_val2two);
-	In_3 : input_handler PORT MAP(clk, reset, vali(2), dati(23 DOWNTO 16), port_3, val_three2one, dat_three2one, val_three2two, dat_three2two, OPEN, OPEN, val_three2four, dat_three2four, mac_req3, mac_srcAddr3, mac_dstAddr3, mac_srcPort3, mac_dst3, mac_val2three);
-	In_4 : input_handler PORT MAP(clk, reset, vali(3), dati(31 DOWNTO 24), port_4, val_four2one, dat_four2one, val_four2two, dat_four2two, val_four2three, dat_four2three, OPEN, OPEN, mac_req4, mac_srcAddr4, mac_dstAddr4, mac_srcPort4, mac_dst4, mac_val2four);
+	In_1 : input_handler PORT MAP(clk, reset, vali(0), dati(7 DOWNTO 0),   port_1, OPEN, OPEN,                   val_one2two, dat_one2two,     val_one2three, dat_one2three,   val_one2four, dat_one2four,     mac_req1, mac_srcAddr1, mac_dstAddr1, mac_srcPort1, mac_dst1, mac_val2one);
+	In_2 : input_handler PORT MAP(clk, reset, vali(1), dati(15 DOWNTO 8),  port_2, val_two2one, dat_two2one,     OPEN, OPEN,                   val_two2three, dat_two2three,   val_two2four, dat_two2four,     mac_req2, mac_srcAddr2, mac_dstAddr2, mac_srcPort2, mac_dst2, mac_val2two);
+	In_3 : input_handler PORT MAP(clk, reset, vali(2), dati(23 DOWNTO 16), port_3, val_three2one, dat_three2one, val_three2two, dat_three2two, OPEN, OPEN,                     val_three2four, dat_three2four, mac_req3, mac_srcAddr3, mac_dstAddr3, mac_srcPort3, mac_dst3, mac_val2three);
+	In_4 : input_handler PORT MAP(clk, reset, vali(3), dati(31 DOWNTO 24), port_4, val_four2one, dat_four2one,   val_four2two, dat_four2two,   val_four2three, dat_four2three, OPEN, OPEN,                     mac_req4, mac_srcAddr4, mac_dstAddr4, mac_srcPort4, mac_dst4, mac_val2four);
 
-	Out_1 : roundrobin PORT MAP(clk, dat_two2one, val_two2one, dat_three2one, val_three2one, dat_four2one, val_four2one, dato(7 DOWNTO 0), valo(0));
-	Out_2 : roundrobin PORT MAP(clk, dat_one2two, val_one2two, dat_three2two, val_three2two, dat_four2two, val_four2two, dato(15 DOWNTO 8), valo(1));
+	Out_1 : roundrobin PORT MAP(clk, dat_two2one, val_two2one,     dat_three2one, val_three2one, dat_four2one, val_four2one,     dato(7 DOWNTO 0), valo(0));
+	Out_2 : roundrobin PORT MAP(clk, dat_one2two, val_one2two,     dat_three2two, val_three2two, dat_four2two, val_four2two,     dato(15 DOWNTO 8), valo(1));
 	Out_3 : roundrobin PORT MAP(clk, dat_one2three, val_one2three, dat_two2three, val_two2three, dat_four2three, val_four2three, dato(23 DOWNTO 16), valo(2));
-	Out_4 : roundrobin PORT MAP(clk, dat_one2four, val_one2four, dat_two2four, val_two2four, dat_three2four, val_three2four, dato(31 DOWNTO 24), valo(3));
+	Out_4 : roundrobin PORT MAP(clk, dat_one2four, val_one2four,   dat_two2four, val_two2four,   dat_three2four, val_three2four, dato(31 DOWNTO 24), valo(3));
 
 	MAC : mac_learning PORT MAP(clk, reset, mac_dstAddr1, mac_srcAddr1, mac_srcPort1, mac_req1, mac_dstAddr2, mac_srcAddr2, mac_srcPort2, mac_req2, mac_dstAddr3, mac_srcAddr3, mac_srcPort3, mac_req3, mac_dstAddr4, mac_srcAddr4, mac_srcPort4, mac_req4, mac_dst1, mac_val2one, mac_dst2, mac_val2two, mac_dst3, mac_val2three, mac_dst4, mac_val2four);
 

@@ -194,6 +194,7 @@ BEGIN
 				R(10) <= R(2) XOR R(5) XOR R(6) XOR R(8) XOR R(9) XOR R(10) XOR R(11) XOR R(12);
 				R(11) <= R(3) XOR R(5) XOR R(7);
 				R(12) <= R(4) XOR R(5) XOR R(8) XOR R(9) XOR R(10) XOR R(11) XOR R(12);
+				
 				R2(0) <= R2(5) XOR R2(6) XOR R2(9) XOR R2(10) XOR R2(11) XOR R2(12) XOR D2(7);
 				R2(1) <= R2(6) XOR R2(7) XOR R2(10) XOR R2(11) XOR R2(12) XOR D2(6);
 				R2(2) <= R2(5) XOR R2(6) XOR R2(7) XOR R2(8) XOR R2(9) XOR R2(10) XOR D2(5);

@@ -73,10 +73,10 @@ BEGIN
 	BUF : buffer2k PORT MAP(clk, datb, req, reset, valr, OPEN, OPEN, OPEN, dato, OPEN);
 	--MAC : simulated_mac PORT MAP(clk, reset, macr, src_addr, dst_addr, por, dest, macv);
 
-	valo1 <= dest1 WHEN (out_state = PUSH or out_state = START) and not (dont = '1') else '0';
-	valo2 <= dest1 WHEN (out_state = PUSH or out_state = START) and not (dont = '1') else '0';
-	valo3 <= dest1 WHEN (out_state = PUSH or out_state = START) and not (dont = '1') else '0';
-	valo4 <= dest1 WHEN (out_state = PUSH or out_state = START) and not (dont = '1') else '0';
+	valo1 <= dest1 WHEN out_state = PUSH and (dont = '0')   else '0'; --  --  or out_state = START
+	valo2 <= dest2 WHEN out_state = PUSH and (dont = '0')  else '0'; --  --  or out_state = START
+	valo3 <= dest3 WHEN out_state = PUSH and (dont = '0')  else '0'; --  --  or out_state = START
+	valo4 <= dest4 WHEN out_state = PUSH and (dont = '0')  else '0'; --  --  or out_state = START
 
 	poro <= por;
 

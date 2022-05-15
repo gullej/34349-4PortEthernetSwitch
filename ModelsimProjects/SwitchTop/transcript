@@ -1,128 +1,36 @@
-# Compile of SwitchTop_TB.vhd failed with 1 errors.
-# Compile of switch_logic.vhd failed with 38 errors.
-# Compile of buffer2K.vhd was successful.
-# Compile of buffer32K.vhd was successful.
-# Compile of crc_parallel.vhd was successful.
-# Compile of input_handler.vhd was successful.
-# Compile of Mac_learning.vhd was successful.
-# Compile of Mac_memory.vhd was successful.
-# Compile of roundrobin.vhd was successful.
-# 9 compiles, 2 failed with 39 errors.
-# Compile of SwitchTop_TB.vhd failed with 36 errors.
-# Compile of switch_logic.vhd failed with 75 errors.
-# 2 compiles, 2 failed with 111 errors.
-# Compile of SwitchTop_TB.vhd failed with 9 errors.
-# Compile of switch_logic.vhd failed with 75 errors.
-# 2 compiles, 2 failed with 84 errors.
-# Compile of SwitchTop_TB.vhd failed with 1 errors.
-# Compile of switch_logic.vhd failed with 75 errors.
-# 2 compiles, 2 failed with 76 errors.
-# Compile of SwitchTop_TB.vhd failed with 1 errors.
-# Compile of switch_logic.vhd failed with 73 errors.
-# 2 compiles, 2 failed with 74 errors.
-# Compile of SwitchTop_TB.vhd was successful.
-# Compile of switch_logic.vhd failed with 35 errors.
-# 2 compiles, 1 failed with 35 errors.
-# Compile of switch_logic.vhd failed with 32 errors.
-# Compile of switch_logic.vhd failed with 24 errors.
-# Compile of switch_logic.vhd failed with 24 errors.
-# Compile of switch_logic.vhd failed with 13 errors.
-# Compile of switch_logic.vhd failed with 12 errors.
-# Compile of input_handler.vhd was successful with warnings.
-# 2 compiles, 1 failed with 12 errors.
-# Compile of SwitchTop_TB.vhd was successful.
-# Compile of switch_logic.vhd failed with 12 errors.
-# Compile of buffer2K.vhd was successful.
-# Compile of buffer32K.vhd was successful.
-# Compile of crc_parallel.vhd was successful.
-# Compile of input_handler.vhd was successful.
-# Compile of Mac_learning.vhd was successful.
-# Compile of Mac_memory.vhd was successful.
-# Compile of roundrobin.vhd was successful.
-# 9 compiles, 1 failed with 12 errors.
-# Compile of SwitchTop_TB.vhd was successful.
-# Compile of buffer2K.vhd was successful.
-# Compile of buffer32K.vhd was successful.
-# Compile of crc_parallel.vhd was successful.
-# Compile of input_handler.vhd was successful.
-# Compile of Mac_learning.vhd was successful.
-# Compile of Mac_memory.vhd was successful.
-# Compile of roundrobin.vhd was successful.
-# Compile of switch_logic.vhd failed with 12 errors.
-# 9 compiles, 1 failed with 12 errors.
-# Compile of input_handler.vhd was successful.
-# Compile of Mac_learning.vhd was successful.
 # Compile of switch_logic.vhd was successful.
-# 3 compiles, 0 failed with no errors.
-# Load canceled
-# Compile of SwitchTop_TB.vhd was successful.
-# Compile of buffer2K.vhd was successful.
-# Compile of buffer32K.vhd was successful.
 # Compile of crc_parallel.vhd was successful.
 # Compile of input_handler.vhd was successful.
 # Compile of Mac_learning.vhd was successful.
 # Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
 # Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
 # Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd failed with 3 errors.
+# 9 compiles, 1 failed with 3 errors.
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
 # 9 compiles, 0 failed with no errors.
 vsim -gui work.switchtop_tb
 # vsim -gui work.switchtop_tb 
-# Start time: 14:25:03 on May 11,2022
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading ieee.numeric_std(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.switchtop_tb(switchtop_tb_arc)
-add wave -position insertpoint sim:/switchtop_tb/*
-run 500 ns
-run 500 ns
-run 500 ns
-run 500 ns
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Compile of switch_logic.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Compile of SwitchTop_TB.vhd was successful.
-# Compile of buffer2K.vhd was successful.
-# Compile of buffer32K.vhd was successful.
-# Compile of crc_parallel.vhd was successful.
-# Compile of input_handler.vhd was successful.
-# Compile of Mac_learning.vhd was successful.
-# Compile of Mac_memory.vhd was successful.
-# Compile of roundrobin.vhd was successful.
-# Compile of switch_logic.vhd was successful.
-# 9 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.switchtop_tb(switchtop_tb_arc)
-# ** Error: (vsim-3173) Entity 'C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/work.switch_logic' has no architecture.
-# Load interrupted
-# Compile of switch_logic.vhd was successful.
-restart -f
-# No Design Loaded!
-vsim -gui work.switchtop_tb
-# vsim -gui work.switchtop_tb 
-# Start time: 14:25:03 on May 11,2022
-# Error loading design
-# End time: 14:28:44 on May 11,2022, Elapsed time: 0:03:41
-# Errors: 1, Warnings: 2
-# Compile of SwitchTop_TB.vhd was successful.
-# Compile of buffer2K.vhd was successful.
-# Compile of buffer32K.vhd was successful.
-# Compile of crc_parallel.vhd was successful.
-# Compile of input_handler.vhd was successful.
-# Compile of Mac_learning.vhd was successful.
-# Compile of Mac_memory.vhd was successful.
-# Compile of roundrobin.vhd was successful.
-# Compile of switch_logic.vhd was successful.
-# 9 compiles, 0 failed with no errors.
-vsim -gui work.switchtop_tb
-# vsim -gui work.switchtop_tb 
-# Start time: 14:29:31 on May 11,2022
+# Start time: 13:12:58 on May 15,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -141,132 +49,1615 @@ vsim -gui work.switchtop_tb
 # Loading work.buffer32k(syn)
 # Loading work.mac_learning(mac_learning_arc)
 # Loading work.mac_memory(mac_memory_arc)
-run 1000 ns
-add wave -position insertpoint sim:/switchtop_tb/DUT/*
-# Compile of switch_logic.vhd was successful.
+run 4000 ns
+# ** Fatal: (vsim-3471) Slice range (956 to 963) does not belong to the prefix index range (0 to 955).
+#    Time: 2595 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+# Fatal error in Process feeder at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 59
+# 
+# HDL call sequence:
+# Stopped at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
+# 
+# Compile of SwitchTop_TB.vhd was successful.
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.switch_logic(switch_logic_arc)
-run 1000 ns
-# Compile of SwitchTop_TB.vhd failed with 4 errors.
-# Compile of SwitchTop_TB.vhd failed with 1 errors.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 4000 ns
+# ** Fatal: (vsim-3471) Slice range (956 to 963) does not belong to the prefix index range (0 to 955).
+#    Time: 2595 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+# Fatal error in Process feeder at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 59
+# 
+# HDL call sequence:
+# Stopped at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
+# 
+# Compile of SwitchTop_TB.vhd was successful.
 # Compile of SwitchTop_TB.vhd was successful.
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.switchtop_tb(switchtop_tb_arc)
 run 1000 ns
-restart -f
-run 1000 ns
-# Compile of SwitchTop_TB.vhd failed with 4 errors.
-# Compile of SwitchTop_TB.vhd failed with 2 errors.
-# Compile of SwitchTop_TB.vhd was successful with warnings.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.switchtop_tb(switchtop_tb_arc)
-run 2000 ns
-# ** Fatal: (vsim-3607) Slice range direction (to) does not match slice prefix direction (downto).
-#    Time: 3 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
-# Fatal error in Process feeder at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 49
-# 
-# HDL call sequence:
-# Stopped at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 49 Process feeder
-# 
-# Compile of SwitchTop_TB.vhd failed with 1 errors.
-# Compile of SwitchTop_TB.vhd failed with 1 errors.
-# Compile of SwitchTop_TB.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.switchtop_tb(switchtop_tb_arc)
-run 2000 ns
-# ** Fatal: (vsim-3421) Value 2056 is out of range 0 to 2048.
-#    Time: 1539 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd Line: 52
-# Fatal error in Process feeder at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 52
-# 
-# HDL call sequence:
-# Stopped at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 52 Process feeder
-# 
-add wave -position insertpoint sim:/switchtop_tb/DUT/*
 add wave -position insertpoint  \
-sim:/switchtop_tb/COUNTER
+sim:/switchtop_tb/DUT/clk \
+sim:/switchtop_tb/DUT/reset \
+sim:/switchtop_tb/DUT/vali \
+sim:/switchtop_tb/DUT/dati \
+sim:/switchtop_tb/DUT/valo \
+sim:/switchtop_tb/DUT/dato \
+sim:/switchtop_tb/DUT/val_one2two \
+sim:/switchtop_tb/DUT/val_one2three \
+sim:/switchtop_tb/DUT/val_one2four \
+sim:/switchtop_tb/DUT/val_two2one \
+sim:/switchtop_tb/DUT/val_two2three \
+sim:/switchtop_tb/DUT/val_two2four \
+sim:/switchtop_tb/DUT/val_three2one \
+sim:/switchtop_tb/DUT/val_three2two \
+sim:/switchtop_tb/DUT/val_three2four \
+sim:/switchtop_tb/DUT/val_four2one \
+sim:/switchtop_tb/DUT/val_four2two \
+sim:/switchtop_tb/DUT/val_four2three \
+sim:/switchtop_tb/DUT/dat_one2two \
+sim:/switchtop_tb/DUT/dat_one2three \
+sim:/switchtop_tb/DUT/dat_one2four \
+sim:/switchtop_tb/DUT/dat_two2one \
+sim:/switchtop_tb/DUT/dat_two2three \
+sim:/switchtop_tb/DUT/dat_two2four \
+sim:/switchtop_tb/DUT/dat_three2one \
+sim:/switchtop_tb/DUT/dat_three2two \
+sim:/switchtop_tb/DUT/dat_three2four \
+sim:/switchtop_tb/DUT/dat_four2one \
+sim:/switchtop_tb/DUT/dat_four2two \
+sim:/switchtop_tb/DUT/dat_four2three \
+sim:/switchtop_tb/DUT/mac_req1 \
+sim:/switchtop_tb/DUT/mac_req2 \
+sim:/switchtop_tb/DUT/mac_req3 \
+sim:/switchtop_tb/DUT/mac_req4 \
+sim:/switchtop_tb/DUT/mac_val2one \
+sim:/switchtop_tb/DUT/mac_val2two \
+sim:/switchtop_tb/DUT/mac_val2three \
+sim:/switchtop_tb/DUT/mac_val2four \
+sim:/switchtop_tb/DUT/mac_srcPort1 \
+sim:/switchtop_tb/DUT/mac_dst1 \
+sim:/switchtop_tb/DUT/mac_srcPort2 \
+sim:/switchtop_tb/DUT/mac_dst2 \
+sim:/switchtop_tb/DUT/mac_srcPort3 \
+sim:/switchtop_tb/DUT/mac_dst3 \
+sim:/switchtop_tb/DUT/mac_srcPort4 \
+sim:/switchtop_tb/DUT/mac_dst4 \
+sim:/switchtop_tb/DUT/mac_srcAddr1 \
+sim:/switchtop_tb/DUT/mac_dstAddr1 \
+sim:/switchtop_tb/DUT/mac_srcAddr2 \
+sim:/switchtop_tb/DUT/mac_dstAddr2 \
+sim:/switchtop_tb/DUT/mac_srcAddr3 \
+sim:/switchtop_tb/DUT/mac_dstAddr3 \
+sim:/switchtop_tb/DUT/mac_srcAddr4 \
+sim:/switchtop_tb/DUT/mac_dstAddr4 \
+sim:/switchtop_tb/DUT/port_1 \
+sim:/switchtop_tb/DUT/port_2 \
+sim:/switchtop_tb/DUT/port_3 \
+sim:/switchtop_tb/DUT/port_4
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: GJJ  Hostname: DESKTOP-JEV4EU6  ProcessID: 3180
+#           Attempting to use alternate WLF file "./wlftk66k9y".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftk66k9y
+restart -f
+run 4000 ns
+# ** Fatal: (vsim-3471) Slice range (-1392 to -1385) does not belong to the prefix index range (0 to 1567).
+#    Time: 2931 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+# Fatal error in Process feeder at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 71
+# 
+# HDL call sequence:
+# Stopped at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 71 Process feeder
+# 
+restart -f
 # Compile of SwitchTop_TB.vhd was successful.
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.switchtop_tb(switchtop_tb_arc)
-run 2000 ns
-run 2000 ns
-# ** Fatal: (vsim-3471) Slice range (2532 to 2539) does not belong to the prefix index range (0 to 2535).
-#    Time: 3777 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
-# Fatal error in Process feeder at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 59
+run 4000 ns
+run 4000 ns
+# ** Fatal: (vsim-3471) Slice range (1568 to 1575) does not belong to the prefix index range (0 to 1567).
+#    Time: 4107 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+# Fatal error in Process feeder at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 71
 # 
 # HDL call sequence:
-# Stopped at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
-# 
-run 2000 ns
-# Cannot continue because of fatal error.
-# HDL call sequence:
-# Stopped at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
-# 
-# Compile of SwitchTop_TB.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.switchtop_tb(switchtop_tb_arc)
-run 10000 ns
-# ** Fatal: (vsim-3471) Slice range (-2532 to -2525) does not belong to the prefix index range (0 to 2535).
-#    Time: 1881 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
-# Fatal error in Process feeder at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 59
-# 
-# HDL call sequence:
-# Stopped at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
-# 
-# Compile of SwitchTop_TB.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.switchtop_tb(switchtop_tb_arc)
-run 10000 ns
-# ** Fatal: (vsim-3471) Slice range (2532 to 2539) does not belong to the prefix index range (0 to 2535).
-#    Time: 3777 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
-# Fatal error in Process feeder at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 59
-# 
-# HDL call sequence:
-# Stopped at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
-# 
-# Compile of SwitchTop_TB.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.switchtop_tb(switchtop_tb_arc)
-run 10000 ns
-# ** Fatal: (vsim-3471) Slice range (2532 to 2539) does not belong to the prefix index range (0 to 2535).
-#    Time: 3777 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
-# Fatal error in Process feeder at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 59
-# 
-# HDL call sequence:
-# Stopped at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
-# 
-run 10000 ns
-# Cannot continue because of fatal error.
-# HDL call sequence:
-# Stopped at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
-# 
-# Compile of SwitchTop_TB.vhd was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.switchtop_tb(switchtop_tb_arc)
-run 10000 ns
-# ** Fatal: (vsim-3471) Slice range (-704 to -697) does not belong to the prefix index range (0 to 431).
-#    Time: 3975 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
-# Fatal error in Process feeder at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 71
-# 
-# HDL call sequence:
-# Stopped at C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 71 Process feeder
+# Stopped at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 71 Process feeder
 # 
 # Compile of SwitchTop_TB.vhd was successful.
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.switchtop_tb(switchtop_tb_arc)
 run 5000 ns
-run 1000 ns
-run 1000 ns
-run 1000 ns
+# ** Fatal: (vsim-3471) Slice range (1568 to 1575) does not belong to the prefix index range (0 to 1567).
+#    Time: 4107 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+# Fatal error in Process feeder at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 71
+# 
+# HDL call sequence:
+# Stopped at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 71 Process feeder
+# 
+add wave -position insertpoint  \
+sim:/switchtop_tb/clk \
+sim:/switchtop_tb/reset_TB \
+sim:/switchtop_tb/vali_TB \
+sim:/switchtop_tb/valo_TB \
+sim:/switchtop_tb/dati_TB \
+sim:/switchtop_tb/dato_TB \
+sim:/switchtop_tb/COUNTER \
+sim:/switchtop_tb/PACKET1 \
+sim:/switchtop_tb/PACKET2 \
+sim:/switchtop_tb/PACKET3
+restart -f
+run 5000 ns
+# ** Fatal: (vsim-3471) Slice range (1568 to 1575) does not belong to the prefix index range (0 to 1567).
+#    Time: 4107 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+# Fatal error in Process feeder at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 71
+# 
+# HDL call sequence:
+# Stopped at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 71 Process feeder
+# 
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 5000 ns
+# Compile of SwitchTop_TB.vhd failed with 2 errors.
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 5000 ns
+run 5000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/clk \
+sim:/switchtop_tb/DUT/dat_four2one \
+sim:/switchtop_tb/DUT/dat_four2three \
+sim:/switchtop_tb/DUT/dat_four2two \
+sim:/switchtop_tb/DUT/dat_one2four \
+sim:/switchtop_tb/DUT/dat_one2three \
+sim:/switchtop_tb/DUT/dat_one2two \
+sim:/switchtop_tb/DUT/dat_three2four \
+sim:/switchtop_tb/DUT/dat_three2one \
+sim:/switchtop_tb/DUT/dat_three2two \
+sim:/switchtop_tb/DUT/dat_two2four \
+sim:/switchtop_tb/DUT/dat_two2one \
+sim:/switchtop_tb/DUT/dat_two2three \
+sim:/switchtop_tb/DUT/dati \
+sim:/switchtop_tb/DUT/dato \
+sim:/switchtop_tb/DUT/mac_dst1 \
+sim:/switchtop_tb/DUT/mac_dst2 \
+sim:/switchtop_tb/DUT/mac_dst3 \
+sim:/switchtop_tb/DUT/mac_dst4 \
+sim:/switchtop_tb/DUT/mac_dstAddr1 \
+sim:/switchtop_tb/DUT/mac_dstAddr2 \
+sim:/switchtop_tb/DUT/mac_dstAddr3 \
+sim:/switchtop_tb/DUT/mac_dstAddr4 \
+sim:/switchtop_tb/DUT/mac_req1 \
+sim:/switchtop_tb/DUT/mac_req2 \
+sim:/switchtop_tb/DUT/mac_req3 \
+sim:/switchtop_tb/DUT/mac_req4 \
+sim:/switchtop_tb/DUT/mac_srcAddr1 \
+sim:/switchtop_tb/DUT/mac_srcAddr2 \
+sim:/switchtop_tb/DUT/mac_srcAddr3 \
+sim:/switchtop_tb/DUT/mac_srcAddr4 \
+sim:/switchtop_tb/DUT/mac_srcPort1 \
+sim:/switchtop_tb/DUT/mac_srcPort2 \
+sim:/switchtop_tb/DUT/mac_srcPort3 \
+sim:/switchtop_tb/DUT/mac_srcPort4 \
+sim:/switchtop_tb/DUT/mac_val2four \
+sim:/switchtop_tb/DUT/mac_val2one \
+sim:/switchtop_tb/DUT/mac_val2three \
+sim:/switchtop_tb/DUT/mac_val2two \
+sim:/switchtop_tb/DUT/port_1 \
+sim:/switchtop_tb/DUT/port_2 \
+sim:/switchtop_tb/DUT/port_3 \
+sim:/switchtop_tb/DUT/port_4 \
+sim:/switchtop_tb/DUT/reset \
+sim:/switchtop_tb/DUT/val_four2one \
+sim:/switchtop_tb/DUT/val_four2three \
+sim:/switchtop_tb/DUT/val_four2two \
+sim:/switchtop_tb/DUT/val_one2four \
+sim:/switchtop_tb/DUT/val_one2three \
+sim:/switchtop_tb/DUT/val_one2two \
+sim:/switchtop_tb/DUT/val_three2four \
+sim:/switchtop_tb/DUT/val_three2one \
+sim:/switchtop_tb/DUT/val_three2two \
+sim:/switchtop_tb/DUT/val_two2four \
+sim:/switchtop_tb/DUT/val_two2one \
+sim:/switchtop_tb/DUT/val_two2three \
+sim:/switchtop_tb/DUT/vali \
+sim:/switchtop_tb/DUT/valo
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_1/clk \
+sim:/switchtop_tb/DUT/In_1/count \
+sim:/switchtop_tb/DUT/In_1/dat \
+sim:/switchtop_tb/DUT/In_1/datb \
+sim:/switchtop_tb/DUT/In_1/dato \
+sim:/switchtop_tb/DUT/In_1/dato1 \
+sim:/switchtop_tb/DUT/In_1/dato2 \
+sim:/switchtop_tb/DUT/In_1/dato3 \
+sim:/switchtop_tb/DUT/In_1/dato4 \
+sim:/switchtop_tb/DUT/In_1/datr \
+sim:/switchtop_tb/DUT/In_1/dest \
+sim:/switchtop_tb/DUT/In_1/dest1 \
+sim:/switchtop_tb/DUT/In_1/dest2 \
+sim:/switchtop_tb/DUT/In_1/dest3 \
+sim:/switchtop_tb/DUT/In_1/dest4 \
+sim:/switchtop_tb/DUT/In_1/dont \
+sim:/switchtop_tb/DUT/In_1/dst_addr \
+sim:/switchtop_tb/DUT/In_1/fin \
+sim:/switchtop_tb/DUT/In_1/look_flag \
+sim:/switchtop_tb/DUT/In_1/macr \
+sim:/switchtop_tb/DUT/In_1/macv \
+sim:/switchtop_tb/DUT/In_1/out_err \
+sim:/switchtop_tb/DUT/In_1/out_state \
+sim:/switchtop_tb/DUT/In_1/out_val \
+sim:/switchtop_tb/DUT/In_1/por \
+sim:/switchtop_tb/DUT/In_1/poro \
+sim:/switchtop_tb/DUT/In_1/req \
+sim:/switchtop_tb/DUT/In_1/reset \
+sim:/switchtop_tb/DUT/In_1/src_addr \
+sim:/switchtop_tb/DUT/In_1/state \
+sim:/switchtop_tb/DUT/In_1/val \
+sim:/switchtop_tb/DUT/In_1/valo1 \
+sim:/switchtop_tb/DUT/In_1/valo2 \
+sim:/switchtop_tb/DUT/In_1/valo3 \
+sim:/switchtop_tb/DUT/In_1/valo4 \
+sim:/switchtop_tb/DUT/In_1/valr
+restart -f
+run 5000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_1/CRC/clk \
+sim:/switchtop_tb/DUT/In_1/CRC/count \
+sim:/switchtop_tb/DUT/In_1/CRC/dat \
+sim:/switchtop_tb/DUT/In_1/CRC/data \
+sim:/switchtop_tb/DUT/In_1/CRC/out_err \
+sim:/switchtop_tb/DUT/In_1/CRC/out_val \
+sim:/switchtop_tb/DUT/In_1/CRC/R \
+sim:/switchtop_tb/DUT/In_1/CRC/reset \
+sim:/switchtop_tb/DUT/In_1/CRC/state \
+sim:/switchtop_tb/DUT/In_1/CRC/val \
+sim:/switchtop_tb/DUT/In_1/CRC/val_reg
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 5000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_1/CRC/clk \
+sim:/switchtop_tb/DUT/In_1/CRC/count \
+sim:/switchtop_tb/DUT/In_1/CRC/dat \
+sim:/switchtop_tb/DUT/In_1/CRC/data \
+sim:/switchtop_tb/DUT/In_1/CRC/out_err \
+sim:/switchtop_tb/DUT/In_1/CRC/out_val \
+sim:/switchtop_tb/DUT/In_1/CRC/R \
+sim:/switchtop_tb/DUT/In_1/CRC/reset \
+sim:/switchtop_tb/DUT/In_1/CRC/state \
+sim:/switchtop_tb/DUT/In_1/CRC/val \
+sim:/switchtop_tb/DUT/In_1/CRC/val_reg
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 5000 ns
+# Compile of input_handler.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.input_handler(input_handler_arc)
+add wave -position insertpoint  \
+sim:/switchtop_tb/clk \
+sim:/switchtop_tb/COUNTER \
+sim:/switchtop_tb/dati_TB \
+sim:/switchtop_tb/dato_TB \
+sim:/switchtop_tb/PACKET1 \
+sim:/switchtop_tb/PACKET2 \
+sim:/switchtop_tb/PACKET3 \
+sim:/switchtop_tb/reset_TB \
+sim:/switchtop_tb/vali_TB \
+sim:/switchtop_tb/valo_TB
+restart -f
+run 5000 ns
+run 5000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/clk \
+sim:/switchtop_tb/DUT/dat_four2one \
+sim:/switchtop_tb/DUT/dat_four2three \
+sim:/switchtop_tb/DUT/dat_four2two \
+sim:/switchtop_tb/DUT/dat_one2four \
+sim:/switchtop_tb/DUT/dat_one2three \
+sim:/switchtop_tb/DUT/dat_one2two \
+sim:/switchtop_tb/DUT/dat_three2four \
+sim:/switchtop_tb/DUT/dat_three2one \
+sim:/switchtop_tb/DUT/dat_three2two \
+sim:/switchtop_tb/DUT/dat_two2four \
+sim:/switchtop_tb/DUT/dat_two2one \
+sim:/switchtop_tb/DUT/dat_two2three \
+sim:/switchtop_tb/DUT/dati \
+sim:/switchtop_tb/DUT/dato \
+sim:/switchtop_tb/DUT/mac_dst1 \
+sim:/switchtop_tb/DUT/mac_dst2 \
+sim:/switchtop_tb/DUT/mac_dst3 \
+sim:/switchtop_tb/DUT/mac_dst4 \
+sim:/switchtop_tb/DUT/mac_dstAddr1 \
+sim:/switchtop_tb/DUT/mac_dstAddr2 \
+sim:/switchtop_tb/DUT/mac_dstAddr3 \
+sim:/switchtop_tb/DUT/mac_dstAddr4 \
+sim:/switchtop_tb/DUT/mac_req1 \
+sim:/switchtop_tb/DUT/mac_req2 \
+sim:/switchtop_tb/DUT/mac_req3 \
+sim:/switchtop_tb/DUT/mac_req4 \
+sim:/switchtop_tb/DUT/mac_srcAddr1 \
+sim:/switchtop_tb/DUT/mac_srcAddr2 \
+sim:/switchtop_tb/DUT/mac_srcAddr3 \
+sim:/switchtop_tb/DUT/mac_srcAddr4 \
+sim:/switchtop_tb/DUT/mac_srcPort1 \
+sim:/switchtop_tb/DUT/mac_srcPort2 \
+sim:/switchtop_tb/DUT/mac_srcPort3 \
+sim:/switchtop_tb/DUT/mac_srcPort4 \
+sim:/switchtop_tb/DUT/mac_val2four \
+sim:/switchtop_tb/DUT/mac_val2one \
+sim:/switchtop_tb/DUT/mac_val2three \
+sim:/switchtop_tb/DUT/mac_val2two \
+sim:/switchtop_tb/DUT/port_1 \
+sim:/switchtop_tb/DUT/port_2 \
+sim:/switchtop_tb/DUT/port_3 \
+sim:/switchtop_tb/DUT/port_4 \
+sim:/switchtop_tb/DUT/reset \
+sim:/switchtop_tb/DUT/val_four2one \
+sim:/switchtop_tb/DUT/val_four2three \
+sim:/switchtop_tb/DUT/val_four2two \
+sim:/switchtop_tb/DUT/val_one2four \
+sim:/switchtop_tb/DUT/val_one2three \
+sim:/switchtop_tb/DUT/val_one2two \
+sim:/switchtop_tb/DUT/val_three2four \
+sim:/switchtop_tb/DUT/val_three2one \
+sim:/switchtop_tb/DUT/val_three2two \
+sim:/switchtop_tb/DUT/val_two2four \
+sim:/switchtop_tb/DUT/val_two2one \
+sim:/switchtop_tb/DUT/val_two2three \
+sim:/switchtop_tb/DUT/vali \
+sim:/switchtop_tb/DUT/valo
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/MAC/clock \
+sim:/switchtop_tb/DUT/MAC/count \
+sim:/switchtop_tb/DUT/MAC/D \
+sim:/switchtop_tb/DUT/MAC/D2 \
+sim:/switchtop_tb/DUT/MAC/Data \
+sim:/switchtop_tb/DUT/MAC/data_ram \
+sim:/switchtop_tb/DUT/MAC/dest_out \
+sim:/switchtop_tb/DUT/MAC/dest_out_1 \
+sim:/switchtop_tb/DUT/MAC/dest_out_2 \
+sim:/switchtop_tb/DUT/MAC/dest_out_3 \
+sim:/switchtop_tb/DUT/MAC/dest_out_4 \
+sim:/switchtop_tb/DUT/MAC/mac_dst \
+sim:/switchtop_tb/DUT/MAC/mac_dst_1 \
+sim:/switchtop_tb/DUT/MAC/mac_dst_2 \
+sim:/switchtop_tb/DUT/MAC/mac_dst_3 \
+sim:/switchtop_tb/DUT/MAC/mac_dst_4 \
+sim:/switchtop_tb/DUT/MAC/mac_src \
+sim:/switchtop_tb/DUT/MAC/mac_src_1 \
+sim:/switchtop_tb/DUT/MAC/mac_src_2 \
+sim:/switchtop_tb/DUT/MAC/mac_src_3 \
+sim:/switchtop_tb/DUT/MAC/mac_src_4 \
+sim:/switchtop_tb/DUT/MAC/port_in \
+sim:/switchtop_tb/DUT/MAC/port_in_1 \
+sim:/switchtop_tb/DUT/MAC/port_in_2 \
+sim:/switchtop_tb/DUT/MAC/port_in_3 \
+sim:/switchtop_tb/DUT/MAC/port_in_4 \
+sim:/switchtop_tb/DUT/MAC/R \
+sim:/switchtop_tb/DUT/MAC/R2 \
+sim:/switchtop_tb/DUT/MAC/read_add \
+sim:/switchtop_tb/DUT/MAC/read_en \
+sim:/switchtop_tb/DUT/MAC/read_in \
+sim:/switchtop_tb/DUT/MAC/read_in_1 \
+sim:/switchtop_tb/DUT/MAC/read_in_2 \
+sim:/switchtop_tb/DUT/MAC/read_in_3 \
+sim:/switchtop_tb/DUT/MAC/read_in_4 \
+sim:/switchtop_tb/DUT/MAC/read_out \
+sim:/switchtop_tb/DUT/MAC/read_out_1 \
+sim:/switchtop_tb/DUT/MAC/read_out_2 \
+sim:/switchtop_tb/DUT/MAC/read_out_3 \
+sim:/switchtop_tb/DUT/MAC/read_out_4 \
+sim:/switchtop_tb/DUT/MAC/reset \
+sim:/switchtop_tb/DUT/MAC/RRstate \
+sim:/switchtop_tb/DUT/MAC/state \
+sim:/switchtop_tb/DUT/MAC/write_add \
+sim:/switchtop_tb/DUT/MAC/write_en
+restart -f
+run 7000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/MAC/mac_mem/ram_block
+restart -f
+run 5000 ns
+run 5000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_1/clk \
+sim:/switchtop_tb/DUT/In_1/count \
+sim:/switchtop_tb/DUT/In_1/dat \
+sim:/switchtop_tb/DUT/In_1/datb \
+sim:/switchtop_tb/DUT/In_1/dato \
+sim:/switchtop_tb/DUT/In_1/dato1 \
+sim:/switchtop_tb/DUT/In_1/dato2 \
+sim:/switchtop_tb/DUT/In_1/dato3 \
+sim:/switchtop_tb/DUT/In_1/dato4 \
+sim:/switchtop_tb/DUT/In_1/datr \
+sim:/switchtop_tb/DUT/In_1/dest \
+sim:/switchtop_tb/DUT/In_1/dest1 \
+sim:/switchtop_tb/DUT/In_1/dest2 \
+sim:/switchtop_tb/DUT/In_1/dest3 \
+sim:/switchtop_tb/DUT/In_1/dest4 \
+sim:/switchtop_tb/DUT/In_1/dont \
+sim:/switchtop_tb/DUT/In_1/dst_addr \
+sim:/switchtop_tb/DUT/In_1/fin \
+sim:/switchtop_tb/DUT/In_1/look_flag \
+sim:/switchtop_tb/DUT/In_1/macr \
+sim:/switchtop_tb/DUT/In_1/macv \
+sim:/switchtop_tb/DUT/In_1/out_err \
+sim:/switchtop_tb/DUT/In_1/out_state \
+sim:/switchtop_tb/DUT/In_1/out_val \
+sim:/switchtop_tb/DUT/In_1/por \
+sim:/switchtop_tb/DUT/In_1/poro \
+sim:/switchtop_tb/DUT/In_1/req \
+sim:/switchtop_tb/DUT/In_1/reset \
+sim:/switchtop_tb/DUT/In_1/src_addr \
+sim:/switchtop_tb/DUT/In_1/state \
+sim:/switchtop_tb/DUT/In_1/val \
+sim:/switchtop_tb/DUT/In_1/valo1 \
+sim:/switchtop_tb/DUT/In_1/valo2 \
+sim:/switchtop_tb/DUT/In_1/valo3 \
+sim:/switchtop_tb/DUT/In_1/valo4 \
+sim:/switchtop_tb/DUT/In_1/valr
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_1/dst_addr \
+sim:/switchtop_tb/DUT/In_1/src_addr
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_2/dst_addr \
+sim:/switchtop_tb/DUT/In_2/src_addr
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_3/dst_addr \
+sim:/switchtop_tb/DUT/In_3/src_addr
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/clk \
+sim:/switchtop_tb/DUT/dat_four2one \
+sim:/switchtop_tb/DUT/dat_four2three \
+sim:/switchtop_tb/DUT/dat_four2two \
+sim:/switchtop_tb/DUT/dat_one2four \
+sim:/switchtop_tb/DUT/dat_one2three \
+sim:/switchtop_tb/DUT/dat_one2two \
+sim:/switchtop_tb/DUT/dat_three2four \
+sim:/switchtop_tb/DUT/dat_three2one \
+sim:/switchtop_tb/DUT/dat_three2two \
+sim:/switchtop_tb/DUT/dat_two2four \
+sim:/switchtop_tb/DUT/dat_two2one \
+sim:/switchtop_tb/DUT/dat_two2three \
+sim:/switchtop_tb/DUT/dati \
+sim:/switchtop_tb/DUT/dato \
+sim:/switchtop_tb/DUT/mac_dst1 \
+sim:/switchtop_tb/DUT/mac_dst2 \
+sim:/switchtop_tb/DUT/mac_dst3 \
+sim:/switchtop_tb/DUT/mac_dst4 \
+sim:/switchtop_tb/DUT/mac_dstAddr1 \
+sim:/switchtop_tb/DUT/mac_dstAddr2 \
+sim:/switchtop_tb/DUT/mac_dstAddr3 \
+sim:/switchtop_tb/DUT/mac_dstAddr4 \
+sim:/switchtop_tb/DUT/mac_req1 \
+sim:/switchtop_tb/DUT/mac_req2 \
+sim:/switchtop_tb/DUT/mac_req3 \
+sim:/switchtop_tb/DUT/mac_req4 \
+sim:/switchtop_tb/DUT/mac_srcAddr1 \
+sim:/switchtop_tb/DUT/mac_srcAddr2 \
+sim:/switchtop_tb/DUT/mac_srcAddr3 \
+sim:/switchtop_tb/DUT/mac_srcAddr4 \
+sim:/switchtop_tb/DUT/mac_srcPort1 \
+sim:/switchtop_tb/DUT/mac_srcPort2 \
+sim:/switchtop_tb/DUT/mac_srcPort3 \
+sim:/switchtop_tb/DUT/mac_srcPort4 \
+sim:/switchtop_tb/DUT/mac_val2four \
+sim:/switchtop_tb/DUT/mac_val2one \
+sim:/switchtop_tb/DUT/mac_val2three \
+sim:/switchtop_tb/DUT/mac_val2two \
+sim:/switchtop_tb/DUT/port_1 \
+sim:/switchtop_tb/DUT/port_2 \
+sim:/switchtop_tb/DUT/port_3 \
+sim:/switchtop_tb/DUT/port_4 \
+sim:/switchtop_tb/DUT/reset \
+sim:/switchtop_tb/DUT/val_four2one \
+sim:/switchtop_tb/DUT/val_four2three \
+sim:/switchtop_tb/DUT/val_four2two \
+sim:/switchtop_tb/DUT/val_one2four \
+sim:/switchtop_tb/DUT/val_one2three \
+sim:/switchtop_tb/DUT/val_one2two \
+sim:/switchtop_tb/DUT/val_three2four \
+sim:/switchtop_tb/DUT/val_three2one \
+sim:/switchtop_tb/DUT/val_three2two \
+sim:/switchtop_tb/DUT/val_two2four \
+sim:/switchtop_tb/DUT/val_two2one \
+sim:/switchtop_tb/DUT/val_two2three \
+sim:/switchtop_tb/DUT/vali \
+sim:/switchtop_tb/DUT/valo
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_2/clk \
+sim:/switchtop_tb/DUT/In_2/count \
+sim:/switchtop_tb/DUT/In_2/dat \
+sim:/switchtop_tb/DUT/In_2/datb \
+sim:/switchtop_tb/DUT/In_2/dato \
+sim:/switchtop_tb/DUT/In_2/dato1 \
+sim:/switchtop_tb/DUT/In_2/dato2 \
+sim:/switchtop_tb/DUT/In_2/dato3 \
+sim:/switchtop_tb/DUT/In_2/dato4 \
+sim:/switchtop_tb/DUT/In_2/datr \
+sim:/switchtop_tb/DUT/In_2/dest \
+sim:/switchtop_tb/DUT/In_2/dest1 \
+sim:/switchtop_tb/DUT/In_2/dest2 \
+sim:/switchtop_tb/DUT/In_2/dest3 \
+sim:/switchtop_tb/DUT/In_2/dest4 \
+sim:/switchtop_tb/DUT/In_2/dont \
+sim:/switchtop_tb/DUT/In_2/dst_addr \
+sim:/switchtop_tb/DUT/In_2/fin \
+sim:/switchtop_tb/DUT/In_2/look_flag \
+sim:/switchtop_tb/DUT/In_2/macr \
+sim:/switchtop_tb/DUT/In_2/macv \
+sim:/switchtop_tb/DUT/In_2/out_err \
+sim:/switchtop_tb/DUT/In_2/out_state \
+sim:/switchtop_tb/DUT/In_2/out_val \
+sim:/switchtop_tb/DUT/In_2/por \
+sim:/switchtop_tb/DUT/In_2/poro \
+sim:/switchtop_tb/DUT/In_2/req \
+sim:/switchtop_tb/DUT/In_2/reset \
+sim:/switchtop_tb/DUT/In_2/src_addr \
+sim:/switchtop_tb/DUT/In_2/state \
+sim:/switchtop_tb/DUT/In_2/val \
+sim:/switchtop_tb/DUT/In_2/valo1 \
+sim:/switchtop_tb/DUT/In_2/valo2 \
+sim:/switchtop_tb/DUT/In_2/valo3 \
+sim:/switchtop_tb/DUT/In_2/valo4 \
+sim:/switchtop_tb/DUT/In_2/valr
+add wave -position insertpoint  \
+sim:/switchtop_tb/COUNTER
+add wave -position insertpoint  \
+sim:/switchtop_tb/clk \
+sim:/switchtop_tb/COUNTER \
+sim:/switchtop_tb/dati_TB \
+sim:/switchtop_tb/dato_TB \
+sim:/switchtop_tb/PACKET1 \
+sim:/switchtop_tb/PACKET2 \
+sim:/switchtop_tb/PACKET3 \
+sim:/switchtop_tb/reset_TB \
+sim:/switchtop_tb/vali_TB \
+sim:/switchtop_tb/valo_TB \
+sim:/switchtop_tb/dati_3 \
+sim:/switchtop_tb/dati_2 \
+sim:/switchtop_tb/dati_1 \
+sim:/switchtop_tb/dati_0 \
+sim:/switchtop_tb/dato_3 \
+sim:/switchtop_tb/dato_2 \
+sim:/switchtop_tb/dato_1 \
+sim:/switchtop_tb/dato_0
+# Compile of Mac_learning.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.mac_learning(mac_learning_arc)
+run 500 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/clk \
+sim:/switchtop_tb/DUT/dat_four2one \
+sim:/switchtop_tb/DUT/dat_four2three \
+sim:/switchtop_tb/DUT/dat_four2two \
+sim:/switchtop_tb/DUT/dat_one2four \
+sim:/switchtop_tb/DUT/dat_one2three \
+sim:/switchtop_tb/DUT/dat_one2two \
+sim:/switchtop_tb/DUT/dat_three2four \
+sim:/switchtop_tb/DUT/dat_three2one \
+sim:/switchtop_tb/DUT/dat_three2two \
+sim:/switchtop_tb/DUT/dat_two2four \
+sim:/switchtop_tb/DUT/dat_two2one \
+sim:/switchtop_tb/DUT/dat_two2three \
+sim:/switchtop_tb/DUT/dati \
+sim:/switchtop_tb/DUT/dato \
+sim:/switchtop_tb/DUT/mac_dst1 \
+sim:/switchtop_tb/DUT/mac_dst2 \
+sim:/switchtop_tb/DUT/mac_dst3 \
+sim:/switchtop_tb/DUT/mac_dst4 \
+sim:/switchtop_tb/DUT/mac_dstAddr1 \
+sim:/switchtop_tb/DUT/mac_dstAddr2 \
+sim:/switchtop_tb/DUT/mac_dstAddr3 \
+sim:/switchtop_tb/DUT/mac_dstAddr4 \
+sim:/switchtop_tb/DUT/mac_req1 \
+sim:/switchtop_tb/DUT/mac_req2 \
+sim:/switchtop_tb/DUT/mac_req3 \
+sim:/switchtop_tb/DUT/mac_req4 \
+sim:/switchtop_tb/DUT/mac_srcAddr1 \
+sim:/switchtop_tb/DUT/mac_srcAddr2 \
+sim:/switchtop_tb/DUT/mac_srcAddr3 \
+sim:/switchtop_tb/DUT/mac_srcAddr4 \
+sim:/switchtop_tb/DUT/mac_srcPort1 \
+sim:/switchtop_tb/DUT/mac_srcPort2 \
+sim:/switchtop_tb/DUT/mac_srcPort3 \
+sim:/switchtop_tb/DUT/mac_srcPort4 \
+sim:/switchtop_tb/DUT/mac_val2four \
+sim:/switchtop_tb/DUT/mac_val2one \
+sim:/switchtop_tb/DUT/mac_val2three \
+sim:/switchtop_tb/DUT/mac_val2two \
+sim:/switchtop_tb/DUT/port_1 \
+sim:/switchtop_tb/DUT/port_2 \
+sim:/switchtop_tb/DUT/port_3 \
+sim:/switchtop_tb/DUT/port_4 \
+sim:/switchtop_tb/DUT/reset \
+sim:/switchtop_tb/DUT/val_four2one \
+sim:/switchtop_tb/DUT/val_four2three \
+sim:/switchtop_tb/DUT/val_four2two \
+sim:/switchtop_tb/DUT/val_one2four \
+sim:/switchtop_tb/DUT/val_one2three \
+sim:/switchtop_tb/DUT/val_one2two \
+sim:/switchtop_tb/DUT/val_three2four \
+sim:/switchtop_tb/DUT/val_three2one \
+sim:/switchtop_tb/DUT/val_three2two \
+sim:/switchtop_tb/DUT/val_two2four \
+sim:/switchtop_tb/DUT/val_two2one \
+sim:/switchtop_tb/DUT/val_two2three \
+sim:/switchtop_tb/DUT/vali \
+sim:/switchtop_tb/DUT/valo
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 500 ns
+run 10000 ns
+run 10000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/clk \
+sim:/switchtop_tb/DUT/reset \
+sim:/switchtop_tb/DUT/vali \
+sim:/switchtop_tb/DUT/dati \
+sim:/switchtop_tb/DUT/valo \
+sim:/switchtop_tb/DUT/dato \
+sim:/switchtop_tb/DUT/val_one2two \
+sim:/switchtop_tb/DUT/val_one2three \
+sim:/switchtop_tb/DUT/val_one2four \
+sim:/switchtop_tb/DUT/val_two2one \
+sim:/switchtop_tb/DUT/val_two2three \
+sim:/switchtop_tb/DUT/val_two2four \
+sim:/switchtop_tb/DUT/val_three2one \
+sim:/switchtop_tb/DUT/val_three2two \
+sim:/switchtop_tb/DUT/val_three2four \
+sim:/switchtop_tb/DUT/val_four2one \
+sim:/switchtop_tb/DUT/val_four2two \
+sim:/switchtop_tb/DUT/val_four2three \
+sim:/switchtop_tb/DUT/dat_one2two \
+sim:/switchtop_tb/DUT/dat_one2three \
+sim:/switchtop_tb/DUT/dat_one2four \
+sim:/switchtop_tb/DUT/dat_two2one \
+sim:/switchtop_tb/DUT/dat_two2three \
+sim:/switchtop_tb/DUT/dat_two2four \
+sim:/switchtop_tb/DUT/dat_three2one \
+sim:/switchtop_tb/DUT/dat_three2two \
+sim:/switchtop_tb/DUT/dat_three2four \
+sim:/switchtop_tb/DUT/dat_four2one \
+sim:/switchtop_tb/DUT/dat_four2two \
+sim:/switchtop_tb/DUT/dat_four2three \
+sim:/switchtop_tb/DUT/mac_req1 \
+sim:/switchtop_tb/DUT/mac_req2 \
+sim:/switchtop_tb/DUT/mac_req3 \
+sim:/switchtop_tb/DUT/mac_req4 \
+sim:/switchtop_tb/DUT/mac_val2one \
+sim:/switchtop_tb/DUT/mac_val2two \
+sim:/switchtop_tb/DUT/mac_val2three \
+sim:/switchtop_tb/DUT/mac_val2four \
+sim:/switchtop_tb/DUT/mac_srcPort1 \
+sim:/switchtop_tb/DUT/mac_dst1 \
+sim:/switchtop_tb/DUT/mac_srcPort2 \
+sim:/switchtop_tb/DUT/mac_dst2 \
+sim:/switchtop_tb/DUT/mac_srcPort3 \
+sim:/switchtop_tb/DUT/mac_dst3 \
+sim:/switchtop_tb/DUT/mac_srcPort4 \
+sim:/switchtop_tb/DUT/mac_dst4 \
+sim:/switchtop_tb/DUT/mac_srcAddr1 \
+sim:/switchtop_tb/DUT/mac_dstAddr1 \
+sim:/switchtop_tb/DUT/mac_srcAddr2 \
+sim:/switchtop_tb/DUT/mac_dstAddr2 \
+sim:/switchtop_tb/DUT/mac_srcAddr3 \
+sim:/switchtop_tb/DUT/mac_dstAddr3 \
+sim:/switchtop_tb/DUT/mac_srcAddr4 \
+sim:/switchtop_tb/DUT/mac_dstAddr4 \
+sim:/switchtop_tb/DUT/port_1 \
+sim:/switchtop_tb/DUT/port_2 \
+sim:/switchtop_tb/DUT/port_3 \
+sim:/switchtop_tb/DUT/port_4
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/Out_1/clk \
+sim:/switchtop_tb/DUT/Out_1/dat1 \
+sim:/switchtop_tb/DUT/Out_1/val1 \
+sim:/switchtop_tb/DUT/Out_1/dat2 \
+sim:/switchtop_tb/DUT/Out_1/val2 \
+sim:/switchtop_tb/DUT/Out_1/dat3 \
+sim:/switchtop_tb/DUT/Out_1/val3 \
+sim:/switchtop_tb/DUT/Out_1/dato \
+sim:/switchtop_tb/DUT/Out_1/valo \
+sim:/switchtop_tb/DUT/Out_1/RRstate \
+sim:/switchtop_tb/DUT/Out_1/emp1 \
+sim:/switchtop_tb/DUT/Out_1/emp2 \
+sim:/switchtop_tb/DUT/Out_1/emp3 \
+sim:/switchtop_tb/DUT/Out_1/buf1 \
+sim:/switchtop_tb/DUT/Out_1/buf2 \
+sim:/switchtop_tb/DUT/Out_1/buf3 \
+sim:/switchtop_tb/DUT/Out_1/req1 \
+sim:/switchtop_tb/DUT/Out_1/req2 \
+sim:/switchtop_tb/DUT/Out_1/req3 \
+sim:/switchtop_tb/DUT/Out_1/count \
+sim:/switchtop_tb/DUT/Out_1/clear
+restart -f
+run 10000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_1/clk \
+sim:/switchtop_tb/DUT/In_1/reset \
+sim:/switchtop_tb/DUT/In_1/val \
+sim:/switchtop_tb/DUT/In_1/dat \
+sim:/switchtop_tb/DUT/In_1/por \
+sim:/switchtop_tb/DUT/In_1/valo1 \
+sim:/switchtop_tb/DUT/In_1/dato1 \
+sim:/switchtop_tb/DUT/In_1/valo2 \
+sim:/switchtop_tb/DUT/In_1/dato2 \
+sim:/switchtop_tb/DUT/In_1/valo3 \
+sim:/switchtop_tb/DUT/In_1/dato3 \
+sim:/switchtop_tb/DUT/In_1/valo4 \
+sim:/switchtop_tb/DUT/In_1/dato4 \
+sim:/switchtop_tb/DUT/In_1/macr \
+sim:/switchtop_tb/DUT/In_1/src_addr \
+sim:/switchtop_tb/DUT/In_1/dst_addr \
+sim:/switchtop_tb/DUT/In_1/poro \
+sim:/switchtop_tb/DUT/In_1/dest \
+sim:/switchtop_tb/DUT/In_1/macv \
+sim:/switchtop_tb/DUT/In_1/out_val \
+sim:/switchtop_tb/DUT/In_1/out_err \
+sim:/switchtop_tb/DUT/In_1/valr \
+sim:/switchtop_tb/DUT/In_1/req \
+sim:/switchtop_tb/DUT/In_1/fin \
+sim:/switchtop_tb/DUT/In_1/look_flag \
+sim:/switchtop_tb/DUT/In_1/dest1 \
+sim:/switchtop_tb/DUT/In_1/dest2 \
+sim:/switchtop_tb/DUT/In_1/dest3 \
+sim:/switchtop_tb/DUT/In_1/dest4 \
+sim:/switchtop_tb/DUT/In_1/dont \
+sim:/switchtop_tb/DUT/In_1/datr \
+sim:/switchtop_tb/DUT/In_1/dato \
+sim:/switchtop_tb/DUT/In_1/datb \
+sim:/switchtop_tb/DUT/In_1/state \
+sim:/switchtop_tb/DUT/In_1/out_state \
+sim:/switchtop_tb/DUT/In_1/count
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_2/clk \
+sim:/switchtop_tb/DUT/In_2/reset \
+sim:/switchtop_tb/DUT/In_2/val \
+sim:/switchtop_tb/DUT/In_2/dat \
+sim:/switchtop_tb/DUT/In_2/por \
+sim:/switchtop_tb/DUT/In_2/valo1 \
+sim:/switchtop_tb/DUT/In_2/dato1 \
+sim:/switchtop_tb/DUT/In_2/valo2 \
+sim:/switchtop_tb/DUT/In_2/dato2 \
+sim:/switchtop_tb/DUT/In_2/valo3 \
+sim:/switchtop_tb/DUT/In_2/dato3 \
+sim:/switchtop_tb/DUT/In_2/valo4 \
+sim:/switchtop_tb/DUT/In_2/dato4 \
+sim:/switchtop_tb/DUT/In_2/macr \
+sim:/switchtop_tb/DUT/In_2/src_addr \
+sim:/switchtop_tb/DUT/In_2/dst_addr \
+sim:/switchtop_tb/DUT/In_2/poro \
+sim:/switchtop_tb/DUT/In_2/dest \
+sim:/switchtop_tb/DUT/In_2/macv \
+sim:/switchtop_tb/DUT/In_2/out_val \
+sim:/switchtop_tb/DUT/In_2/out_err \
+sim:/switchtop_tb/DUT/In_2/valr \
+sim:/switchtop_tb/DUT/In_2/req \
+sim:/switchtop_tb/DUT/In_2/fin \
+sim:/switchtop_tb/DUT/In_2/look_flag \
+sim:/switchtop_tb/DUT/In_2/dest1 \
+sim:/switchtop_tb/DUT/In_2/dest2 \
+sim:/switchtop_tb/DUT/In_2/dest3 \
+sim:/switchtop_tb/DUT/In_2/dest4 \
+sim:/switchtop_tb/DUT/In_2/dont \
+sim:/switchtop_tb/DUT/In_2/datr \
+sim:/switchtop_tb/DUT/In_2/dato \
+sim:/switchtop_tb/DUT/In_2/datb \
+sim:/switchtop_tb/DUT/In_2/state \
+sim:/switchtop_tb/DUT/In_2/out_state \
+sim:/switchtop_tb/DUT/In_2/count
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_2/clk \
+sim:/switchtop_tb/DUT/In_2/reset \
+sim:/switchtop_tb/DUT/In_2/val \
+sim:/switchtop_tb/DUT/In_2/dat \
+sim:/switchtop_tb/DUT/In_2/por \
+sim:/switchtop_tb/DUT/In_2/valo1 \
+sim:/switchtop_tb/DUT/In_2/dato1 \
+sim:/switchtop_tb/DUT/In_2/valo2 \
+sim:/switchtop_tb/DUT/In_2/dato2 \
+sim:/switchtop_tb/DUT/In_2/valo3 \
+sim:/switchtop_tb/DUT/In_2/dato3 \
+sim:/switchtop_tb/DUT/In_2/valo4 \
+sim:/switchtop_tb/DUT/In_2/dato4 \
+sim:/switchtop_tb/DUT/In_2/macr \
+sim:/switchtop_tb/DUT/In_2/src_addr \
+sim:/switchtop_tb/DUT/In_2/dst_addr \
+sim:/switchtop_tb/DUT/In_2/poro \
+sim:/switchtop_tb/DUT/In_2/dest \
+sim:/switchtop_tb/DUT/In_2/macv \
+sim:/switchtop_tb/DUT/In_2/out_val \
+sim:/switchtop_tb/DUT/In_2/out_err \
+sim:/switchtop_tb/DUT/In_2/valr \
+sim:/switchtop_tb/DUT/In_2/req \
+sim:/switchtop_tb/DUT/In_2/fin \
+sim:/switchtop_tb/DUT/In_2/look_flag \
+sim:/switchtop_tb/DUT/In_2/dest1 \
+sim:/switchtop_tb/DUT/In_2/dest2 \
+sim:/switchtop_tb/DUT/In_2/dest3 \
+sim:/switchtop_tb/DUT/In_2/dest4 \
+sim:/switchtop_tb/DUT/In_2/dont \
+sim:/switchtop_tb/DUT/In_2/datr \
+sim:/switchtop_tb/DUT/In_2/dato \
+sim:/switchtop_tb/DUT/In_2/datb \
+sim:/switchtop_tb/DUT/In_2/state \
+sim:/switchtop_tb/DUT/In_2/out_state \
+sim:/switchtop_tb/DUT/In_2/count
+add wave -position insertpoint  \
+sim:/switchtop_tb/COUNTER
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 5000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/clk \
+sim:/switchtop_tb/reset_TB \
+sim:/switchtop_tb/vali_TB \
+sim:/switchtop_tb/valo_TB \
+sim:/switchtop_tb/dati_TB \
+sim:/switchtop_tb/dato_TB \
+sim:/switchtop_tb/COUNTER \
+sim:/switchtop_tb/PACKET1 \
+sim:/switchtop_tb/PACKET2 \
+sim:/switchtop_tb/PACKET3 \
+sim:/switchtop_tb/dati_3 \
+sim:/switchtop_tb/dati_2 \
+sim:/switchtop_tb/dati_1 \
+sim:/switchtop_tb/dati_0 \
+sim:/switchtop_tb/dato_3 \
+sim:/switchtop_tb/dato_2 \
+sim:/switchtop_tb/dato_1 \
+sim:/switchtop_tb/dato_0
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 5000 ns
+# ** Fatal: (vsim-3471) Slice range (948 to 955) does not belong to the prefix index range (0 to 951).
+#    Time: 2883 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+# Fatal error in Process feeder at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 59
+# 
+# HDL call sequence:
+# Stopped at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
+# 
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 5000 ns
+# ** Fatal: (vsim-3471) Slice range (948 to 955) does not belong to the prefix index range (0 to 951).
+#    Time: 2883 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+# Fatal error in Process feeder at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 59
+# 
+# HDL call sequence:
+# Stopped at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
+# 
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 5000 ns
+# ** Fatal: (vsim-3471) Slice range (948 to 955) does not belong to the prefix index range (0 to 951).
+#    Time: 2883 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+# Fatal error in Process feeder at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 59
+# 
+# HDL call sequence:
+# Stopped at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
+# 
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 5000 ns
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 5000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/COUNTER
+restart -f
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 5000 ns
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 5000 ns
+# ** Fatal: (vsim-3471) Slice range (946 to 953) does not belong to the prefix index range (0 to 951).
+#    Time: 2883 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+# Fatal error in Process feeder at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 59
+# 
+# HDL call sequence:
+# Stopped at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
+# 
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 5000 ns
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 5000 ns
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 5000 ns
+run 5000 ns
+run 5000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/valo_TB
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_3/clk \
+sim:/switchtop_tb/DUT/In_3/reset \
+sim:/switchtop_tb/DUT/In_3/val \
+sim:/switchtop_tb/DUT/In_3/dat \
+sim:/switchtop_tb/DUT/In_3/por \
+sim:/switchtop_tb/DUT/In_3/valo1 \
+sim:/switchtop_tb/DUT/In_3/dato1 \
+sim:/switchtop_tb/DUT/In_3/valo2 \
+sim:/switchtop_tb/DUT/In_3/dato2 \
+sim:/switchtop_tb/DUT/In_3/valo3 \
+sim:/switchtop_tb/DUT/In_3/dato3 \
+sim:/switchtop_tb/DUT/In_3/valo4 \
+sim:/switchtop_tb/DUT/In_3/dato4 \
+sim:/switchtop_tb/DUT/In_3/macr \
+sim:/switchtop_tb/DUT/In_3/src_addr \
+sim:/switchtop_tb/DUT/In_3/dst_addr \
+sim:/switchtop_tb/DUT/In_3/poro \
+sim:/switchtop_tb/DUT/In_3/dest \
+sim:/switchtop_tb/DUT/In_3/macv \
+sim:/switchtop_tb/DUT/In_3/out_val \
+sim:/switchtop_tb/DUT/In_3/out_err \
+sim:/switchtop_tb/DUT/In_3/valr \
+sim:/switchtop_tb/DUT/In_3/req \
+sim:/switchtop_tb/DUT/In_3/fin \
+sim:/switchtop_tb/DUT/In_3/look_flag \
+sim:/switchtop_tb/DUT/In_3/dest1 \
+sim:/switchtop_tb/DUT/In_3/dest2 \
+sim:/switchtop_tb/DUT/In_3/dest3 \
+sim:/switchtop_tb/DUT/In_3/dest4 \
+sim:/switchtop_tb/DUT/In_3/dont \
+sim:/switchtop_tb/DUT/In_3/datr \
+sim:/switchtop_tb/DUT/In_3/dato \
+sim:/switchtop_tb/DUT/In_3/datb \
+sim:/switchtop_tb/DUT/In_3/state \
+sim:/switchtop_tb/DUT/In_3/out_state \
+sim:/switchtop_tb/DUT/In_3/count
+restart -f 
+run 5000 ns
+run 5000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/clk \
+sim:/switchtop_tb/DUT/reset \
+sim:/switchtop_tb/DUT/vali \
+sim:/switchtop_tb/DUT/dati \
+sim:/switchtop_tb/DUT/valo \
+sim:/switchtop_tb/DUT/dato \
+sim:/switchtop_tb/DUT/val_one2two \
+sim:/switchtop_tb/DUT/val_one2three \
+sim:/switchtop_tb/DUT/val_one2four \
+sim:/switchtop_tb/DUT/val_two2one \
+sim:/switchtop_tb/DUT/val_two2three \
+sim:/switchtop_tb/DUT/val_two2four \
+sim:/switchtop_tb/DUT/val_three2one \
+sim:/switchtop_tb/DUT/val_three2two \
+sim:/switchtop_tb/DUT/val_three2four \
+sim:/switchtop_tb/DUT/val_four2one \
+sim:/switchtop_tb/DUT/val_four2two \
+sim:/switchtop_tb/DUT/val_four2three \
+sim:/switchtop_tb/DUT/dat_one2two \
+sim:/switchtop_tb/DUT/dat_one2three \
+sim:/switchtop_tb/DUT/dat_one2four \
+sim:/switchtop_tb/DUT/dat_two2one \
+sim:/switchtop_tb/DUT/dat_two2three \
+sim:/switchtop_tb/DUT/dat_two2four \
+sim:/switchtop_tb/DUT/dat_three2one \
+sim:/switchtop_tb/DUT/dat_three2two \
+sim:/switchtop_tb/DUT/dat_three2four \
+sim:/switchtop_tb/DUT/dat_four2one \
+sim:/switchtop_tb/DUT/dat_four2two \
+sim:/switchtop_tb/DUT/dat_four2three \
+sim:/switchtop_tb/DUT/mac_req1 \
+sim:/switchtop_tb/DUT/mac_req2 \
+sim:/switchtop_tb/DUT/mac_req3 \
+sim:/switchtop_tb/DUT/mac_req4 \
+sim:/switchtop_tb/DUT/mac_val2one \
+sim:/switchtop_tb/DUT/mac_val2two \
+sim:/switchtop_tb/DUT/mac_val2three \
+sim:/switchtop_tb/DUT/mac_val2four \
+sim:/switchtop_tb/DUT/mac_srcPort1 \
+sim:/switchtop_tb/DUT/mac_dst1 \
+sim:/switchtop_tb/DUT/mac_srcPort2 \
+sim:/switchtop_tb/DUT/mac_dst2 \
+sim:/switchtop_tb/DUT/mac_srcPort3 \
+sim:/switchtop_tb/DUT/mac_dst3 \
+sim:/switchtop_tb/DUT/mac_srcPort4 \
+sim:/switchtop_tb/DUT/mac_dst4 \
+sim:/switchtop_tb/DUT/mac_srcAddr1 \
+sim:/switchtop_tb/DUT/mac_dstAddr1 \
+sim:/switchtop_tb/DUT/mac_srcAddr2 \
+sim:/switchtop_tb/DUT/mac_dstAddr2 \
+sim:/switchtop_tb/DUT/mac_srcAddr3 \
+sim:/switchtop_tb/DUT/mac_dstAddr3 \
+sim:/switchtop_tb/DUT/mac_srcAddr4 \
+sim:/switchtop_tb/DUT/mac_dstAddr4 \
+sim:/switchtop_tb/DUT/port_1 \
+sim:/switchtop_tb/DUT/port_2 \
+sim:/switchtop_tb/DUT/port_3 \
+sim:/switchtop_tb/DUT/port_4
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 10000 ns
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 20000 ns
+add wave -position insertpoint sim:/switchtop_tb/DUT/Out_1/*
+# Compile of switch_logic.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switch_logic(switch_logic_arc)
+run 10000 ns
+run 10000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/clk \
+sim:/switchtop_tb/DUT/reset \
+sim:/switchtop_tb/DUT/vali \
+sim:/switchtop_tb/DUT/dati \
+sim:/switchtop_tb/DUT/valo \
+sim:/switchtop_tb/DUT/dato \
+sim:/switchtop_tb/DUT/val_one2two \
+sim:/switchtop_tb/DUT/val_one2three \
+sim:/switchtop_tb/DUT/val_one2four \
+sim:/switchtop_tb/DUT/val_two2one \
+sim:/switchtop_tb/DUT/val_two2three \
+sim:/switchtop_tb/DUT/val_two2four \
+sim:/switchtop_tb/DUT/val_three2one \
+sim:/switchtop_tb/DUT/val_three2two \
+sim:/switchtop_tb/DUT/val_three2four \
+sim:/switchtop_tb/DUT/val_four2one \
+sim:/switchtop_tb/DUT/val_four2two \
+sim:/switchtop_tb/DUT/val_four2three \
+sim:/switchtop_tb/DUT/dat_one2two \
+sim:/switchtop_tb/DUT/dat_one2three \
+sim:/switchtop_tb/DUT/dat_one2four \
+sim:/switchtop_tb/DUT/dat_two2one \
+sim:/switchtop_tb/DUT/dat_two2three \
+sim:/switchtop_tb/DUT/dat_two2four \
+sim:/switchtop_tb/DUT/dat_three2one \
+sim:/switchtop_tb/DUT/dat_three2two \
+sim:/switchtop_tb/DUT/dat_three2four \
+sim:/switchtop_tb/DUT/dat_four2one \
+sim:/switchtop_tb/DUT/dat_four2two \
+sim:/switchtop_tb/DUT/dat_four2three \
+sim:/switchtop_tb/DUT/mac_req1 \
+sim:/switchtop_tb/DUT/mac_req2 \
+sim:/switchtop_tb/DUT/mac_req3 \
+sim:/switchtop_tb/DUT/mac_req4 \
+sim:/switchtop_tb/DUT/mac_val2one \
+sim:/switchtop_tb/DUT/mac_val2two \
+sim:/switchtop_tb/DUT/mac_val2three \
+sim:/switchtop_tb/DUT/mac_val2four \
+sim:/switchtop_tb/DUT/mac_srcPort1 \
+sim:/switchtop_tb/DUT/mac_dst1 \
+sim:/switchtop_tb/DUT/mac_srcPort2 \
+sim:/switchtop_tb/DUT/mac_dst2 \
+sim:/switchtop_tb/DUT/mac_srcPort3 \
+sim:/switchtop_tb/DUT/mac_dst3 \
+sim:/switchtop_tb/DUT/mac_srcPort4 \
+sim:/switchtop_tb/DUT/mac_dst4 \
+sim:/switchtop_tb/DUT/mac_srcAddr1 \
+sim:/switchtop_tb/DUT/mac_dstAddr1 \
+sim:/switchtop_tb/DUT/mac_srcAddr2 \
+sim:/switchtop_tb/DUT/mac_dstAddr2 \
+sim:/switchtop_tb/DUT/mac_srcAddr3 \
+sim:/switchtop_tb/DUT/mac_dstAddr3 \
+sim:/switchtop_tb/DUT/mac_srcAddr4 \
+sim:/switchtop_tb/DUT/mac_dstAddr4 \
+sim:/switchtop_tb/DUT/port_1 \
+sim:/switchtop_tb/DUT/port_2 \
+sim:/switchtop_tb/DUT/port_3 \
+sim:/switchtop_tb/DUT/port_4
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_2/clk \
+sim:/switchtop_tb/DUT/In_2/reset \
+sim:/switchtop_tb/DUT/In_2/val \
+sim:/switchtop_tb/DUT/In_2/dat \
+sim:/switchtop_tb/DUT/In_2/por \
+sim:/switchtop_tb/DUT/In_2/valo1 \
+sim:/switchtop_tb/DUT/In_2/dato1 \
+sim:/switchtop_tb/DUT/In_2/valo2 \
+sim:/switchtop_tb/DUT/In_2/dato2 \
+sim:/switchtop_tb/DUT/In_2/valo3 \
+sim:/switchtop_tb/DUT/In_2/dato3 \
+sim:/switchtop_tb/DUT/In_2/valo4 \
+sim:/switchtop_tb/DUT/In_2/dato4 \
+sim:/switchtop_tb/DUT/In_2/macr \
+sim:/switchtop_tb/DUT/In_2/src_addr \
+sim:/switchtop_tb/DUT/In_2/dst_addr \
+sim:/switchtop_tb/DUT/In_2/poro \
+sim:/switchtop_tb/DUT/In_2/dest \
+sim:/switchtop_tb/DUT/In_2/macv \
+sim:/switchtop_tb/DUT/In_2/out_val \
+sim:/switchtop_tb/DUT/In_2/out_err \
+sim:/switchtop_tb/DUT/In_2/valr \
+sim:/switchtop_tb/DUT/In_2/req \
+sim:/switchtop_tb/DUT/In_2/fin \
+sim:/switchtop_tb/DUT/In_2/look_flag \
+sim:/switchtop_tb/DUT/In_2/dest1 \
+sim:/switchtop_tb/DUT/In_2/dest2 \
+sim:/switchtop_tb/DUT/In_2/dest3 \
+sim:/switchtop_tb/DUT/In_2/dest4 \
+sim:/switchtop_tb/DUT/In_2/dont \
+sim:/switchtop_tb/DUT/In_2/datr \
+sim:/switchtop_tb/DUT/In_2/dato \
+sim:/switchtop_tb/DUT/In_2/datb \
+sim:/switchtop_tb/DUT/In_2/state \
+sim:/switchtop_tb/DUT/In_2/out_state \
+sim:/switchtop_tb/DUT/In_2/count
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 15000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/clk \
+sim:/switchtop_tb/reset_TB \
+sim:/switchtop_tb/vali_TB \
+sim:/switchtop_tb/valo_TB \
+sim:/switchtop_tb/dati_TB \
+sim:/switchtop_tb/dato_TB \
+sim:/switchtop_tb/COUNTER \
+sim:/switchtop_tb/PACKET1 \
+sim:/switchtop_tb/PACKET2 \
+sim:/switchtop_tb/PACKET3 \
+sim:/switchtop_tb/dati_3 \
+sim:/switchtop_tb/dati_2 \
+sim:/switchtop_tb/dati_1 \
+sim:/switchtop_tb/dati_0 \
+sim:/switchtop_tb/dato_3 \
+sim:/switchtop_tb/dato_2 \
+sim:/switchtop_tb/dato_1 \
+sim:/switchtop_tb/dato_0
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_1/CRC/clk \
+sim:/switchtop_tb/DUT/In_1/CRC/reset \
+sim:/switchtop_tb/DUT/In_1/CRC/val \
+sim:/switchtop_tb/DUT/In_1/CRC/dat \
+sim:/switchtop_tb/DUT/In_1/CRC/out_val \
+sim:/switchtop_tb/DUT/In_1/CRC/out_err \
+sim:/switchtop_tb/DUT/In_1/CRC/R \
+sim:/switchtop_tb/DUT/In_1/CRC/state \
+sim:/switchtop_tb/DUT/In_1/CRC/data \
+sim:/switchtop_tb/DUT/In_1/CRC/val_reg \
+sim:/switchtop_tb/DUT/In_1/CRC/count
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 5000 ns
+run 5000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_1/clk \
+sim:/switchtop_tb/DUT/In_1/reset \
+sim:/switchtop_tb/DUT/In_1/val \
+sim:/switchtop_tb/DUT/In_1/dat \
+sim:/switchtop_tb/DUT/In_1/por \
+sim:/switchtop_tb/DUT/In_1/valo1 \
+sim:/switchtop_tb/DUT/In_1/dato1 \
+sim:/switchtop_tb/DUT/In_1/valo2 \
+sim:/switchtop_tb/DUT/In_1/dato2 \
+sim:/switchtop_tb/DUT/In_1/valo3 \
+sim:/switchtop_tb/DUT/In_1/dato3 \
+sim:/switchtop_tb/DUT/In_1/valo4 \
+sim:/switchtop_tb/DUT/In_1/dato4 \
+sim:/switchtop_tb/DUT/In_1/macr \
+sim:/switchtop_tb/DUT/In_1/src_addr \
+sim:/switchtop_tb/DUT/In_1/dst_addr \
+sim:/switchtop_tb/DUT/In_1/poro \
+sim:/switchtop_tb/DUT/In_1/dest \
+sim:/switchtop_tb/DUT/In_1/macv \
+sim:/switchtop_tb/DUT/In_1/out_val \
+sim:/switchtop_tb/DUT/In_1/out_err \
+sim:/switchtop_tb/DUT/In_1/valr \
+sim:/switchtop_tb/DUT/In_1/req \
+sim:/switchtop_tb/DUT/In_1/fin \
+sim:/switchtop_tb/DUT/In_1/look_flag \
+sim:/switchtop_tb/DUT/In_1/dest1 \
+sim:/switchtop_tb/DUT/In_1/dest2 \
+sim:/switchtop_tb/DUT/In_1/dest3 \
+sim:/switchtop_tb/DUT/In_1/dest4 \
+sim:/switchtop_tb/DUT/In_1/dont \
+sim:/switchtop_tb/DUT/In_1/datr \
+sim:/switchtop_tb/DUT/In_1/dato \
+sim:/switchtop_tb/DUT/In_1/datb \
+sim:/switchtop_tb/DUT/In_1/state \
+sim:/switchtop_tb/DUT/In_1/out_state \
+sim:/switchtop_tb/DUT/In_1/count
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 10000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/clk \
+sim:/switchtop_tb/reset_TB \
+sim:/switchtop_tb/vali_TB \
+sim:/switchtop_tb/valo_TB \
+sim:/switchtop_tb/dati_TB \
+sim:/switchtop_tb/dato_TB \
+sim:/switchtop_tb/COUNTER \
+sim:/switchtop_tb/PACKET1 \
+sim:/switchtop_tb/PACKET2 \
+sim:/switchtop_tb/PACKET3 \
+sim:/switchtop_tb/dati_3 \
+sim:/switchtop_tb/dati_2 \
+sim:/switchtop_tb/dati_1 \
+sim:/switchtop_tb/dati_0 \
+sim:/switchtop_tb/dato_3 \
+sim:/switchtop_tb/dato_2 \
+sim:/switchtop_tb/dato_1 \
+sim:/switchtop_tb/dato_0
+restart -f
+run 7000 ns
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 7000 ns
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 7000 ns
+# ** Fatal: (vsim-3471) Slice range (-32 to -25) does not belong to the prefix index range (0 to 951).
+#    Time: 2901 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+# Fatal error in Process feeder at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 59
+# 
+# HDL call sequence:
+# Stopped at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
+# 
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/switchtop_tb/COUNTER
+add wave -position insertpoint  \
+sim:/switchtop_tb/COUNTER
+restart -f
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 7000 ns
+# ** Fatal: (vsim-3471) Slice range (952 to 959) does not belong to the prefix index range (0 to 951).
+#    Time: 3615 ns  Iteration: 1  Process: /switchtop_tb/feeder File: C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+# Fatal error in Process feeder at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd line 59
+# 
+# HDL call sequence:
+# Stopped at C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd 59 Process feeder
+# 
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 7000 ns
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 7000 ns
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 7000 ns
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 7000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/dati
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/dato
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/clk \
+sim:/switchtop_tb/DUT/reset \
+sim:/switchtop_tb/DUT/vali \
+sim:/switchtop_tb/DUT/dati \
+sim:/switchtop_tb/DUT/valo \
+sim:/switchtop_tb/DUT/dato \
+sim:/switchtop_tb/DUT/val_one2two \
+sim:/switchtop_tb/DUT/val_one2three \
+sim:/switchtop_tb/DUT/val_one2four \
+sim:/switchtop_tb/DUT/val_two2one \
+sim:/switchtop_tb/DUT/val_two2three \
+sim:/switchtop_tb/DUT/val_two2four \
+sim:/switchtop_tb/DUT/val_three2one \
+sim:/switchtop_tb/DUT/val_three2two \
+sim:/switchtop_tb/DUT/val_three2four \
+sim:/switchtop_tb/DUT/val_four2one \
+sim:/switchtop_tb/DUT/val_four2two \
+sim:/switchtop_tb/DUT/val_four2three \
+sim:/switchtop_tb/DUT/dat_one2two \
+sim:/switchtop_tb/DUT/dat_one2three \
+sim:/switchtop_tb/DUT/dat_one2four \
+sim:/switchtop_tb/DUT/dat_two2one \
+sim:/switchtop_tb/DUT/dat_two2three \
+sim:/switchtop_tb/DUT/dat_two2four \
+sim:/switchtop_tb/DUT/dat_three2one \
+sim:/switchtop_tb/DUT/dat_three2two \
+sim:/switchtop_tb/DUT/dat_three2four \
+sim:/switchtop_tb/DUT/dat_four2one \
+sim:/switchtop_tb/DUT/dat_four2two \
+sim:/switchtop_tb/DUT/dat_four2three \
+sim:/switchtop_tb/DUT/mac_req1 \
+sim:/switchtop_tb/DUT/mac_req2 \
+sim:/switchtop_tb/DUT/mac_req3 \
+sim:/switchtop_tb/DUT/mac_req4 \
+sim:/switchtop_tb/DUT/mac_val2one \
+sim:/switchtop_tb/DUT/mac_val2two \
+sim:/switchtop_tb/DUT/mac_val2three \
+sim:/switchtop_tb/DUT/mac_val2four \
+sim:/switchtop_tb/DUT/mac_srcPort1 \
+sim:/switchtop_tb/DUT/mac_dst1 \
+sim:/switchtop_tb/DUT/mac_srcPort2 \
+sim:/switchtop_tb/DUT/mac_dst2 \
+sim:/switchtop_tb/DUT/mac_srcPort3 \
+sim:/switchtop_tb/DUT/mac_dst3 \
+sim:/switchtop_tb/DUT/mac_srcPort4 \
+sim:/switchtop_tb/DUT/mac_dst4 \
+sim:/switchtop_tb/DUT/mac_srcAddr1 \
+sim:/switchtop_tb/DUT/mac_dstAddr1 \
+sim:/switchtop_tb/DUT/mac_srcAddr2 \
+sim:/switchtop_tb/DUT/mac_dstAddr2 \
+sim:/switchtop_tb/DUT/mac_srcAddr3 \
+sim:/switchtop_tb/DUT/mac_dstAddr3 \
+sim:/switchtop_tb/DUT/mac_srcAddr4 \
+sim:/switchtop_tb/DUT/mac_dstAddr4 \
+sim:/switchtop_tb/DUT/port_1 \
+sim:/switchtop_tb/DUT/port_2 \
+sim:/switchtop_tb/DUT/port_3 \
+sim:/switchtop_tb/DUT/port_4
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/Out_1/clk \
+sim:/switchtop_tb/DUT/Out_1/dat1 \
+sim:/switchtop_tb/DUT/Out_1/val1 \
+sim:/switchtop_tb/DUT/Out_1/dat2 \
+sim:/switchtop_tb/DUT/Out_1/val2 \
+sim:/switchtop_tb/DUT/Out_1/dat3 \
+sim:/switchtop_tb/DUT/Out_1/val3 \
+sim:/switchtop_tb/DUT/Out_1/dato \
+sim:/switchtop_tb/DUT/Out_1/valo \
+sim:/switchtop_tb/DUT/Out_1/RRstate \
+sim:/switchtop_tb/DUT/Out_1/emp1 \
+sim:/switchtop_tb/DUT/Out_1/emp2 \
+sim:/switchtop_tb/DUT/Out_1/emp3 \
+sim:/switchtop_tb/DUT/Out_1/buf1 \
+sim:/switchtop_tb/DUT/Out_1/buf2 \
+sim:/switchtop_tb/DUT/Out_1/buf3 \
+sim:/switchtop_tb/DUT/Out_1/req1 \
+sim:/switchtop_tb/DUT/Out_1/req2 \
+sim:/switchtop_tb/DUT/Out_1/req3 \
+sim:/switchtop_tb/DUT/Out_1/count \
+sim:/switchtop_tb/DUT/Out_1/clear
 add wave -position insertpoint  \
 sim:/switchtop_tb/DUT/Out_2/clk \
 sim:/switchtop_tb/DUT/Out_2/dat1 \
@@ -290,6 +1681,68 @@ sim:/switchtop_tb/DUT/Out_2/req3 \
 sim:/switchtop_tb/DUT/Out_2/count \
 sim:/switchtop_tb/DUT/Out_2/clear
 restart -f
+run 7000 ns
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 7000 ns
+# Compile of roundrobin.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin(roundrobin_arc)
+run 7000 ns
+# Compile of roundrobin.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.roundrobin(roundrobin_arc)
+run 7000 ns
+# Compile of SwitchTop_TB.vhd failed with 4 errors.
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd failed with 3 errors.
+# 9 compiles, 1 failed with 3 errors.
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 5000 ns
+# Compile of SwitchTop_TB.vhd was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+run 3000 ns
 run 5000 ns
 add wave -position insertpoint  \
 sim:/switchtop_tb/DUT/clk \
@@ -351,58 +1804,379 @@ sim:/switchtop_tb/DUT/port_2 \
 sim:/switchtop_tb/DUT/port_3 \
 sim:/switchtop_tb/DUT/port_4
 add wave -position insertpoint  \
-sim:/switchtop_tb/DUT/In_1/clk \
-sim:/switchtop_tb/DUT/In_1/reset \
-sim:/switchtop_tb/DUT/In_1/val \
-sim:/switchtop_tb/DUT/In_1/dat \
-sim:/switchtop_tb/DUT/In_1/por \
-sim:/switchtop_tb/DUT/In_1/valo1 \
-sim:/switchtop_tb/DUT/In_1/dato1 \
-sim:/switchtop_tb/DUT/In_1/valo2 \
-sim:/switchtop_tb/DUT/In_1/dato2 \
-sim:/switchtop_tb/DUT/In_1/valo3 \
-sim:/switchtop_tb/DUT/In_1/dato3 \
-sim:/switchtop_tb/DUT/In_1/valo4 \
-sim:/switchtop_tb/DUT/In_1/dato4 \
-sim:/switchtop_tb/DUT/In_1/macr \
-sim:/switchtop_tb/DUT/In_1/src_addr \
-sim:/switchtop_tb/DUT/In_1/dst_addr \
-sim:/switchtop_tb/DUT/In_1/poro \
-sim:/switchtop_tb/DUT/In_1/dest \
-sim:/switchtop_tb/DUT/In_1/macv \
-sim:/switchtop_tb/DUT/In_1/out_val \
-sim:/switchtop_tb/DUT/In_1/out_err \
-sim:/switchtop_tb/DUT/In_1/valr \
-sim:/switchtop_tb/DUT/In_1/req \
-sim:/switchtop_tb/DUT/In_1/fin \
-sim:/switchtop_tb/DUT/In_1/look_flag \
-sim:/switchtop_tb/DUT/In_1/dest1 \
-sim:/switchtop_tb/DUT/In_1/dest2 \
-sim:/switchtop_tb/DUT/In_1/dest3 \
-sim:/switchtop_tb/DUT/In_1/dest4 \
-sim:/switchtop_tb/DUT/In_1/datr \
-sim:/switchtop_tb/DUT/In_1/dato \
-sim:/switchtop_tb/DUT/In_1/datb \
-sim:/switchtop_tb/DUT/In_1/state \
-sim:/switchtop_tb/DUT/In_1/out_state \
-sim:/switchtop_tb/DUT/In_1/count
-restart -f
-run 5000 ns
-# WARNING: No extended dataflow license exists
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+sim:/switchtop_tb/DUT/clk \
+sim:/switchtop_tb/DUT/reset \
+sim:/switchtop_tb/DUT/vali \
+sim:/switchtop_tb/DUT/dati \
+sim:/switchtop_tb/DUT/valo \
+sim:/switchtop_tb/DUT/dato \
+sim:/switchtop_tb/DUT/val_one2two \
+sim:/switchtop_tb/DUT/val_one2three \
+sim:/switchtop_tb/DUT/val_one2four \
+sim:/switchtop_tb/DUT/val_two2one \
+sim:/switchtop_tb/DUT/val_two2three \
+sim:/switchtop_tb/DUT/val_two2four \
+sim:/switchtop_tb/DUT/val_three2one \
+sim:/switchtop_tb/DUT/val_three2two \
+sim:/switchtop_tb/DUT/val_three2four \
+sim:/switchtop_tb/DUT/val_four2one \
+sim:/switchtop_tb/DUT/val_four2two \
+sim:/switchtop_tb/DUT/val_four2three \
+sim:/switchtop_tb/DUT/dat_one2two \
+sim:/switchtop_tb/DUT/dat_one2three \
+sim:/switchtop_tb/DUT/dat_one2four \
+sim:/switchtop_tb/DUT/dat_two2one \
+sim:/switchtop_tb/DUT/dat_two2three \
+sim:/switchtop_tb/DUT/dat_two2four \
+sim:/switchtop_tb/DUT/dat_three2one \
+sim:/switchtop_tb/DUT/dat_three2two \
+sim:/switchtop_tb/DUT/dat_three2four \
+sim:/switchtop_tb/DUT/dat_four2one \
+sim:/switchtop_tb/DUT/dat_four2two \
+sim:/switchtop_tb/DUT/dat_four2three \
+sim:/switchtop_tb/DUT/mac_req1 \
+sim:/switchtop_tb/DUT/mac_req2 \
+sim:/switchtop_tb/DUT/mac_req3 \
+sim:/switchtop_tb/DUT/mac_req4 \
+sim:/switchtop_tb/DUT/mac_val2one \
+sim:/switchtop_tb/DUT/mac_val2two \
+sim:/switchtop_tb/DUT/mac_val2three \
+sim:/switchtop_tb/DUT/mac_val2four \
+sim:/switchtop_tb/DUT/mac_srcPort1 \
+sim:/switchtop_tb/DUT/mac_dst1 \
+sim:/switchtop_tb/DUT/mac_srcPort2 \
+sim:/switchtop_tb/DUT/mac_dst2 \
+sim:/switchtop_tb/DUT/mac_srcPort3 \
+sim:/switchtop_tb/DUT/mac_dst3 \
+sim:/switchtop_tb/DUT/mac_srcPort4 \
+sim:/switchtop_tb/DUT/mac_dst4 \
+sim:/switchtop_tb/DUT/mac_srcAddr1 \
+sim:/switchtop_tb/DUT/mac_dstAddr1 \
+sim:/switchtop_tb/DUT/mac_srcAddr2 \
+sim:/switchtop_tb/DUT/mac_dstAddr2 \
+sim:/switchtop_tb/DUT/mac_srcAddr3 \
+sim:/switchtop_tb/DUT/mac_dstAddr3 \
+sim:/switchtop_tb/DUT/mac_srcAddr4 \
+sim:/switchtop_tb/DUT/mac_dstAddr4 \
+sim:/switchtop_tb/DUT/port_1 \
+sim:/switchtop_tb/DUT/port_2 \
+sim:/switchtop_tb/DUT/port_3 \
+sim:/switchtop_tb/DUT/port_4
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_1/CRC/clk \
+sim:/switchtop_tb/DUT/In_1/CRC/reset \
+sim:/switchtop_tb/DUT/In_1/CRC/val \
+sim:/switchtop_tb/DUT/In_1/CRC/dat \
+sim:/switchtop_tb/DUT/In_1/CRC/out_val \
+sim:/switchtop_tb/DUT/In_1/CRC/out_err \
+sim:/switchtop_tb/DUT/In_1/CRC/R \
+sim:/switchtop_tb/DUT/In_1/CRC/state \
+sim:/switchtop_tb/DUT/In_1/CRC/data \
+sim:/switchtop_tb/DUT/In_1/CRC/val_reg \
+sim:/switchtop_tb/DUT/In_1/CRC/count
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_1/CRC/clk \
+sim:/switchtop_tb/DUT/In_1/CRC/reset \
+sim:/switchtop_tb/DUT/In_1/CRC/val \
+sim:/switchtop_tb/DUT/In_1/CRC/dat \
+sim:/switchtop_tb/DUT/In_1/CRC/out_val \
+sim:/switchtop_tb/DUT/In_1/CRC/out_err \
+sim:/switchtop_tb/DUT/In_1/CRC/R \
+sim:/switchtop_tb/DUT/In_1/CRC/state \
+sim:/switchtop_tb/DUT/In_1/CRC/data \
+sim:/switchtop_tb/DUT/In_1/CRC/val_reg \
+sim:/switchtop_tb/DUT/In_1/CRC/count
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd failed with 4 errors.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd failed with 2 errors.
+# 9 compiles, 2 failed with 6 errors.
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
 # Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd failed with 2 errors.
+# 9 compiles, 1 failed with 2 errors.
+# Compile of SwitchTop_TB.vhd was successful.
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
 # Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
 run 5000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_2/CRC/clk \
+sim:/switchtop_tb/DUT/In_2/CRC/reset \
+sim:/switchtop_tb/DUT/In_2/CRC/val \
+sim:/switchtop_tb/DUT/In_2/CRC/dat \
+sim:/switchtop_tb/DUT/In_2/CRC/out_val \
+sim:/switchtop_tb/DUT/In_2/CRC/out_err \
+sim:/switchtop_tb/DUT/In_2/CRC/R \
+sim:/switchtop_tb/DUT/In_2/CRC/state \
+sim:/switchtop_tb/DUT/In_2/CRC/data \
+sim:/switchtop_tb/DUT/In_2/CRC/val_reg \
+sim:/switchtop_tb/DUT/In_2/CRC/count
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_3/CRC/clk \
+sim:/switchtop_tb/DUT/In_3/CRC/reset \
+sim:/switchtop_tb/DUT/In_3/CRC/val \
+sim:/switchtop_tb/DUT/In_3/CRC/dat \
+sim:/switchtop_tb/DUT/In_3/CRC/out_val \
+sim:/switchtop_tb/DUT/In_3/CRC/out_err \
+sim:/switchtop_tb/DUT/In_3/CRC/R \
+sim:/switchtop_tb/DUT/In_3/CRC/state \
+sim:/switchtop_tb/DUT/In_3/CRC/data \
+sim:/switchtop_tb/DUT/In_3/CRC/val_reg \
+sim:/switchtop_tb/DUT/In_3/CRC/count
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/In_4/CRC/clk \
+sim:/switchtop_tb/DUT/In_4/CRC/reset \
+sim:/switchtop_tb/DUT/In_4/CRC/val \
+sim:/switchtop_tb/DUT/In_4/CRC/dat \
+sim:/switchtop_tb/DUT/In_4/CRC/out_val \
+sim:/switchtop_tb/DUT/In_4/CRC/out_err \
+sim:/switchtop_tb/DUT/In_4/CRC/R \
+sim:/switchtop_tb/DUT/In_4/CRC/state \
+sim:/switchtop_tb/DUT/In_4/CRC/data \
+sim:/switchtop_tb/DUT/In_4/CRC/val_reg \
+sim:/switchtop_tb/DUT/In_4/CRC/count
+restart -f
+run 3000 ns
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
 # Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
 # Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
 run 5000 ns
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/clk \
+sim:/switchtop_tb/DUT/reset \
+sim:/switchtop_tb/DUT/vali \
+sim:/switchtop_tb/DUT/dati \
+sim:/switchtop_tb/DUT/valo \
+sim:/switchtop_tb/DUT/dato \
+sim:/switchtop_tb/DUT/val_one2two \
+sim:/switchtop_tb/DUT/val_one2three \
+sim:/switchtop_tb/DUT/val_one2four \
+sim:/switchtop_tb/DUT/val_two2one \
+sim:/switchtop_tb/DUT/val_two2three \
+sim:/switchtop_tb/DUT/val_two2four \
+sim:/switchtop_tb/DUT/val_three2one \
+sim:/switchtop_tb/DUT/val_three2two \
+sim:/switchtop_tb/DUT/val_three2four \
+sim:/switchtop_tb/DUT/val_four2one \
+sim:/switchtop_tb/DUT/val_four2two \
+sim:/switchtop_tb/DUT/val_four2three \
+sim:/switchtop_tb/DUT/dat_one2two \
+sim:/switchtop_tb/DUT/dat_one2three \
+sim:/switchtop_tb/DUT/dat_one2four \
+sim:/switchtop_tb/DUT/dat_two2one \
+sim:/switchtop_tb/DUT/dat_two2three \
+sim:/switchtop_tb/DUT/dat_two2four \
+sim:/switchtop_tb/DUT/dat_three2one \
+sim:/switchtop_tb/DUT/dat_three2two \
+sim:/switchtop_tb/DUT/dat_three2four \
+sim:/switchtop_tb/DUT/dat_four2one \
+sim:/switchtop_tb/DUT/dat_four2two \
+sim:/switchtop_tb/DUT/dat_four2three \
+sim:/switchtop_tb/DUT/mac_req1 \
+sim:/switchtop_tb/DUT/mac_req2 \
+sim:/switchtop_tb/DUT/mac_req3 \
+sim:/switchtop_tb/DUT/mac_req4 \
+sim:/switchtop_tb/DUT/mac_val2one \
+sim:/switchtop_tb/DUT/mac_val2two \
+sim:/switchtop_tb/DUT/mac_val2three \
+sim:/switchtop_tb/DUT/mac_val2four \
+sim:/switchtop_tb/DUT/mac_srcPort1 \
+sim:/switchtop_tb/DUT/mac_dst1 \
+sim:/switchtop_tb/DUT/mac_srcPort2 \
+sim:/switchtop_tb/DUT/mac_dst2 \
+sim:/switchtop_tb/DUT/mac_srcPort3 \
+sim:/switchtop_tb/DUT/mac_dst3 \
+sim:/switchtop_tb/DUT/mac_srcPort4 \
+sim:/switchtop_tb/DUT/mac_dst4 \
+sim:/switchtop_tb/DUT/mac_srcAddr1 \
+sim:/switchtop_tb/DUT/mac_dstAddr1 \
+sim:/switchtop_tb/DUT/mac_srcAddr2 \
+sim:/switchtop_tb/DUT/mac_dstAddr2 \
+sim:/switchtop_tb/DUT/mac_srcAddr3 \
+sim:/switchtop_tb/DUT/mac_dstAddr3 \
+sim:/switchtop_tb/DUT/mac_srcAddr4 \
+sim:/switchtop_tb/DUT/mac_dstAddr4 \
+sim:/switchtop_tb/DUT/port_1 \
+sim:/switchtop_tb/DUT/port_2 \
+sim:/switchtop_tb/DUT/port_3 \
+sim:/switchtop_tb/DUT/port_4
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
+run 4000 ns
+# Compile of SwitchTop_TB.vhd failed with 2 errors.
+# Compile of switch_logic.vhd was successful.
+# Compile of crc_parallel.vhd was successful.
+# Compile of input_handler.vhd was successful.
+# Compile of Mac_learning.vhd was successful.
+# Compile of Mac_memory.vhd was successful.
+# Compile of buffer2K.vhd was successful.
+# Compile of buffer32K.vhd was successful.
+# Compile of roundrobin.vhd was successful.
+# Compile of SwitchTop_TB.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.switchtop_tb(switchtop_tb_arc)
+# Loading work.switch_logic(switch_logic_arc)
+# Loading work.input_handler(input_handler_arc)
+# Loading work.crc_parallel(crc_parallel_arc)
+# Loading work.buffer2k(syn)
+# Loading work.roundrobin(roundrobin_arc)
+# Loading work.buffer32k(syn)
+# Loading work.mac_learning(mac_learning_arc)
+# Loading work.mac_memory(mac_memory_arc)
 run 5000 ns
-quit
-# End time: 15:37:43 on May 11,2022, Elapsed time: 1:08:12
-# Errors: 0, Warnings: 1
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/MAC/clock \
+sim:/switchtop_tb/DUT/MAC/reset \
+sim:/switchtop_tb/DUT/MAC/mac_dst_1 \
+sim:/switchtop_tb/DUT/MAC/mac_src_1 \
+sim:/switchtop_tb/DUT/MAC/port_in_1 \
+sim:/switchtop_tb/DUT/MAC/read_in_1 \
+sim:/switchtop_tb/DUT/MAC/mac_dst_2 \
+sim:/switchtop_tb/DUT/MAC/mac_src_2 \
+sim:/switchtop_tb/DUT/MAC/port_in_2 \
+sim:/switchtop_tb/DUT/MAC/read_in_2 \
+sim:/switchtop_tb/DUT/MAC/mac_dst_3 \
+sim:/switchtop_tb/DUT/MAC/mac_src_3 \
+sim:/switchtop_tb/DUT/MAC/port_in_3 \
+sim:/switchtop_tb/DUT/MAC/read_in_3 \
+sim:/switchtop_tb/DUT/MAC/mac_dst_4 \
+sim:/switchtop_tb/DUT/MAC/mac_src_4 \
+sim:/switchtop_tb/DUT/MAC/port_in_4 \
+sim:/switchtop_tb/DUT/MAC/read_in_4 \
+sim:/switchtop_tb/DUT/MAC/dest_out_1 \
+sim:/switchtop_tb/DUT/MAC/read_out_1 \
+sim:/switchtop_tb/DUT/MAC/dest_out_2 \
+sim:/switchtop_tb/DUT/MAC/read_out_2 \
+sim:/switchtop_tb/DUT/MAC/dest_out_3 \
+sim:/switchtop_tb/DUT/MAC/read_out_3 \
+sim:/switchtop_tb/DUT/MAC/dest_out_4 \
+sim:/switchtop_tb/DUT/MAC/read_out_4 \
+sim:/switchtop_tb/DUT/MAC/state \
+sim:/switchtop_tb/DUT/MAC/Data \
+sim:/switchtop_tb/DUT/MAC/write_add \
+sim:/switchtop_tb/DUT/MAC/read_add \
+sim:/switchtop_tb/DUT/MAC/write_en \
+sim:/switchtop_tb/DUT/MAC/read_en \
+sim:/switchtop_tb/DUT/MAC/data_ram \
+sim:/switchtop_tb/DUT/MAC/R \
+sim:/switchtop_tb/DUT/MAC/D \
+sim:/switchtop_tb/DUT/MAC/R2 \
+sim:/switchtop_tb/DUT/MAC/D2 \
+sim:/switchtop_tb/DUT/MAC/count \
+sim:/switchtop_tb/DUT/MAC/mac_dst \
+sim:/switchtop_tb/DUT/MAC/mac_src \
+sim:/switchtop_tb/DUT/MAC/port_in \
+sim:/switchtop_tb/DUT/MAC/read_in \
+sim:/switchtop_tb/DUT/MAC/dest_out \
+sim:/switchtop_tb/DUT/MAC/read_out \
+sim:/switchtop_tb/DUT/MAC/RRstate
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/MAC/clock \
+sim:/switchtop_tb/DUT/MAC/reset \
+sim:/switchtop_tb/DUT/MAC/mac_dst_1 \
+sim:/switchtop_tb/DUT/MAC/mac_src_1 \
+sim:/switchtop_tb/DUT/MAC/port_in_1 \
+sim:/switchtop_tb/DUT/MAC/read_in_1 \
+sim:/switchtop_tb/DUT/MAC/mac_dst_2 \
+sim:/switchtop_tb/DUT/MAC/mac_src_2 \
+sim:/switchtop_tb/DUT/MAC/port_in_2 \
+sim:/switchtop_tb/DUT/MAC/read_in_2 \
+sim:/switchtop_tb/DUT/MAC/mac_dst_3 \
+sim:/switchtop_tb/DUT/MAC/mac_src_3 \
+sim:/switchtop_tb/DUT/MAC/port_in_3 \
+sim:/switchtop_tb/DUT/MAC/read_in_3 \
+sim:/switchtop_tb/DUT/MAC/mac_dst_4 \
+sim:/switchtop_tb/DUT/MAC/mac_src_4 \
+sim:/switchtop_tb/DUT/MAC/port_in_4 \
+sim:/switchtop_tb/DUT/MAC/read_in_4 \
+sim:/switchtop_tb/DUT/MAC/dest_out_1 \
+sim:/switchtop_tb/DUT/MAC/read_out_1 \
+sim:/switchtop_tb/DUT/MAC/dest_out_2 \
+sim:/switchtop_tb/DUT/MAC/read_out_2 \
+sim:/switchtop_tb/DUT/MAC/dest_out_3 \
+sim:/switchtop_tb/DUT/MAC/read_out_3 \
+sim:/switchtop_tb/DUT/MAC/dest_out_4 \
+sim:/switchtop_tb/DUT/MAC/read_out_4 \
+sim:/switchtop_tb/DUT/MAC/state \
+sim:/switchtop_tb/DUT/MAC/Data \
+sim:/switchtop_tb/DUT/MAC/write_add \
+sim:/switchtop_tb/DUT/MAC/read_add \
+sim:/switchtop_tb/DUT/MAC/write_en \
+sim:/switchtop_tb/DUT/MAC/read_en \
+sim:/switchtop_tb/DUT/MAC/data_ram \
+sim:/switchtop_tb/DUT/MAC/R \
+sim:/switchtop_tb/DUT/MAC/D \
+sim:/switchtop_tb/DUT/MAC/R2 \
+sim:/switchtop_tb/DUT/MAC/D2 \
+sim:/switchtop_tb/DUT/MAC/count \
+sim:/switchtop_tb/DUT/MAC/mac_dst \
+sim:/switchtop_tb/DUT/MAC/mac_src \
+sim:/switchtop_tb/DUT/MAC/port_in \
+sim:/switchtop_tb/DUT/MAC/read_in \
+sim:/switchtop_tb/DUT/MAC/dest_out \
+sim:/switchtop_tb/DUT/MAC/read_out \
+sim:/switchtop_tb/DUT/MAC/RRstate
+add wave -position insertpoint  \
+sim:/switchtop_tb/DUT/MAC/mac_mem/ram_block
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/wave.do
+# End time: 17:16:40 on May 15,2022, Elapsed time: 4:03:42
+# Errors: 0, Warnings: 2
