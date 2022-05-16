@@ -1,0 +1,128 @@
+
+State Machine - |switchtop|switchlogic:switch|mac_learning:MAC|RRstate
+Name RRstate.send_output4 RRstate.serve_input4 RRstate.search_input4 RRstate.send_output3 RRstate.serve_input3 RRstate.search_input3 RRstate.send_output2 RRstate.serve_input2 RRstate.search_input2 RRstate.send_output1 RRstate.serve_input1 RRstate.search_input1 
+RRstate.search_input1 0 0 0 0 0 0 0 0 0 0 0 0 
+RRstate.serve_input1 0 0 0 0 0 0 0 0 0 0 1 1 
+RRstate.send_output1 0 0 0 0 0 0 0 0 0 1 0 1 
+RRstate.search_input2 0 0 0 0 0 0 0 0 1 0 0 1 
+RRstate.serve_input2 0 0 0 0 0 0 0 1 0 0 0 1 
+RRstate.send_output2 0 0 0 0 0 0 1 0 0 0 0 1 
+RRstate.search_input3 0 0 0 0 0 1 0 0 0 0 0 1 
+RRstate.serve_input3 0 0 0 0 1 0 0 0 0 0 0 1 
+RRstate.send_output3 0 0 0 1 0 0 0 0 0 0 0 1 
+RRstate.search_input4 0 0 1 0 0 0 0 0 0 0 0 1 
+RRstate.serve_input4 0 1 0 0 0 0 0 0 0 0 0 1 
+RRstate.send_output4 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |switchtop|switchlogic:switch|mac_learning:MAC|state
+Name state.wait1 state.sending state.hashing state.writing state.reading state.waiting 
+state.waiting 0 0 0 0 0 0 
+state.reading 0 0 0 0 1 1 
+state.writing 0 0 0 1 0 1 
+state.hashing 0 0 1 0 0 1 
+state.sending 0 1 0 0 0 1 
+state.wait1 1 0 0 0 0 1 
+
+State Machine - |switchtop|switchlogic:switch|roundrobin:Out_4|RRstate
+Name RRstate.wait_buff3 RRstate.serve_buff3 RRstate.search_buff3 RRstate.wait_buff2 RRstate.serve_buff2 RRstate.search_buff2 RRstate.wait_buff1 RRstate.serve_buff1 RRstate.search_buff1 
+RRstate.search_buff1 0 0 0 0 0 0 0 0 0 
+RRstate.serve_buff1 0 0 0 0 0 0 0 1 1 
+RRstate.wait_buff1 0 0 0 0 0 0 1 0 1 
+RRstate.search_buff2 0 0 0 0 0 1 0 0 1 
+RRstate.serve_buff2 0 0 0 0 1 0 0 0 1 
+RRstate.wait_buff2 0 0 0 1 0 0 0 0 1 
+RRstate.search_buff3 0 0 1 0 0 0 0 0 1 
+RRstate.serve_buff3 0 1 0 0 0 0 0 0 1 
+RRstate.wait_buff3 1 0 0 0 0 0 0 0 1 
+
+State Machine - |switchtop|switchlogic:switch|roundrobin:Out_3|RRstate
+Name RRstate.wait_buff3 RRstate.serve_buff3 RRstate.search_buff3 RRstate.wait_buff2 RRstate.serve_buff2 RRstate.search_buff2 RRstate.wait_buff1 RRstate.serve_buff1 RRstate.search_buff1 
+RRstate.search_buff1 0 0 0 0 0 0 0 0 0 
+RRstate.serve_buff1 0 0 0 0 0 0 0 1 1 
+RRstate.wait_buff1 0 0 0 0 0 0 1 0 1 
+RRstate.search_buff2 0 0 0 0 0 1 0 0 1 
+RRstate.serve_buff2 0 0 0 0 1 0 0 0 1 
+RRstate.wait_buff2 0 0 0 1 0 0 0 0 1 
+RRstate.search_buff3 0 0 1 0 0 0 0 0 1 
+RRstate.serve_buff3 0 1 0 0 0 0 0 0 1 
+RRstate.wait_buff3 1 0 0 0 0 0 0 0 1 
+
+State Machine - |switchtop|switchlogic:switch|roundrobin:Out_2|RRstate
+Name RRstate.wait_buff3 RRstate.serve_buff3 RRstate.search_buff3 RRstate.wait_buff2 RRstate.serve_buff2 RRstate.search_buff2 RRstate.wait_buff1 RRstate.serve_buff1 RRstate.search_buff1 
+RRstate.search_buff1 0 0 0 0 0 0 0 0 0 
+RRstate.serve_buff1 0 0 0 0 0 0 0 1 1 
+RRstate.wait_buff1 0 0 0 0 0 0 1 0 1 
+RRstate.search_buff2 0 0 0 0 0 1 0 0 1 
+RRstate.serve_buff2 0 0 0 0 1 0 0 0 1 
+RRstate.wait_buff2 0 0 0 1 0 0 0 0 1 
+RRstate.search_buff3 0 0 1 0 0 0 0 0 1 
+RRstate.serve_buff3 0 1 0 0 0 0 0 0 1 
+RRstate.wait_buff3 1 0 0 0 0 0 0 0 1 
+
+State Machine - |switchtop|switchlogic:switch|roundrobin:Out_1|RRstate
+Name RRstate.wait_buff3 RRstate.serve_buff3 RRstate.search_buff3 RRstate.wait_buff2 RRstate.serve_buff2 RRstate.search_buff2 RRstate.wait_buff1 RRstate.serve_buff1 RRstate.search_buff1 
+RRstate.search_buff1 0 0 0 0 0 0 0 0 0 
+RRstate.serve_buff1 0 0 0 0 0 0 0 1 1 
+RRstate.wait_buff1 0 0 0 0 0 0 1 0 1 
+RRstate.search_buff2 0 0 0 0 0 1 0 0 1 
+RRstate.serve_buff2 0 0 0 0 1 0 0 0 1 
+RRstate.wait_buff2 0 0 0 1 0 0 0 0 1 
+RRstate.search_buff3 0 0 1 0 0 0 0 0 1 
+RRstate.serve_buff3 0 1 0 0 0 0 0 0 1 
+RRstate.wait_buff3 1 0 0 0 0 0 0 0 1 
+
+State Machine - |switchtop|switchlogic:switch|input_handler:In_4|out_state
+Name out_state.PUSH out_state.START out_state.REST 
+out_state.REST 0 0 0 
+out_state.START 0 1 1 
+out_state.PUSH 1 0 1 
+
+State Machine - |switchtop|switchlogic:switch|input_handler:In_4|state
+Name state.RUN state.LOOKUP state.SRC state.DST state.REST 
+state.REST 0 0 0 0 0 
+state.DST 0 0 0 1 1 
+state.SRC 0 0 1 0 1 
+state.LOOKUP 0 1 0 0 1 
+state.RUN 1 0 0 0 1 
+
+State Machine - |switchtop|switchlogic:switch|input_handler:In_3|out_state
+Name out_state.PUSH out_state.START out_state.REST 
+out_state.REST 0 0 0 
+out_state.START 0 1 1 
+out_state.PUSH 1 0 1 
+
+State Machine - |switchtop|switchlogic:switch|input_handler:In_3|state
+Name state.RUN state.LOOKUP state.SRC state.DST state.REST 
+state.REST 0 0 0 0 0 
+state.DST 0 0 0 1 1 
+state.SRC 0 0 1 0 1 
+state.LOOKUP 0 1 0 0 1 
+state.RUN 1 0 0 0 1 
+
+State Machine - |switchtop|switchlogic:switch|input_handler:In_2|out_state
+Name out_state.PUSH out_state.START out_state.REST 
+out_state.REST 0 0 0 
+out_state.START 0 1 1 
+out_state.PUSH 1 0 1 
+
+State Machine - |switchtop|switchlogic:switch|input_handler:In_2|state
+Name state.RUN state.LOOKUP state.SRC state.DST state.REST 
+state.REST 0 0 0 0 0 
+state.DST 0 0 0 1 1 
+state.SRC 0 0 1 0 1 
+state.LOOKUP 0 1 0 0 1 
+state.RUN 1 0 0 0 1 
+
+State Machine - |switchtop|switchlogic:switch|input_handler:In_1|out_state
+Name out_state.PUSH out_state.START out_state.REST 
+out_state.REST 0 0 0 
+out_state.START 0 1 1 
+out_state.PUSH 1 0 1 
+
+State Machine - |switchtop|switchlogic:switch|input_handler:In_1|state
+Name state.RUN state.LOOKUP state.SRC state.DST state.REST 
+state.REST 0 0 0 0 0 
+state.DST 0 0 0 1 1 
+state.SRC 0 0 1 0 1 
+state.LOOKUP 0 1 0 0 1 
+state.RUN 1 0 0 0 1 
