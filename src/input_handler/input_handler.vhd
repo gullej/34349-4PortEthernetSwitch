@@ -43,19 +43,18 @@ ARCHITECTURE input_handler_arc OF input_handler IS
 		);
 	END COMPONENT;
 
-	COMPONENT buffer2K IS
-		PORT (
-			clock : IN STD_LOGIC;
-			data : IN STD_LOGIC_VECTOR (8 DOWNTO 0);
-			rdreq : IN STD_LOGIC;
-			sclr : IN STD_LOGIC;
-			wrreq : IN STD_LOGIC;
-			almost_full : OUT STD_LOGIC;
-			empty : OUT STD_LOGIC;
-			full : OUT STD_LOGIC;
-			q : OUT STD_LOGIC_VECTOR (8 DOWNTO 0);
-			usedw : OUT STD_LOGIC_VECTOR (10 DOWNTO 0)
-		);
+	COMPONENT buffer2k IS
+	PORT
+	(
+		clock		: IN STD_LOGIC ;
+		data		: IN STD_LOGIC_VECTOR (8 DOWNTO 0);
+		rdreq		: IN STD_LOGIC ;
+		wrreq		: IN STD_LOGIC ;
+		empty		: OUT STD_LOGIC ;
+		full		: OUT STD_LOGIC ;
+		q			: OUT STD_LOGIC_VECTOR (8 DOWNTO 0);
+		usedw		: OUT STD_LOGIC_VECTOR (10 DOWNTO 0)
+	);
 	END COMPONENT;
 
 	SIGNAL out_val, out_err, valr, req, fin, look_flag, dest1, dest2, dest3, dest4, dont : STD_LOGIC;
@@ -70,7 +69,7 @@ ARCHITECTURE input_handler_arc OF input_handler IS
 BEGIN
 
 	CRC : crc_parallel PORT MAP(clk, reset, val, dat, out_val, out_err);
-	BUF : buffer2k PORT MAP(clk, datb, req, reset, valr, OPEN, OPEN, OPEN, dato, OPEN);
+	BUF : buffer2k PORT MAP(clk, datb, req, valr, OPEN, OPEN, dato, OPEN);
 	--MAC : simulated_mac PORT MAP(clk, reset, macr, src_addr, dst_addr, por, dest, macv);
 
 	valo1 <= dest1 WHEN out_state = PUSH and (dont = '0')   else '0'; --  --  or out_state = START

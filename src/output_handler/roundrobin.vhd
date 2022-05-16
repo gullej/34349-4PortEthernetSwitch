@@ -21,36 +21,34 @@ END roundrobin;
 ARCHITECTURE roundrobin_arc OF roundrobin IS
 
 	TYPE states IS (search_buff1, serve_buff1, wait_buff1, search_buff2, serve_buff2, wait_buff2, search_buff3, serve_buff3, wait_buff3);
-	SIGNAL RRstate : states;
+	SIGNAL RRstate : states := search_buff1;
 
-	COMPONENT buffer32k IS
-		PORT (
-			clock : IN STD_LOGIC;
-			data : IN STD_LOGIC_VECTOR (8 DOWNTO 0);
-			rdreq : IN STD_LOGIC;
-			sclr : IN STD_LOGIC;
-			wrreq : IN STD_LOGIC;
-			almost_full : OUT STD_LOGIC;
-			empty : OUT STD_LOGIC;
-			full : OUT STD_LOGIC;
-			q : OUT STD_LOGIC_VECTOR (8 DOWNTO 0);
-			usedw : OUT STD_LOGIC_VECTOR (14 DOWNTO 0)
-		);
+	COMPONENT buffer16k IS
+	PORT
+	(
+		clock		: IN STD_LOGIC ;
+		data		: IN STD_LOGIC_VECTOR (8 DOWNTO 0);
+		rdreq		: IN STD_LOGIC ;
+		wrreq		: IN STD_LOGIC ;
+		empty		: OUT STD_LOGIC ;
+		full		: OUT STD_LOGIC ;
+		q		: OUT STD_LOGIC_VECTOR (8 DOWNTO 0);
+		usedw		: OUT STD_LOGIC_VECTOR (13 DOWNTO 0)
+	);
 	END COMPONENT;
 
 	SIGNAL emp1, emp2, emp3 : STD_LOGIC;
 	SIGNAL buf1, buf2, buf3 : STD_LOGIC_VECTOR(8 DOWNTO 0);
 	SIGNAL req1, req2, req3 : STD_LOGIC;
 	SIGNAL count : INTEGER RANGE 0 TO 9;
-	SIGNAL clear : STD_LOGIC;
 
 BEGIN
 
-	buffer1 : buffer32k PORT MAP(clk, dat1, req1, clear, val1, OPEN, emp1, OPEN, buf1, OPEN);
+	buffer1 : buffer16k PORT MAP(clk, dat1, req1, val1, emp1, OPEN, buf1, OPEN);
 
-	buffer2 : buffer32k PORT MAP(clk, dat2, req2, clear, val2, OPEN, emp2, OPEN, buf2, OPEN);
+	buffer2 : buffer16k PORT MAP(clk, dat2, req2, val2, emp2, OPEN, buf2, OPEN);
 
-	buffer3 : buffer32k PORT MAP(clk, dat3, req3, clear, val3, OPEN, emp3, OPEN, buf3, OPEN);
+	buffer3 : buffer16k PORT MAP(clk, dat3, req3, val3, emp3, OPEN, buf3, OPEN);
 
 	dato <= buf1(7 DOWNTO 0) WHEN (RRstate = serve_buff1) ELSE
 		buf2(7 DOWNTO 0) WHEN (RRstate = serve_buff2) ELSE

@@ -36,7 +36,7 @@ END mac_learning;
 
 ARCHITECTURE mac_learning_arc OF mac_learning IS
 
-	TYPE State_type IS (waiting, reading, writing, hashing, sending);
+	TYPE State_type IS (waiting, reading, writing, hashing, sending, wait1);
 	SIGNAL state : State_Type;
 	SIGNAL Data : STD_LOGIC_VECTOR (51 DOWNTO 0);
 	SIGNAL write_add : STD_LOGIC_VECTOR(12 DOWNTO 0);
@@ -57,7 +57,7 @@ ARCHITECTURE mac_learning_arc OF mac_learning IS
 	SIGNAL dest_out : STD_LOGIC_VECTOR (3 DOWNTO 0);
 	SIGNAL read_out : STD_LOGIC;
 
-	TYPE states IS (search_input1, serve_input1, search_input2, serve_input2, search_input3, serve_input3, search_input4, serve_input4);
+	TYPE states IS (search_input1, serve_input1, output_1, search_input2, serve_input2, output_2, search_input3, serve_input3, output_3, search_input4, serve_input4, output_4);
 	SIGNAL RRstate : states;
 	COMPONENT mac_memory
 		PORT (
@@ -97,23 +97,14 @@ BEGIN
 		read_in_4 WHEN (RRstate = serve_input4) ELSE
 		'0';
 
-	dest_out_1 <= dest_out WHEN (RRstate = serve_input1) ELSE
-		(OTHERS => '0');
-	dest_out_2 <= dest_out WHEN (RRstate = serve_input2) ELSE
-		(OTHERS => '0');
-	dest_out_3 <= dest_out WHEN (RRstate = serve_input3) ELSE
-		(OTHERS => '0');
-	dest_out_4 <= dest_out WHEN (RRstate = serve_input4) ELSE
-		(OTHERS => '0');
-
-	read_out_1 <= read_out WHEN (RRstate = serve_input1) ELSE
-		'0';
-	read_out_2 <= read_out WHEN (RRstate = serve_input2) ELSE
-		'0';
-	read_out_3 <= read_out WHEN (RRstate = serve_input3) ELSE
-		'0';
-	read_out_4 <= read_out WHEN (RRstate = serve_input4) ELSE
-		'0';
+	dest_out_1 <= dest_out WHEN (RRstate = output_1) ELSE 		(OTHERS => '0');
+	dest_out_2 <= dest_out WHEN (RRstate = output_2) ELSE		(OTHERS => '0');
+	dest_out_3 <= dest_out WHEN (RRstate = output_3) ELSE		(OTHERS => '0');
+	dest_out_4 <= dest_out WHEN (RRstate = output_4) ELSE		(OTHERS => '0');
+	read_out_1 <= read_out WHEN (RRstate = output_1) ELSE		'0';
+	read_out_2 <= read_out WHEN (RRstate = output_2) ELSE		'0';
+	read_out_3 <= read_out WHEN (RRstate = output_3) ELSE		'0';
+	read_out_4 <= read_out WHEN (RRstate = output_4) ELSE		'0';
 
 	mac_mem : mac_memory
 	PORT MAP
@@ -152,6 +143,8 @@ BEGIN
 				WHEN writing =>
 					state <= reading;
 				WHEN reading =>
+					state <= wait1;
+				WHEN wait1 =>
 					state <= sending;
 				WHEN sending =>
 					state <= waiting;
@@ -159,10 +152,10 @@ BEGIN
 		END IF;
 	END PROCESS;
 
-	PROCESS (state, count)
+	PROCESS (clock)
 	BEGIN
-		CASE state IS
-			WHEN waiting =>
+		IF (rising_edge(clock)) THEN
+			IF state = waiting THEN
 				dest_out <= "0000";
 				read_out <= '0';
 				R <= (OTHERS => '0');
@@ -175,16 +168,14 @@ BEGIN
 				read_add <= (OTHERS => '0');
 				Data <= (OTHERS => '0');
 
-			WHEN hashing =>
+			ELSIF state = hashing THEN
 
 				-- FOR k IN 0 TO 7 LOOP
 				-- 	D(k) <= mac_src(k + count * 8);
 				-- 	D2(k) <= mac_dst(k + count * 8);
 				-- END LOOP;
-				D <= mac_src(count *8+7 downto count *8);
-				D2 <= mac_dst(count *8+7 downto count *8);
-
-
+				D <= mac_src(count * 8 + 7 DOWNTO count * 8);
+				D2 <= mac_dst(count * 8 + 7 DOWNTO count * 8);
 				R(0) <= R(5) XOR R(6) XOR R(9) XOR R(10) XOR R(11) XOR R(12) XOR D(7);
 				R(1) <= R(6) XOR R(7) XOR R(10) XOR R(11) XOR R(12) XOR D(6);
 				R(2) <= R(5) XOR R(6) XOR R(7) XOR R(8) XOR R(9) XOR R(10) XOR D(5);
@@ -198,7 +189,7 @@ BEGIN
 				R(10) <= R(2) XOR R(5) XOR R(6) XOR R(8) XOR R(9) XOR R(10) XOR R(11) XOR R(12);
 				R(11) <= R(3) XOR R(5) XOR R(7);
 				R(12) <= R(4) XOR R(5) XOR R(8) XOR R(9) XOR R(10) XOR R(11) XOR R(12);
-				
+
 				R2(0) <= R2(5) XOR R2(6) XOR R2(9) XOR R2(10) XOR R2(11) XOR R2(12) XOR D2(7);
 				R2(1) <= R2(6) XOR R2(7) XOR R2(10) XOR R2(11) XOR R2(12) XOR D2(6);
 				R2(2) <= R2(5) XOR R2(6) XOR R2(7) XOR R2(8) XOR R2(9) XOR R2(10) XOR D2(5);
@@ -212,17 +203,17 @@ BEGIN
 				R2(10) <= R2(2) XOR R2(5) XOR R2(6) XOR R2(8) XOR R2(9) XOR R2(10) XOR R2(11) XOR R2(12);
 				R2(11) <= R2(3) XOR R2(5) XOR R2(7);
 				R2(12) <= R2(4) XOR R2(5) XOR R2(8) XOR R2(9) XOR R2(10) XOR R2(11) XOR R2(12);
-			WHEN writing =>
+			ELSIF state = writing THEN
 				data <= mac_src & port_in;
 				write_en <= '1';
 				write_add <= R;
 
-			WHEN reading =>
+			ELSIF state = reading THEN
 				write_en <= '0';
 				read_en <= '1';
 				read_add <= R2;
 
-			WHEN sending =>
+			ELSIF state = sending THEN
 				--logic for sending data. broadcast if only zero. 
 				--Compare the mac address in data with dst_address if it is the same use the port in data for port out 
 				--otherwise broadcast
@@ -237,8 +228,88 @@ BEGIN
 						dest_out <= "1111";
 					END IF;
 				END IF;
-		END CASE;
+			END IF;
+		END IF;
 	END PROCESS;
+
+	-- PROCESS (state, count, mac_src, mac_dst, R, R2, D, D2)
+	-- BEGIN
+	-- 	CASE state IS
+	-- 		WHEN waiting =>
+	-- 			dest_out <= "0000";
+	-- 			read_out <= '0';
+	-- 			R <= (OTHERS => '0');
+	-- 			D <= (OTHERS => '0');
+	-- 			R2 <= (OTHERS => '0');
+	-- 			D2 <= (OTHERS => '0');
+	-- 			write_en <= '0';
+	-- 			write_add <= (OTHERS => '0');
+	-- 			read_en <= '0';
+	-- 			read_add <= (OTHERS => '0');
+	-- 			Data <= (OTHERS => '0');
+
+	-- 		WHEN hashing =>
+
+	-- 			-- FOR k IN 0 TO 7 LOOP
+	-- 			-- 	D(k) <= mac_src(k + count * 8);
+	-- 			-- 	D2(k) <= mac_dst(k + count * 8);
+	-- 			-- END LOOP;
+	-- 			D <= mac_src(count *8+7 downto count *8);
+	-- 			D2 <= mac_dst(count *8+7 downto count *8);
+	-- 			R(0) <= R(5) XOR R(6) XOR R(9) XOR R(10) XOR R(11) XOR R(12) XOR D(7);
+	-- 			R(1) <= R(6) XOR R(7) XOR R(10) XOR R(11) XOR R(12) XOR D(6);
+	-- 			R(2) <= R(5) XOR R(6) XOR R(7) XOR R(8) XOR R(9) XOR R(10) XOR D(5);
+	-- 			R(3) <= R(6) XOR R(7) XOR R(8) XOR R(9) XOR R(10) XOR R(11) XOR D(4);
+	-- 			R(4) <= R(5) XOR R(6) XOR R(7) XOR R(8) XOR D(3);
+	-- 			R(5) <= R(5) XOR R(7) XOR R(8) XOR R(10) XOR R(11) XOR R(12) XOR D(2);
+	-- 			R(6) <= R(5) XOR R(8) XOR R(10) XOR D(1);
+	-- 			R(7) <= R(5) XOR R(10) XOR R(12) XOR D(0);
+	-- 			R(8) <= R(0) XOR R(6) XOR R(11);
+	-- 			R(9) <= R(1) XOR R(7) XOR R(12);
+	-- 			R(10) <= R(2) XOR R(5) XOR R(6) XOR R(8) XOR R(9) XOR R(10) XOR R(11) XOR R(12);
+	-- 			R(11) <= R(3) XOR R(5) XOR R(7);
+	-- 			R(12) <= R(4) XOR R(5) XOR R(8) XOR R(9) XOR R(10) XOR R(11) XOR R(12);
+
+	-- 			R2(0) <= R2(5) XOR R2(6) XOR R2(9) XOR R2(10) XOR R2(11) XOR R2(12) XOR D2(7);
+	-- 			R2(1) <= R2(6) XOR R2(7) XOR R2(10) XOR R2(11) XOR R2(12) XOR D2(6);
+	-- 			R2(2) <= R2(5) XOR R2(6) XOR R2(7) XOR R2(8) XOR R2(9) XOR R2(10) XOR D2(5);
+	-- 			R2(3) <= R2(6) XOR R2(7) XOR R2(8) XOR R2(9) XOR R2(10) XOR R2(11) XOR D2(4);
+	-- 			R2(4) <= R2(5) XOR R2(6) XOR R2(7) XOR R2(8) XOR D2(3);
+	-- 			R2(5) <= R2(5) XOR R2(7) XOR R2(8) XOR R2(10) XOR R2(11) XOR R2(12) XOR D2(2);
+	-- 			R2(6) <= R2(5) XOR R2(8) XOR R2(10) XOR D2(1);
+	-- 			R2(7) <= R2(5) XOR R2(10) XOR R2(12) XOR D2(0);
+	-- 			R2(8) <= R2(0) XOR R2(6) XOR R2(11);
+	-- 			R2(9) <= R2(1) XOR R2(7) XOR R2(12);
+	-- 			R2(10) <= R2(2) XOR R2(5) XOR R2(6) XOR R2(8) XOR R2(9) XOR R2(10) XOR R2(11) XOR R2(12);
+	-- 			R2(11) <= R2(3) XOR R2(5) XOR R2(7);
+	-- 			R2(12) <= R2(4) XOR R2(5) XOR R2(8) XOR R2(9) XOR R2(10) XOR R2(11) XOR R2(12);
+	-- 		WHEN writing =>
+	-- 			data <= mac_src & port_in;
+	-- 			write_en <= '1';
+	-- 			write_add <= R;
+
+	-- 		WHEN reading =>
+	-- 			write_en <= '0';
+	-- 			read_en <= '1';
+	-- 			read_add <= R2;
+
+	-- 		WHEN sending =>
+	-- 			--logic for sending data. broadcast if only zero. 
+	-- 			--Compare the mac address in data with dst_address if it is the same use the port in data for port out 
+	-- 			--otherwise broadcast
+	-- 			read_en <= '0';
+	-- 			read_out <= '1';
+	-- 			IF (data_ram = x"00") THEN
+	-- 				dest_out <= "1111";
+	-- 			ELSE
+	-- 				IF (data_ram(51 DOWNTO 4) = mac_dst(47 DOWNTO 0)) THEN
+	-- 					dest_out <= data_ram(3 DOWNTO 0);
+	-- 				ELSE
+	-- 					dest_out <= "1111";
+	-- 				END IF;
+	-- 			END IF;
+	-- 	END CASE;
+	-- END PROCESS;
 
 	RR : PROCESS (clock)
 	BEGIN
@@ -251,8 +322,10 @@ BEGIN
 				END IF;
 			ELSIF (RRstate = serve_input1) THEN
 				IF (state = sending) THEN
-					RRstate <= search_input2;
+					RRstate <= output_1;
 				END IF;
+			ELSIF (RRstate = output_1) THEN
+				RRstate <= search_input2;
 			ELSIF (RRstate = search_input2) THEN
 				IF (read_in_2 = '1') THEN
 					RRstate <= serve_input2;
@@ -261,8 +334,10 @@ BEGIN
 				END IF;
 			ELSIF (RRstate = serve_input2) THEN
 				IF (state = sending) THEN
-					RRstate <= search_input3;
+					RRstate <= output_2;
 				END IF;
+			ELSIF (RRstate = output_2) THEN
+				RRstate <= search_input3;
 			ELSIF (RRstate = search_input3) THEN
 				IF (read_in_3 = '1') THEN
 					RRstate <= serve_input3;
@@ -271,8 +346,10 @@ BEGIN
 				END IF;
 			ELSIF (RRstate = serve_input3) THEN
 				IF (state = sending) THEN
-					RRstate <= search_input4;
+					RRstate <= output_3;
 				END IF;
+			ELSIF (RRstate = output_3) THEN
+				RRstate <= search_input4;
 			ELSIF (RRstate = search_input4) THEN
 				IF (read_in_4 = '1') THEN
 					RRstate <= serve_input4;
@@ -281,8 +358,10 @@ BEGIN
 				END IF;
 			ELSIF (RRstate = serve_input4) THEN
 				IF (state = sending) THEN
-					RRstate <= search_input1;
+					RRstate <= output_4;
 				END IF;
+			ELSIF (RRstate = output_4) THEN
+				RRstate <= search_input1;
 			END IF;
 		END IF;
 	END PROCESS;

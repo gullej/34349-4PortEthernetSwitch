@@ -1,9 +1,20 @@
-C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd
+C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity buffer2K
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mac_memory
+-- Compiling architecture mac_memory_arc of mac_memory
+
+} {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity buffer2k
 -- Compiling architecture SYN of buffer2k
 
 } {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd
@@ -18,16 +29,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity crc_parallel
 -- Compiling architecture crc_parallel_arc of crc_parallel
 
-} {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd
+} {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer16k.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer16k.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity mac_memory
--- Compiling architecture mac_memory_arc of mac_memory
+-- Compiling entity buffer16k
+-- Compiling architecture SYN of buffer16k
 
 } {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -41,26 +49,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity input_handler
 -- Compiling architecture input_handler_arc of input_handler
 
-} {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd
+} {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer8k.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer8k.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity buffer32K
--- Compiling architecture SYN of buffer32k
+-- Compiling entity buffer8k
+-- Compiling architecture SYN of buffer8k
 
-} {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity mac_learning
--- Compiling architecture mac_learning_arc of mac_learning
-
-} {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/switch_logic.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/switch_logic.vhd
+} {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -69,8 +66,8 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Loading package std_logic_arith
 -- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity switch_logic
--- Compiling architecture switch_logic_arc of switch_logic
+-- Compiling entity SwitchTop_TB
+-- Compiling architecture SwitchTop_TB_arc of SwitchTop_TB
 
 } {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -83,5 +80,36 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity roundrobin
 -- Compiling architecture roundrobin_arc of roundrobin
+
+} {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mac_learning
+-- Compiling architecture mac_learning_arc of mac_learning
+
+} {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity buffer32k
+-- Compiling architecture SYN of buffer32k
+
+} {} {}} C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/switch_logic.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/switch_logic.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity switch_logic
+-- Compiling architecture switch_logic_arc of switch_logic
 
 } {} {}}

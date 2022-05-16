@@ -19,7 +19,7 @@ END mac_memory;
 
 
 ARCHITECTURE mac_memory_arc OF mac_memory IS
-   TYPE mem IS ARRAY(0 TO 8192) OF std_logic_vector(51 DOWNTO 0);
+   TYPE mem IS ARRAY(0 TO 8191) OF std_logic_vector(51 DOWNTO 0);
    SIGNAL ram_block : mem := (others => (others => '0'));
 BEGIN
    PROCESS (clock)
@@ -27,11 +27,13 @@ BEGIN
       IF (clock'event AND clock = '1') THEN
          IF (we = '1') THEN
             	ram_block(to_integer(unsigned(write_address))) <= data_in;
-         elsif(re = '1') then
+         END IF;
+
+         if(re = '1') then
          	data_out <= ram_block(to_integer(unsigned(read_address)));
-	 else
-		data_out<=(others=>'0');
-	 END IF;
+	      else
+		      data_out<=(others=>'0');
+	      END IF;
       END IF;
    END PROCESS;
 END mac_memory_arc;

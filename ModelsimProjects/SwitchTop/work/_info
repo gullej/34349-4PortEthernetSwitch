@@ -9,218 +9,300 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/20.1
-Ebuffer2k
-Z0 w1652701909
+Ebuffer16k
+Z0 w1652709993
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 330
+!i122 400
 Z3 dC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop
-Z4 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd
-Z5 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd
+Z4 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer16k.vhd
+Z5 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer16k.vhd
 l0
-L43 1
-VfLd93RX<e3ZgD]cl4OLEB0
-!s100 EHekTCKDBQDHajBhlF0T13
-Z6 OV;C;2020.1;71
+Z6 L43 1
+VCVcH<X>aRhWncYa_2@?G53
+!s100 n4`0zYZ;:kR:_k13;MW7G0
+Z7 OV;C;2020.1;71
 32
-Z7 !s110 1652701936
+Z8 !s110 1652710075
 !i10b 1
-Z8 !s108 1652701935.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd|
-Z10 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd|
+Z9 !s108 1652710075.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer16k.vhd|
+!s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer16k.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
 Asyn
 R1
 R2
-DEx4 work 8 buffer2k 0 22 fLd93RX<e3ZgD]cl4OLEB0
-!i122 330
-l98
-L60 75
-VVgTKP5_0gzE;2C^banFOc3
-!s100 RVj_n^J1HIg^Ca?33]P=o3
-R6
-32
+DEx4 work 9 buffer16k 0 22 CVcH<X>aRhWncYa_2@?G53
+!i122 400
+l92
+Z13 L58 67
+VRoBhYolN=9nz4jz8_Ph7i2
+!s100 Gfh5gm?JHd@HXR;6aoRAH1
 R7
-!i10b 1
+32
 R8
+!i10b 1
 R9
 R10
+Z14 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer16k.vhd|
 !i113 1
 R11
 R12
-Ebuffer32k
-R0
+Ebuffer2k
+Z15 w1652706661
 R1
 R2
-!i122 331
+!i122 388
 R3
-Z13 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd
-Z14 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd
+Z16 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd
+Z17 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd
 l0
-L40 1
-V8dIeU]8<=3XZR=jOTm?@F3
-!s100 X:NGWeANVPi_ReJZjTL1l1
 R6
-32
+VTlk4Y`:_^5ZGSz2Tn7i>k2
+!s100 kkM6mO]ZQIY_MHjJm=c@W3
 R7
+32
+Z18 !s110 1652709548
 !i10b 1
-Z15 !s108 1652701936.000000
-Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd|
-Z17 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd|
+Z19 !s108 1652709548.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd|
+Z21 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer2K.vhd|
 !i113 1
 R11
 R12
 Asyn
 R1
 R2
-DEx4 work 9 buffer32k 0 22 8dIeU]8<=3XZR=jOTm?@F3
-!i122 331
-l90
-L54 71
-VBV_J><6CL^^fJ07=Xk^2T0
-!s100 hAjOV@LiG00MQ8lecOFhH3
-R6
-32
+DEx4 work 8 buffer2k 0 22 Tlk4Y`:_^5ZGSz2Tn7i>k2
+!i122 388
+l92
+R13
+Vz55@;Z2XF@?053IUBBJ@R1
+!s100 N0UVm4^=H>e<D5Mc6>eiL2
 R7
+32
+R18
 !i10b 1
-R15
-R16
-R17
+R19
+R20
+R21
+!i113 1
+R11
+R12
+Ebuffer32k
+Z22 w1652706692
+R1
+R2
+!i122 389
+R3
+Z23 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd
+Z24 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd
+l0
+R6
+VPcF``n4o3=0D<82Khlo5:2
+!s100 8`fmOB>FKM3?]?VZ6X?c=0
+R7
+32
+R18
+!i10b 1
+R19
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd|
+Z26 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer32K.vhd|
+!i113 1
+R11
+R12
+Asyn
+R1
+R2
+DEx4 work 9 buffer32k 0 22 PcF``n4o3=0D<82Khlo5:2
+!i122 389
+l92
+R13
+VZ9z[5JTH_i>nM1HS=KA2H3
+!s100 f73C^NMl3DE1@HBSbDQEg0
+R7
+32
+Z27 !s110 1652709549
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R11
+R12
+Ebuffer8k
+Z28 w1652707796
+R1
+R2
+!i122 399
+R3
+Z29 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer8k.vhd
+Z30 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer8k.vhd
+l0
+R6
+V:O58QMQJanEH;[0oKoRdE3
+!s100 SYlaa4?c9I8Rz:`MF[1ej2
+R7
+32
+R8
+!i10b 1
+Z31 !s108 1652710074.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer8k.vhd|
+Z33 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/buffer/buffer8k.vhd|
+!i113 1
+R11
+R12
+Asyn
+R1
+R2
+DEx4 work 8 buffer8k 0 22 :O58QMQJanEH;[0oKoRdE3
+!i122 399
+l92
+R13
+Vi`]O?G8<SzIZMh[BUNj@d1
+!s100 GEI9Eaen@Kg`gFn54:iQV0
+R7
+32
+R8
+!i10b 1
+R31
+R32
+R33
 !i113 1
 R11
 R12
 Ecrc_parallel
-Z18 w1652521535
-Z19 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z20 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z21 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z34 w1652521535
+Z35 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z36 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z37 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R2
-Z22 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+Z38 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
 R1
-!i122 326
+!i122 384
 R3
-Z23 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd
-Z24 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd
+Z39 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd
+Z40 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd
 l0
 L9 1
 V_f``E5:^dTmNd<^`]g2Y82
 !s100 JEVj_OEiKo4E>n8YczSA13
-R6
+R7
 32
-Z25 !s110 1652701935
+R18
 !i10b 1
-R8
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd|
-Z27 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd|
+R19
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd|
+Z42 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/crc_parallel.vhd|
 !i113 1
 R11
 R12
 Acrc_parallel_arc
-R19
-R20
-R21
+R35
+R36
+R37
 R2
-R22
+R38
 R1
 DEx4 work 12 crc_parallel 0 22 _f``E5:^dTmNd<^`]g2Y82
-!i122 326
+!i122 384
 l28
 L20 104
 Vn=6E^>ll970]8ML=ohgYP2
 !s100 i3Jl^b6GQgK]i]C>CRXD53
-R6
+R7
 32
-R25
+R18
 !i10b 1
-R8
-R26
-R27
+R19
+R41
+R42
 !i113 1
 R11
 R12
 Einput_handler
-Z28 w1652625759
-R19
-R20
-R21
+Z43 w1652706871
+R35
+R36
+R37
 R2
-R22
+R38
 R1
-!i122 327
+!i122 385
 R3
-Z29 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd
-Z30 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd
+Z44 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd
+Z45 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd
 l0
 L9 1
 VQ76L>Ce=:@dDaU7MXFRk]1
 !s100 SBZ964A]CS5Q5P<=F<B6R2
-R6
+R7
 32
-R25
+R18
 !i10b 1
-R8
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd|
-Z32 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd|
+R19
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd|
+Z47 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/input_handler/input_handler.vhd|
 !i113 1
 R11
 R12
 Ainput_handler_arc
-R19
-R20
-R21
+R35
+R36
+R37
 R2
-R22
+R38
 R1
 DEx4 work 13 input_handler 0 22 Q76L>Ce=:@dDaU7MXFRk]1
-!i122 327
-l70
-L33 147
-V:n[lZ9DiV4fBPkUI:D6no1
-!s100 =EGF<6c0V;b@?hFHVfd5@1
-R6
+!i122 385
+l69
+L33 146
+V5z0g^WWB?9B7GN_5cnY2V1
+!s100 W6EBHJ<0LZDdJ0559m<Dj0
+R7
 32
-R25
+R18
 !i10b 1
-R8
-R31
-R32
+R19
+R46
+R47
 !i113 1
 R11
 R12
 Einput_tb
-Z33 w1652270448
-R19
-R20
-R21
+Z48 w1652270448
+R35
+R36
+R37
 R2
-R22
+R38
 R1
 !i122 33
-Z34 dC:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop
-Z35 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
-Z36 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+Z49 dC:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop
+Z50 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+Z51 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
 l0
 L9 1
 V?g7h3k8mf<dRDzZjn92R73
 !s100 kFV<GeYj3[o]1^96f9dk61
-R6
+R7
 32
-Z37 !s110 1652271697
+Z52 !s110 1652271697
 !i10b 1
-Z38 !s108 1652271697.000000
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd|
-Z40 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd|
+Z53 !s108 1652271697.000000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd|
+Z55 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd|
 !i113 1
 R11
 R12
 Ainput_arc
-R19
-R20
-R21
+R35
+R36
+R37
 R2
-R22
+R38
 R1
 DEx4 work 8 input_tb 0 22 ?g7h3k8mf<dRDzZjn92R73
 !i122 33
@@ -228,304 +310,304 @@ l32
 L12 52
 VPEeL:Q;[MdB@QA@<Y[AaX3
 !s100 AW2<EdZiRgo`S@5G1HNh71
-R6
+R7
 32
-R37
+R52
 !i10b 1
-R38
-R39
-R40
+R53
+R54
+R55
 !i113 1
 R11
 R12
 Emac_learning
-R0
-R19
-R20
-R21
+Z56 w1652709830
+R35
+R36
+R37
 R1
 R2
-!i122 328
+!i122 397
 R3
-Z41 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd
-Z42 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd
+Z57 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd
+Z58 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd
 l0
 L6 1
 V[Z`:?Kn6UlmgM5UDNAL4b3
 !s100 OglAk;Tb8@J=HzLdiiKSK1
-R6
+R7
 32
-R25
+Z59 !s110 1652710030
 !i10b 1
-R8
-Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd|
-Z44 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd|
+Z60 !s108 1652710030.000000
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd|
+Z62 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_learning.vhd|
 !i113 1
 R11
 R12
 Amac_learning_arc
-R19
-R20
-R21
+R35
+R36
+R37
 R1
 R2
 DEx4 work 12 mac_learning 0 22 [Z`:?Kn6UlmgM5UDNAL4b3
-!i122 328
+!i122 397
 l74
-L37 254
-V@d6=L22BbYR5E3m7606ga0
-!s100 OJ=K?_S43CHdcf?Dg1ahi3
-R6
-32
-R25
-!i10b 1
-R8
-R43
-R44
-!i113 1
-R11
-R12
-Emac_memory
-R18
-R19
-R20
-R21
-R1
-R2
-!i122 329
-R3
-Z45 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd
-Z46 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd
-l0
-L7 1
-Vz2Y=HIX<<CYeVgd<NGJ<b3
-!s100 F<omTjGbRmJGOcaTL9On<0
-R6
-32
-R25
-!i10b 1
-R8
-Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd|
-Z48 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd|
-!i113 1
-R11
-R12
-Amac_memory_arc
-R19
-R20
-R21
-R1
-R2
-DEx4 work 10 mac_memory 0 22 z2Y=HIX<<CYeVgd<NGJ<b3
-!i122 329
-l24
-L21 17
-VgkkoQ@f=mG3>V<31db<UF1
-!s100 _2_JYHNjMX_0zB_fekB_l3
-R6
-32
-R25
-!i10b 1
-R8
-R47
-R48
-!i113 1
-R11
-R12
-Eroundrobin
-Z49 w1652622056
-R19
-R20
-R21
-R2
-R1
-R22
-!i122 332
-R3
-Z50 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd
-Z51 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd
-l0
-L7 1
-V`L1?SkGzW2eIZA@TGZ0]S2
-!s100 MBZH0lU9KkUCVJ:d3;jb_0
-R6
-32
+L37 333
+VT8=kNUP0`;CgZIYk8a=L50
+!s100 B]2;BlUaWaI=f^<kXY5T91
 R7
-!i10b 1
-R15
-Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd|
-Z53 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd|
-!i113 1
-R11
-R12
-Aroundrobin_arc
-R19
-R20
-R21
-R2
-R1
-R22
-DEx4 work 10 roundrobin 0 22 `L1?SkGzW2eIZA@TGZ0]S2
-!i122 332
-l47
-L21 114
-V<DRm`DPfHT0Hf:TNecLIK2
-!s100 h@Vd4:onjY_6f^I<l7oSL3
-R6
 32
-R7
+R59
 !i10b 1
-R15
-R52
-R53
-!i113 1
-R11
-R12
-Eswitch_logic
-R0
-R19
-R20
-R21
-R2
-R22
-R1
-!i122 325
-R3
-Z54 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/switch_logic.vhd
-Z55 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/switch_logic.vhd
-l0
-L9 1
-V1NG;LliP;zb7gTXhKYG<O3
-!s100 8a4?m5`cM]_IC8dOFFoNY0
-R6
-32
-R25
-!i10b 1
-R8
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/switch_logic.vhd|
-Z57 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/switch_logic.vhd|
-!i113 1
-R11
-R12
-Aswitch_logic_arc
-R19
-R20
-R21
-R2
-R22
-R1
-DEx4 work 12 switch_logic 0 22 1NG;LliP;zb7gTXhKYG<O3
-!i122 325
-l104
-Z58 L20 99
-VlE1R8QlBK_SMmK1f0_U9^3
-!s100 NK8FailaC4T7Bo<TRJ6Ln2
-R6
-32
-R25
-!i10b 1
-R8
-R56
-R57
-!i113 1
-R11
-R12
-Eswitch_top
-w1652271771
-R19
-R20
-R21
-R2
-R22
-R1
-!i122 44
-R34
-Z59 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/switch_logic.vhd
-Z60 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/switch_logic.vhd
-l0
-L9 1
-VjbEA;i?QbQ]:SI3AjP=PN3
-!s100 YPlo4faAiPmWRZKe;OU2X2
-R6
-32
-!s110 1652271777
-!i10b 1
-!s108 1652271777.000000
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/switch_logic.vhd|
-Z62 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/switch_logic.vhd|
-!i113 1
-R11
-R12
-Aswitch_top_arc
-w1652271988
-R19
-R20
-R21
-R2
-R22
-R1
-DEx4 work 10 switch_top 0 22 jbEA;i?QbQ]:SI3AjP=PN3
-!i122 63
-l104
-R58
-V8K3ea6_iXeURA<z4i6diT3
-!s100 IBFHoYWRc0UQ64VN;zLz_1
-R6
-32
-!s110 1652272075
-!i10b 1
-!s108 1652272075.000000
+R60
 R61
 R62
 !i113 1
 R11
 R12
-Eswitchtop_tb
-Z63 w1652702259
-R19
-R20
-R21
-R2
-R22
+Emac_memory
+Z63 w1652708123
+R35
+R36
+R37
 R1
-!i122 335
+R2
+!i122 387
 R3
-Z64 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
-Z65 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+Z64 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd
+Z65 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd
+l0
+L7 1
+Vz2Y=HIX<<CYeVgd<NGJ<b3
+!s100 F<omTjGbRmJGOcaTL9On<0
+R7
+32
+R18
+!i10b 1
+R19
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd|
+Z67 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/mac_learning/Mac_memory.vhd|
+!i113 1
+R11
+R12
+Amac_memory_arc
+R35
+R36
+R37
+R1
+R2
+DEx4 work 10 mac_memory 0 22 z2Y=HIX<<CYeVgd<NGJ<b3
+!i122 387
+l24
+L21 19
+Vc7J40ZAb8UmGVGkWaABD33
+!s100 g8YkMONj^_`gSFc1<I5W62
+R7
+32
+R18
+!i10b 1
+R19
+R66
+R67
+!i113 1
+R11
+R12
+Eroundrobin
+Z68 w1652710026
+R35
+R36
+R37
+R2
+R1
+R38
+!i122 398
+R3
+Z69 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd
+Z70 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd
+l0
+L7 1
+V`L1?SkGzW2eIZA@TGZ0]S2
+!s100 MBZH0lU9KkUCVJ:d3;jb_0
+R7
+32
+R59
+!i10b 1
+R60
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd|
+Z72 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/output_handler/roundrobin.vhd|
+!i113 1
+R11
+R12
+Aroundrobin_arc
+R35
+R36
+R37
+R2
+R1
+R38
+DEx4 work 10 roundrobin 0 22 `L1?SkGzW2eIZA@TGZ0]S2
+!i122 398
+l45
+L21 112
+VKmol8aQ:dZa>UWzWVPk1S0
+!s100 AzS0kN2R`TBJ]zH5Z6a<C1
+R7
+32
+R59
+!i10b 1
+R60
+R71
+R72
+!i113 1
+R11
+R12
+Eswitch_logic
+Z73 w1652701909
+R35
+R36
+R37
+R2
+R38
+R1
+!i122 383
+R3
+Z74 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/switch_logic.vhd
+Z75 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/switch_logic.vhd
+l0
+L9 1
+V1NG;LliP;zb7gTXhKYG<O3
+!s100 8a4?m5`cM]_IC8dOFFoNY0
+R7
+32
+Z76 !s110 1652709547
+!i10b 1
+Z77 !s108 1652709547.000000
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/switch_logic.vhd|
+Z79 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/src/switch_logic.vhd|
+!i113 1
+R11
+R12
+Aswitch_logic_arc
+R35
+R36
+R37
+R2
+R38
+R1
+DEx4 work 12 switch_logic 0 22 1NG;LliP;zb7gTXhKYG<O3
+!i122 383
+l104
+Z80 L20 99
+VlE1R8QlBK_SMmK1f0_U9^3
+!s100 NK8FailaC4T7Bo<TRJ6Ln2
+R7
+32
+R76
+!i10b 1
+R77
+R78
+R79
+!i113 1
+R11
+R12
+Eswitch_top
+w1652271771
+R35
+R36
+R37
+R2
+R38
+R1
+!i122 44
+R49
+Z81 8C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/switch_logic.vhd
+Z82 FC:/Users/victo/Documents/34349-4PortEthernetSwitch/src/switch_logic.vhd
+l0
+L9 1
+VjbEA;i?QbQ]:SI3AjP=PN3
+!s100 YPlo4faAiPmWRZKe;OU2X2
+R7
+32
+!s110 1652271777
+!i10b 1
+!s108 1652271777.000000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/switch_logic.vhd|
+Z84 !s107 C:/Users/victo/Documents/34349-4PortEthernetSwitch/src/switch_logic.vhd|
+!i113 1
+R11
+R12
+Aswitch_top_arc
+w1652271988
+R35
+R36
+R37
+R2
+R38
+R1
+DEx4 work 10 switch_top 0 22 jbEA;i?QbQ]:SI3AjP=PN3
+!i122 63
+l104
+R80
+V8K3ea6_iXeURA<z4i6diT3
+!s100 IBFHoYWRc0UQ64VN;zLz_1
+R7
+32
+!s110 1652272075
+!i10b 1
+!s108 1652272075.000000
+R83
+R84
+!i113 1
+R11
+R12
+Eswitchtop_tb
+Z85 w1652702297
+R35
+R36
+R37
+R2
+R38
+R1
+!i122 391
+R3
+Z86 8C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
+Z87 FC:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd
 l0
 L9 1
 Vzg<nE5h;C6IO[_@hk>ldX2
 !s100 FOe54f_JcQBhH>QNXIla70
-R6
+R7
 32
-Z66 !s110 1652702263
+R27
 !i10b 1
-Z67 !s108 1652702263.000000
-Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd|
-Z69 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd|
+Z88 !s108 1652709549.000000
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd|
+Z90 !s107 C:/Users/GJJ/Documents/GitRepos/34349-4PortEthernetSwitch/ModelsimProjects/SwitchTop/SwitchTop_TB.vhd|
 !i113 1
 R11
 R12
 Aswitchtop_tb_arc
-R19
-R20
-R21
+R35
+R36
+R37
 R2
-R22
+R38
 R1
-Z70 DEx4 work 12 switchtop_tb 0 22 zg<nE5h;C6IO[_@hk>ldX2
-!i122 335
+DEx4 work 12 switchtop_tb 0 22 zg<nE5h;C6IO[_@hk>ldX2
+!i122 391
 l34
-Z71 L12 74
+L12 74
 V]mE:^M8`ZdzkRIBhV::430
 !s100 GGC2fceA_@WMcioIGcE3?1
-R6
+R7
 32
-R66
+R27
 !i10b 1
-R67
-R68
-R69
+R88
+R89
+R90
 !i113 1
 R11
 R12

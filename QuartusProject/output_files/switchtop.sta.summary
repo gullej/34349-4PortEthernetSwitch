@@ -2,4 +2,640 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Slow 900mV 85C Model Setup 'clk'
+Slack : -3.315
+TNS   : -5023.652
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_2|count[0]'
+Slack : -2.695
+TNS   : -127.364
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_3|count[0]'
+Slack : -2.487
+TNS   : -148.521
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_4|count[0]'
+Slack : -2.382
+TNS   : -142.672
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_3|dest4'
+Slack : -2.272
+TNS   : -15.710
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_1|dest4'
+Slack : -1.656
+TNS   : -10.077
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_4|dest3'
+Slack : -1.635
+TNS   : -11.913
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_4|dest2'
+Slack : -1.536
+TNS   : -10.930
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_4|dest1'
+Slack : -1.448
+TNS   : -10.902
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_3|dest1'
+Slack : -1.411
+TNS   : -9.088
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_1|count[0]'
+Slack : -1.389
+TNS   : -44.672
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_1|dest2'
+Slack : -1.151
+TNS   : -7.790
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_3|dest2'
+Slack : -1.144
+TNS   : -9.131
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_1|dest3'
+Slack : -1.115
+TNS   : -8.329
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_2|dest1'
+Slack : -0.991
+TNS   : -7.226
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_2|dest3'
+Slack : -0.824
+TNS   : -6.133
+
+Type  : Slow 900mV 85C Model Setup 'switch_logic:switch|input_handler:In_2|dest4'
+Slack : -0.674
+TNS   : -4.680
+
+Type  : Slow 900mV 85C Model Hold 'clk'
+Slack : -1.075
+TNS   : -1.075
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_1|count[0]'
+Slack : -0.526
+TNS   : -0.567
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_2|dest4'
+Slack : 0.160
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_2|dest3'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_2|dest1'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_1|dest2'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_1|dest3'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_3|dest1'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_1|dest4'
+Slack : 0.573
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_3|dest2'
+Slack : 0.618
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_4|dest2'
+Slack : 0.657
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_4|dest3'
+Slack : 0.690
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_4|dest1'
+Slack : 0.723
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_2|count[0]'
+Slack : 0.746
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_4|count[0]'
+Slack : 0.964
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_3|count[0]'
+Slack : 0.974
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'switch_logic:switch|input_handler:In_3|dest4'
+Slack : 1.409
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Recovery 'clk'
+Slack : -1.411
+TNS   : -9.494
+
+Type  : Slow 900mV 85C Model Removal 'clk'
+Slack : 0.945
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.846
+TNS   : -4585.972
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_1|count[0]'
+Slack : 0.253
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_1|dest2'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_2|count[0]'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_4|count[0]'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_3|count[0]'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_3|dest4'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_1|dest4'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_4|dest2'
+Slack : 0.408
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_2|dest4'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_3|dest2'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_4|dest1'
+Slack : 0.441
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_2|dest1'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_2|dest3'
+Slack : 0.446
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_3|dest1'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_1|dest3'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_4|dest3'
+Slack : 0.470
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'clk'
+Slack : -3.106
+TNS   : -4637.735
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_2|count[0]'
+Slack : -2.562
+TNS   : -123.115
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_3|count[0]'
+Slack : -2.361
+TNS   : -143.559
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_4|count[0]'
+Slack : -2.300
+TNS   : -137.520
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_3|dest4'
+Slack : -2.198
+TNS   : -15.410
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_1|dest4'
+Slack : -1.596
+TNS   : -10.005
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_4|dest3'
+Slack : -1.594
+TNS   : -11.701
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_4|dest2'
+Slack : -1.511
+TNS   : -10.925
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_4|dest1'
+Slack : -1.445
+TNS   : -11.008
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_1|count[0]'
+Slack : -1.381
+TNS   : -45.807
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_3|dest1'
+Slack : -1.378
+TNS   : -9.162
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_1|dest2'
+Slack : -1.154
+TNS   : -7.889
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_3|dest2'
+Slack : -1.148
+TNS   : -9.159
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_1|dest3'
+Slack : -1.106
+TNS   : -8.267
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_2|dest1'
+Slack : -1.011
+TNS   : -7.471
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_2|dest3'
+Slack : -0.833
+TNS   : -6.314
+
+Type  : Slow 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_2|dest4'
+Slack : -0.704
+TNS   : -5.095
+
+Type  : Slow 900mV 0C Model Hold 'clk'
+Slack : -1.065
+TNS   : -1.065
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_1|count[0]'
+Slack : -0.430
+TNS   : -0.464
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_2|dest4'
+Slack : 0.267
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_2|dest3'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_2|dest1'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_1|dest2'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_1|dest3'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_3|dest1'
+Slack : 0.572
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_1|dest4'
+Slack : 0.644
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_3|dest2'
+Slack : 0.681
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_4|dest2'
+Slack : 0.735
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_4|dest3'
+Slack : 0.753
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_2|count[0]'
+Slack : 0.780
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_4|dest1'
+Slack : 0.816
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_4|count[0]'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_3|count[0]'
+Slack : 0.996
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_3|dest4'
+Slack : 1.430
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Recovery 'clk'
+Slack : -1.324
+TNS   : -8.766
+
+Type  : Slow 900mV 0C Model Removal 'clk'
+Slack : 0.904
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.846
+TNS   : -4582.133
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_1|count[0]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_1|dest2'
+Slack : 0.276
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_2|count[0]'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_4|count[0]'
+Slack : 0.326
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_3|count[0]'
+Slack : 0.346
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_3|dest4'
+Slack : 0.372
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_1|dest4'
+Slack : 0.375
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_4|dest2'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_2|dest4'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_2|dest1'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_3|dest2'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_3|dest1'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_2|dest3'
+Slack : 0.417
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_4|dest1'
+Slack : 0.417
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_1|dest3'
+Slack : 0.438
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_4|dest3'
+Slack : 0.449
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'clk'
+Slack : -1.643
+TNS   : -1626.420
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_3|count[0]'
+Slack : -1.235
+TNS   : -51.568
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_4|count[0]'
+Slack : -1.123
+TNS   : -48.441
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_2|count[0]'
+Slack : -1.096
+TNS   : -39.531
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_3|dest4'
+Slack : -1.077
+TNS   : -6.906
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_1|dest4'
+Slack : -0.710
+TNS   : -3.404
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_4|dest3'
+Slack : -0.692
+TNS   : -4.563
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_4|dest2'
+Slack : -0.627
+TNS   : -3.934
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_4|dest1'
+Slack : -0.626
+TNS   : -4.229
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_3|dest1'
+Slack : -0.555
+TNS   : -2.757
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_1|count[0]'
+Slack : -0.474
+TNS   : -2.015
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_1|dest2'
+Slack : -0.444
+TNS   : -2.306
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_3|dest2'
+Slack : -0.434
+TNS   : -3.163
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_1|dest3'
+Slack : -0.386
+TNS   : -2.364
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_2|dest1'
+Slack : -0.326
+TNS   : -1.900
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_2|dest3'
+Slack : -0.245
+TNS   : -1.254
+
+Type  : Fast 900mV 0C Model Setup 'switch_logic:switch|input_handler:In_2|dest4'
+Slack : -0.126
+TNS   : -0.344
+
+Type  : Fast 900mV 0C Model Hold 'clk'
+Slack : -0.589
+TNS   : -0.589
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_1|count[0]'
+Slack : -0.343
+TNS   : -0.358
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_2|dest4'
+Slack : 0.295
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_2|dest3'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_2|dest1'
+Slack : 0.392
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_2|count[0]'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_1|dest2'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_1|dest3'
+Slack : 0.437
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_3|dest1'
+Slack : 0.493
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_1|dest4'
+Slack : 0.523
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_4|count[0]'
+Slack : 0.571
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_3|count[0]'
+Slack : 0.576
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_4|dest2'
+Slack : 0.588
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_4|dest3'
+Slack : 0.589
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_3|dest2'
+Slack : 0.598
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_4|dest1'
+Slack : 0.645
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'switch_logic:switch|input_handler:In_3|dest4'
+Slack : 1.033
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'clk'
+Slack : -0.259
+TNS   : -1.196
+
+Type  : Fast 900mV 0C Model Removal 'clk'
+Slack : 0.507
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.846
+TNS   : -3377.670
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_1|count[0]'
+Slack : 0.394
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_1|dest2'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_2|count[0]'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_4|count[0]'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_4|dest3'
+Slack : 0.446
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_2|dest1'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_3|count[0]'
+Slack : 0.449
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_3|dest4'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_2|dest3'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_4|dest2'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_3|dest1'
+Slack : 0.456
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_1|dest4'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_2|dest4'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_1|dest3'
+Slack : 0.468
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_3|dest2'
+Slack : 0.478
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'switch_logic:switch|input_handler:In_4|dest1'
+Slack : 0.479
+TNS   : 0.000
+
 ------------------------------------------------------------
