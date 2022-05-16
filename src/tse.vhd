@@ -76,7 +76,7 @@ ARCHITECTURE SYN OF tse IS
 		EXPORT_PWRDN	: NATURAL;
 		TRANSCEIVER_OPTION	: NATURAL;
 		ENABLE_ALT_RECONFIG	: NATURAL
-	);
+	)
 	PORT (
 		gmii_rx_d	: OUT STD_LOGIC_VECTOR (7 DOWNTO 0);
 		gmii_rx_dv	: OUT STD_LOGIC;
@@ -120,7 +120,7 @@ BEGIN
 		EXPORT_PWRDN => 0,
 		TRANSCEIVER_OPTION => 1,
 		ENABLE_ALT_RECONFIG => 0
-	)
+	);
 	PORT MAP (
 		gmii_rx_d  =>  gmii_rx_d,
 		gmii_rx_dv  =>  gmii_rx_dv,

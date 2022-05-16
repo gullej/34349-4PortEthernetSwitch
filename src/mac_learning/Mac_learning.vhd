@@ -177,10 +177,14 @@ BEGIN
 
 			WHEN hashing =>
 
-				FOR k IN 0 TO 7 LOOP
-					D(k) <= mac_src(k + count * 8);
-					D2(k) <= mac_dst(k + count * 8);
-				END LOOP;
+				-- FOR k IN 0 TO 7 LOOP
+				-- 	D(k) <= mac_src(k + count * 8);
+				-- 	D2(k) <= mac_dst(k + count * 8);
+				-- END LOOP;
+				D <= mac_src(count *8+7 downto count *8);
+				D2 <= mac_dst(count *8+7 downto count *8);
+
+
 				R(0) <= R(5) XOR R(6) XOR R(9) XOR R(10) XOR R(11) XOR R(12) XOR D(7);
 				R(1) <= R(6) XOR R(7) XOR R(10) XOR R(11) XOR R(12) XOR D(6);
 				R(2) <= R(5) XOR R(6) XOR R(7) XOR R(8) XOR R(9) XOR R(10) XOR D(5);

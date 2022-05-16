@@ -23,33 +23,20 @@ end switchcore;
 
 architecture arch of switchcore is
 
-
+	COMPONENT switch_logic IS
+	PORT (
+		clk : IN STD_LOGIC;
+		reset : IN STD_LOGIC;
+		vali : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+		dati : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+		valo : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+		dato : OUT STD_LOGIC_VECTOR(31 DOWNTO 0)
+	);
+END COMPONENT;
 
 BEGIN
 
-
-internalloop:	process(clk, reset)
-begin
-
-	if(reset='0') then
-		tx_data(7 downto 0)<=(others=>'0');
-		tx_data(15 downto 8)<=(others=>'0');
-		tx_ctrl(0)<='0';
-		tx_ctrl(1)<='0';
-	
-	elsif(rising_edge(clk)) then
-
-		tx_data(7 downto 0)<=rx_data(15 downto 8);
-		tx_data(15 downto 8)<=rx_data(7 downto 0);
-		tx_ctrl(0)<=rx_ctrl(1);
-		tx_ctrl(1)<=rx_ctrl(0);
-	end if;
-	
-end process;
-
-
-
-
+DUT : switch_logic PORT MAP(clk, reset, rx_ctrl, rx_data, tx_ctrl, tx_data);
 
 
 END arch;
